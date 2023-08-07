@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+}
+
+@layer components {
+  .dropdown:hover .dropdown-menu {
+    @apply block;
+  }
+
+  .dropdown:hover a {
+    @apply border-[#ffb81c];
+  }
+
+  .section {
+    @apply md:px-14 px-5 my-10;
+  }
+}
