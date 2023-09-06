@@ -2,8 +2,8 @@ import Image from "next/image";
 import { AiOutlinePlayCircle } from "react-icons/ai";
 import { gemsbuck } from "@/app/page";
 
-import placeholder from "../../public/images/placeholder.webp";
-import research from "../../public/images/research.webp";
+import placeholder from "../../public/images/placeholder.png";
+import partTime from "../../public/images/part-time.png";
 import calender from "../../public/images/calender.jpg";
 import student from "../../public/images/student.webp";
 
@@ -19,13 +19,14 @@ export default function Main() {
             RAISING GLOBAL CHAMPION
           </h2>
           <p className="text-gray-500 pb-5">
-            At REDEEMER'S COLLEGE you won’t just take classes, you’ll take
-            action. Powered by a great education, world-leading research, and
-            knowledge-driven impact, our students are transforming the nation
-            and the world. Because at RECTEM, we are a tapestry of
-            trailblazers—from first generation students to globally recognized
-            researchers—bringing together fluency of thinking that accelerates
-            bold solutions and transforms lives.
+            At the Redeemer's College of Science and Technology, we believe in
+            the boundless potential of scientific discovery and technological
+            innovation. Our institution stands as a testament to the
+            transformative power of education, where students embark on a
+            journey of exploration, creativity, and intellectual growth. From
+            cutting-edge research to hands-on experiential learning, we are
+            dedicated to shaping the next generation of leaders, thinkers, and
+            problem solvers.
           </p>
           <a
             href="#"
@@ -50,59 +51,57 @@ export default function Main() {
             </svg>
           </a>
         </div>
-        <div className="md:w-2/5 self-center relative">
+        <div className="md:w-2/5 self-center ">
           <Image src={placeholder} alt="" />
-          <button className="text-white absolute left-[50%] top-[50%] translate-y-[-50%] translate-x-[-50%]">
+          {/* <button className="text-white absolute left-[50%] top-[50%] translate-y-[-50%] translate-x-[-50%]">
             <AiOutlinePlayCircle size="5em" />
-          </button>
+          </button> */}
         </div>
       </section>
       <section className="bg-[url('/bg.png')] bg-no-repeat bg-cover p-10 ">
         <div className="text-white grid sm:grid-cols-2 lg:grid-cols-4 justify-center align-middle gap-10">
           <div className="text-center">
             <div className="text-4xl mb-2">〽️</div>
-            <h2 className={`text-4xl pb-2 ${gemsbuck.className}`}>
-              No. <span className="text-7xl">1</span>
-            </h2>
-            <h6 className="uppercase sm:mb-4 text-2xl font-extrabold min-h-[80px]">
-              PUBLIC UNIVERSITY
+            <h2 className={`text-7xl pb-2 ${gemsbuck.className}`}>2</h2>
+            <h6 className="uppercase sm:mb-4 text-2xl font-extrabold min-h-[80px] tracking-wider">
+              PROGRAMS
             </h6>
-            <p className="text-xs">📣 U.S. NEWS SOCIAL MOBILITY RANKINGS</p>
+            <p className="text-xs tracking-wider">ND & HND PROGRAMS</p>
           </div>
           <div className="text-center">
             <div className="text-4xl mb-2">〽️</div>
-            <h2 className={`text-4xl pb-2 ${gemsbuck.className}`}>
-              No. <span className="text-7xl">2</span>
-            </h2>
-            <h6 className="uppercase sm:mb-4 text-2xl font-extrabold min-h-[80px]">
-              FOR FINANCIAL AID
+            <h2 className={`text-7xl pb-2 ${gemsbuck.className}`}>5</h2>
+            <h6 className="uppercase sm:mb-4 text-2xl font-extrabold min-h-[80px] tracking-wider">
+              SCHOOLS
             </h6>
-            <p className="text-xs">📣 BUSINESS INSIDER</p>
+            <p className="text-xs tracking-wider">STRUCTURED SCHOOLS</p>
           </div>
           <div className="text-center">
             <div className="text-4xl mb-2">〽️</div>
-            <h2 className={`text-4xl pb-2 ${gemsbuck.className}`}>
-              No. <span className="text-7xl">4</span>
+            <h2 className="text-7xl pb-2">
+              <span className={`${gemsbuck.className}`}>10</span>
+              <span>+</span>
             </h2>
-            <h6 className="uppercase sm:mb-4 text-2xl font-extrabold min-h-[80px]">
-              PELL GRANT PERFORMANCE
+            <h6 className="uppercase sm:mb-4 text-2xl font-extrabold min-h-[80px] tracking-wider">
+              DEPARTMENTS
             </h6>
-            <p className="text-xs">📣 WASHINGTON MONTHLY</p>
+            <p className="text-xs tracking-wider">ACCREDITED DEPARTMENTS</p>
           </div>
           <div className="text-center">
             <div className="text-4xl mb-2">〽️</div>
-            <h2 className={`text-4xl pb-2 ${gemsbuck.className}`}>
-              No. <span className="text-7xl">71</span>
+            <h2 className="text-7xl pb-2">
+              <span className={`${gemsbuck.className}`}>3k</span>
+              <span>+</span>
             </h2>
-            <h6 className="uppercase sm:mb-4 text-2xl font-extrabold min-h-[80px]">
-              MEMBERS
+            <h6 className="uppercase sm:mb-4 text-2xl font-extrabold min-h-[80px] tracking-wider">
+              STUDENTS
             </h6>
-            <p className="text-xs">📣 ASSOCIATION OF AMERICAN UNIVERSITIES</p>
+            <p className="text-xs tracking-wider">GRADUATED STUDENTS</p>
           </div>
         </div>
       </section>
       <section className="grid grid-cols-1 md:grid-cols-3 gap-10 px-5 sm:px-10 py-10">
-        <article className="sm:col-span-2">
+        <article id="news" className="sm:col-span-2">
           <h1
             className={`text-2xl mb-2 text-blue-800 tracking-wider ${gemsbuck.className}`}
           >
@@ -110,14 +109,98 @@ export default function Main() {
           </h1>
           <hr />
           {/* News card */}
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 py-10">
-            <a className="sm:min-w-[200px] sm:max-w-[350px] border-[1px] rounded-t-lg  shadow-md hover:shadow-yellow-500 transition duration-500 ease-in-out cursor-pointer">
+          <div className="grid sm:grid-cols-2 gap-5 py-10">
+            <a className="relative sm:min-w-[200px] sm:max-w-[350px] border-[1px] rounded-t-lg  shadow-md hover:shadow-yellow-500 transition duration-500 ease-in-out cursor-pointer">
+              <div>
+                <Image
+                  src="/footer.png"
+                  alt=""
+                  className="w-full h-[200px] rounded-t-lg"
+                  width={200}
+                  height={200}
+                />
+              </div>
+              <div className="p-4">
+                <h6 className="underline underline-offset-8 decoration-yellow-500 decoration-4 text-xs text-gray-500 font-medium mb-5">
+                  DECEMBER 1, 2022
+                </h6>
+                <h6 className="text-blue-800 font-medium mb-3 line-clamp-2">
+                  Admissions for 2022/2023 Now Open!
+                </h6>
+                <p className="text-gray-500 line-clamp-5 mb-10">
+                  Are you ready to embark on a transformative educational
+                  journey? Look no further than REDEEMER'S COLLEGE, where doors
+                  are opening for the 2022/2023 academic year. With a legacy of
+                  excellence in education and a commitment to fostering future
+                  leaders, RECTEM invites you to join our vibrant community and
+                  unlock the path to a brighter future.
+                </p>
+              </div>
+              <button className="absolute bottom-0 w-full text-xs font-medium bg-blue-800 hover:bg-blue-900 text-white text-left tracking-wider px-4 py-1 m-0">
+                Read More
+                <svg
+                  className="inline"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"
+                  />
+                </svg>
+              </button>
+            </a>
+            <a className="relative sm:min-w-[200px] sm:max-w-[350px] border-[1px] rounded-t-lg  shadow-md hover:shadow-yellow-500 transition duration-500 ease-in-out cursor-pointer">
+              <div>
+                <Image
+                  src="/matric.png"
+                  alt=""
+                  className="w-full h-[200px] rounded-t-lg"
+                  width={200}
+                  height={200}
+                />
+              </div>
+              <div className="p-4">
+                <h6 className="underline underline-offset-8 decoration-yellow-500 decoration-4 text-xs text-gray-500 font-medium mb-5">
+                  JUNE 28, 2023
+                </h6>
+                <h6 className="text-blue-800 font-medium mb-3 line-clamp-1">
+                  5th Matriculation Ceremony for the 2022/2023 Session.
+                </h6>
+                <p className="text-gray-500 line-clamp-5 mb-10">
+                  We are thrilled to extend a warm invitation to you for a
+                  momentous occasion - the 5th Matriculation Ceremony of
+                  REDEEMER'S COLLEGE, marking the beginning of the 2022/2023
+                  academic session. This event is a celebration of academic
+                  excellence, personal growth, and the bright futures that lie
+                  ahead for our exceptional students.
+                </p>
+              </div>
+              <button className="absolute bottom-0 w-full text-xs font-medium bg-blue-800 hover:bg-blue-900 text-white text-left tracking-wider px-4 py-1 m-0">
+                Read More
+                <svg
+                  className="inline"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"
+                  />
+                </svg>
+              </button>
+            </a>
+            {/* <a className="sm:min-w-[200px] sm:max-w-[350px] border-[1px] rounded-t-lg  shadow-md hover:shadow-yellow-500 transition duration-500 ease-in-out cursor-pointer">
               <div>
                 <Image
                   src="/bg.png"
                   alt=""
-                  className="w-full h-32 rounded-t-lg"
-                  width={320}
+                  className="w-full rounded-t-lg"
+                  width={200}
                   height={200}
                 />
               </div>
@@ -126,14 +209,15 @@ export default function Main() {
                   JULY 12, 2023
                 </h6>
                 <h6 className="text-blue-800 font-medium mb-3 line-clamp-2">
-                  AI creates new environmental injustices, but there’s a fix
+                  Happy Birthday to RECTEM's Esteemed Rector!
                 </h6>
-                <p className="text-gray-500 line-clamp-3">
-                  AI is creating inequitable environmental consequences in the
-                  form of water consumption to keep servers cool and air
-                  pollution from power plants that supply the electricity. But
-                  the tech companies could distribute their processing loads to
-                  avoid environmental injustices, UCR study finds.
+                <p className="text-gray-500 line-clamp-4">
+                  Today, we gather not only as a school but as a family united
+                  in celebrating a remarkable individual whose leadership has
+                  been the guiding light of our journey. On this special day, we
+                  extend our warmest wishes and heartfelt gratitude to the
+                  visionary leader of REDEEMER'S COLLEGE, our esteemed Rector,
+                  (MRS) STELLA MOFUNANYA.
                 </p>
               </div>
               <button className="w-full text-xs font-medium bg-blue-800 hover:bg-blue-900 text-white text-left tracking-wider px-4 py-1 m-0">
@@ -151,89 +235,7 @@ export default function Main() {
                   />
                 </svg>
               </button>
-            </a>
-            <a className="sm:min-w-[200px] sm:max-w-[350px] border-[1px] rounded-t-lg  shadow-md hover:shadow-yellow-500 transition duration-500 ease-in-out cursor-pointer">
-              <div>
-                <Image
-                  src="/bg.png"
-                  alt=""
-                  className="w-full h-32 rounded-t-lg"
-                  width={320}
-                  height={200}
-                />
-              </div>
-              <div className="p-4">
-                <h6 className="underline underline-offset-8 decoration-yellow-500 decoration-4 text-xs text-gray-500 font-medium mb-5">
-                  JULY 12, 2023
-                </h6>
-                <h6 className="text-blue-800 font-medium mb-3 line-clamp-2">
-                  AI creates new environmental injustices, but there’s a fix
-                </h6>
-                <p className="text-gray-500 line-clamp-3">
-                  AI is creating inequitable environmental consequences in the
-                  form of water consumption to keep servers cool and air
-                  pollution from power plants that supply the electricity. But
-                  the tech companies could distribute their processing loads to
-                  avoid environmental injustices, UCR study finds.
-                </p>
-              </div>
-              <button className="w-full text-xs font-medium bg-blue-800 hover:bg-blue-900 text-white text-left tracking-wider px-4 py-1 m-0">
-                Read More
-                <svg
-                  className="inline"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"
-                  />
-                </svg>
-              </button>
-            </a>
-            <a className="sm:min-w-[200px] sm:max-w-[350px] border-[1px] rounded-t-lg  shadow-md hover:shadow-yellow-500 transition duration-500 ease-in-out cursor-pointer">
-              <div>
-                <Image
-                  src="/bg.png"
-                  alt=""
-                  className="w-full h-32 rounded-t-lg"
-                  width={320}
-                  height={200}
-                />
-              </div>
-              <div className="p-4">
-                <h6 className="underline underline-offset-8 decoration-yellow-500 decoration-4 text-xs text-gray-500 font-medium mb-5">
-                  JULY 12, 2023
-                </h6>
-                <h6 className="text-blue-800 font-medium mb-3 line-clamp-2">
-                  AI creates new environmental injustices, but there’s a fix
-                </h6>
-                <p className="text-gray-500 line-clamp-3">
-                  AI is creating inequitable environmental consequences in the
-                  form of water consumption to keep servers cool and air
-                  pollution from power plants that supply the electricity. But
-                  the tech companies could distribute their processing loads to
-                  avoid environmental injustices, UCR study finds.
-                </p>
-              </div>
-              <button className="w-full text-xs font-medium bg-blue-800 hover:bg-blue-900 text-white text-left tracking-wider px-4 py-1 m-0">
-                Read More
-                <svg
-                  className="inline"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"
-                  />
-                </svg>
-              </button>
-            </a>
+            </a> */}
           </div>
           <a
             href="#"
@@ -258,7 +260,7 @@ export default function Main() {
             </svg>
           </a>
         </article>
-        <article className="sm:col-span-1">
+        <article id="events" className="sm:col-span-1">
           <h1
             className={`text-2xl mb-2 text-blue-800 tracking-wider ${gemsbuck.className}`}
           >
@@ -267,13 +269,17 @@ export default function Main() {
           <hr />
           <section className="py-8">
             <article className="flex items-center gap-5 py-2 cursor-pointer">
-              <div className={` text-white ${gemsbuck.className}`}>
-                <h2 className="px-3 py-2 text-center bg-yellow-500">AUG</h2>
-                <h2 className="px-3 py-2 text-center bg-blue-800">04</h2>
+              <div className="text-white">
+                <h2
+                  className={`px-3 py-2 text-center bg-yellow-500 text-white ${gemsbuck.className}`}
+                >
+                  JUN
+                </h2>
+                <h2 className="px-3 py-2 text-center bg-blue-800">28</h2>
               </div>
               <div>
                 <h6 className="text-blue-800 font-semibold tracking-wider line-clamp-2">
-                  Camp Highlander 2023
+                  Matriculation ceremony 2023
                 </h6>
                 <div className="flex flex-col gap-1 text-xs tracking-wider">
                   <div>
@@ -290,7 +296,61 @@ export default function Main() {
                       />
                     </svg>
                     <p className="ml-1 inline line-clamp-1">
-                      Student Recreation Center (SRC)
+                      RHS Hall, Redemption city.
+                    </p>
+                  </div>
+                  <div>
+                    <svg
+                      className="inline"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8s8 3.58 8 8s-3.58 8-8 8z"
+                      />
+                      <path
+                        fill="currentColor"
+                        d="M12.5 7H11v6l5.25 3.15l.75-1.23l-4.5-2.67z"
+                      />
+                    </svg>
+                    <p className="ml-1 inline">10am</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <hr />
+            <article className="flex items-center gap-5 py-2 cursor-pointer">
+              <div className="text-white">
+                <h2
+                  className={`px-3 py-2 text-center bg-yellow-500 text-white ${gemsbuck.className}`}
+                >
+                  May
+                </h2>
+                <h2 className="px-3 py-2 text-center bg-blue-800">04</h2>
+              </div>
+              <div>
+                <h6 className="text-blue-800 font-semibold tracking-wider line-clamp-2">
+                  Programming conference 2023.
+                </h6>
+                <div className="flex flex-col gap-1 text-xs tracking-wider">
+                  <div>
+                    <svg
+                      className="inline"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5a2.5 2.5 0 0 1 0 5z"
+                      />
+                    </svg>
+                    <p className="ml-1 inline line-clamp-1">
+                      Multi-purpose hall, Redemption city.
                     </p>
                   </div>
                   <div>
@@ -317,13 +377,17 @@ export default function Main() {
             </article>
             <hr />
             <article className="flex items-center gap-5 py-2 cursor-pointer">
-              <div className={` text-white ${gemsbuck.className}`}>
-                <h2 className="px-3 py-2 text-center bg-yellow-500">AUG</h2>
-                <h2 className="px-3 py-2 text-center bg-blue-800">04</h2>
+              <div className="text-white">
+                <h2
+                  className={`px-3 py-2 text-center bg-yellow-500 text-white ${gemsbuck.className}`}
+                >
+                  NOV
+                </h2>
+                <h2 className="px-3 py-2 text-center bg-blue-800">11</h2>
               </div>
               <div>
                 <h6 className="text-blue-800 font-semibold tracking-wider line-clamp-2">
-                  Camp Highlander 2023
+                  Coding competition 2022
                 </h6>
                 <div className="flex flex-col gap-1 text-xs tracking-wider">
                   <div>
@@ -340,7 +404,7 @@ export default function Main() {
                       />
                     </svg>
                     <p className="ml-1 inline line-clamp-1">
-                      Student Recreation Center (SRC)
+                      Multi-purpose hall, Redemption city.
                     </p>
                   </div>
                   <div>
@@ -360,20 +424,24 @@ export default function Main() {
                         d="M12.5 7H11v6l5.25 3.15l.75-1.23l-4.5-2.67z"
                       />
                     </svg>
-                    <p className="ml-1 inline">9am</p>
+                    <p className="ml-1 inline">10am</p>
                   </div>
                 </div>
               </div>
             </article>
             <hr />
             <article className="flex items-center gap-5 py-2 cursor-pointer">
-              <div className={` text-white ${gemsbuck.className}`}>
-                <h2 className="px-3 py-2 text-center bg-yellow-500">AUG</h2>
+              <div className="text-white">
+                <h2
+                  className={`px-3 py-2 text-center bg-yellow-500 text-white ${gemsbuck.className}`}
+                >
+                  AUG
+                </h2>
                 <h2 className="px-3 py-2 text-center bg-blue-800">04</h2>
               </div>
               <div>
                 <h6 className="text-blue-800 font-semibold tracking-wider line-clamp-2">
-                  Camp Highlander 2023
+                  Management Seminars 2022
                 </h6>
                 <div className="flex flex-col gap-1 text-xs tracking-wider">
                   <div>
@@ -390,7 +458,7 @@ export default function Main() {
                       />
                     </svg>
                     <p className="ml-1 inline line-clamp-1">
-                      Student Recreation Center (SRC)
+                      Multi-purpose hall, Redemption city.
                     </p>
                   </div>
                   <div>
@@ -410,20 +478,23 @@ export default function Main() {
                         d="M12.5 7H11v6l5.25 3.15l.75-1.23l-4.5-2.67z"
                       />
                     </svg>
-                    <p className="ml-1 inline">9am</p>
+                    <p className="ml-1 inline">11am</p>
                   </div>
                 </div>
               </div>
             </article>
-            <hr />
             <article className="flex items-center gap-5 py-2 cursor-pointer">
-              <div className={` text-white ${gemsbuck.className}`}>
-                <h2 className="px-3 py-2 text-center bg-yellow-500">AUG</h2>
+              <div className="text-white">
+                <h2
+                  className={`px-3 py-2 text-center bg-yellow-500 text-white ${gemsbuck.className}`}
+                >
+                  AUG
+                </h2>
                 <h2 className="px-3 py-2 text-center bg-blue-800">04</h2>
               </div>
               <div>
                 <h6 className="text-blue-800 font-semibold tracking-wider line-clamp-2">
-                  Camp Highlander 2023
+                  Programming conference 2022
                 </h6>
                 <div className="flex flex-col gap-1 text-xs tracking-wider">
                   <div>
@@ -440,7 +511,7 @@ export default function Main() {
                       />
                     </svg>
                     <p className="ml-1 inline line-clamp-1">
-                      Student Recreation Center (SRC)
+                      Multi-purpose hall, Redemption city.
                     </p>
                   </div>
                   <div>
@@ -460,7 +531,7 @@ export default function Main() {
                         d="M12.5 7H11v6l5.25 3.15l.75-1.23l-4.5-2.67z"
                       />
                     </svg>
-                    <p className="ml-1 inline">9am</p>
+                    <p className="ml-1 inline">11am</p>
                   </div>
                 </div>
               </div>
@@ -490,14 +561,17 @@ export default function Main() {
           </a>
         </article>
       </section>
-      <section className="bg-[url('/tours-background.webp')] bg-no-repeat bg-cover px-10 py-20">
+      <section
+        id="campus-map"
+        className="bg-[url('/tour.png')] bg-no-repeat bg-cover px-10 py-20"
+      >
         <div className="bg-blue-800 opacity-90 max-w-md p-6 text-white">
           <h2 className={`pb-1 text-xl tracking-wider ${gemsbuck.className}`}>
             EXPLORE RECTEM
           </h2>
           <p className="pb-3 tracking-wider">
-            Take a tour of the RECTEM campus and get an inside look from
-            anywhere in the world.
+            Embark on a virtual journey through the RECTEM campus, granting you
+            an exclusive insider's view from anywhere around the globe.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
@@ -516,33 +590,32 @@ export default function Main() {
         </div>
       </section>
       <section className="section flex justify-between gap-10 flex-col md:flex-row">
-        <div className="md:w-1/2 self-center relative">
-          <Image src={research} alt="" />
-          <button className="text-white absolute left-[50%] top-[50%] translate-y-[-50%] translate-x-[-50%]">
+        <div className="md:w-1/2 self-center ">
+          <Image src={partTime} alt="" />
+          {/* <button className="text-white absolute left-[50%] top-[50%] translate-y-[-50%] translate-x-[-50%]">
             <AiOutlinePlayCircle size="5em" />
-          </button>
+          </button> */}
         </div>
         <div className="md:w-1/2">
           <h2
-            className={`text-2xl tracking-wider text-blue-800 pb-2 ${gemsbuck.className}`}
+            className={`text-xl tracking-wider text-blue-800 pb-2 ${gemsbuck.className}`}
           >
-            New Milestone in Research and Education Leadership
+            School of Part-Time Studies: Empowering Your Educational Journey
           </h2>
           <p className="text-gray-500 pb-5">
-            RECTEM has joined the Association of American Universities (AAU), an
-            organization of 71 of the country’s leading research universities.
-            The honor and opportunity follow decades of continuous commitment to
-            excellence in research, education, and innovation. Before an
-            institution is invited to join the AAU, they must show breadth and
-            quality in research and graduate education across a series of
-            quantitative measures of excellence. We celebrate this milestone in
-            the University’s history.
+            At the Redeemer's College of Science and Technology, we understand
+            that the pursuit of higher education often aligns with existing
+            commitments and responsibilities. That's why we proudly introduce
+            the School of Part-Time Studies, a dynamic platform designed to
+            provide flexible and accessible learning opportunities to
+            individuals who are seeking to enhance their skills and knowledge
+            while balancing work, family, and personal commitments.
           </p>
           <a
             href="#"
             className="inline-flex  gap-1 items-center underline text-red-600 text-xs tracking-widest uppercase font-semibold py-3 px-5"
           >
-            WATCH VIDEO
+            LEARN MORE
             <svg
               className="inline"
               xmlns="http://www.w3.org/2000/svg"
@@ -558,7 +631,7 @@ export default function Main() {
           </a>
         </div>
       </section>
-      <section className="bg-blue-50 p-10">
+      <section id="calendar" className="bg-blue-50 p-10">
         <h1
           className={`text-2xl mb-2 text-blue-800 tracking-wider ${gemsbuck.className}`}
         >
@@ -567,7 +640,7 @@ export default function Main() {
         <hr className="border-t-[2px] mb-5" />
         <section className="grid max-[430px]:grid-cols-1 min-[430px]:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 max-[430px]:justify-center items-center py-5">
           <article className="max-[430px]:max-w-full max-w-[250px] border-[1px]">
-            <a className="cursor-pointer">
+            {/* <a className="cursor-pointer">
               <Image
                 src={calender}
                 alt=""
@@ -575,7 +648,7 @@ export default function Main() {
                 width={200}
                 height={200}
               />
-            </a>
+            </a> */}
             <div className="bg-white tracking-wider text-gray-600 p-4 pt-6 pb-16">
               <h4 className="font-semibold">AUGUST</h4>
               <h2 className={`text-6xl text-blue-800 ${gemsbuck.className}`}>
@@ -588,7 +661,7 @@ export default function Main() {
             </div>
           </article>
           <article className="max-[430px]:max-w-full max-w-[250px] border-[1px]">
-            <a className="cursor-pointer">
+            {/* <a className="cursor-pointer">
               <Image
                 src={calender}
                 alt=""
@@ -596,7 +669,7 @@ export default function Main() {
                 width={200}
                 height={200}
               />
-            </a>
+            </a> */}
             <div className="bg-white tracking-wider text-gray-600 p-4 pt-6 pb-16">
               <h4 className="font-semibold">AUGUST</h4>
               <h2 className={`text-6xl text-blue-800 ${gemsbuck.className}`}>
@@ -609,7 +682,7 @@ export default function Main() {
             </div>
           </article>
           <article className="max-[430px]:max-w-full max-w-[250px] border-[1px]">
-            <a className="cursor-pointer">
+            {/* <a className="cursor-pointer">
               <Image
                 src={calender}
                 alt=""
@@ -617,7 +690,7 @@ export default function Main() {
                 width={200}
                 height={200}
               />
-            </a>
+            </a> */}
             <div className="bg-white tracking-wider text-gray-600 p-4 pt-6 pb-16">
               <h4 className="font-semibold">AUGUST</h4>
               <h2 className={`text-6xl text-blue-800 ${gemsbuck.className}`}>
@@ -630,7 +703,7 @@ export default function Main() {
             </div>
           </article>
           <article className="max-[430px]:max-w-full max-w-[250px] border-[1px]">
-            <a className="cursor-pointer">
+            {/* <a className="cursor-pointer">
               <Image
                 src={calender}
                 alt=""
@@ -638,7 +711,7 @@ export default function Main() {
                 width={200}
                 height={200}
               />
-            </a>
+            </a> */}
             <div className="bg-white tracking-wider text-gray-600 p-4 pt-6 pb-16">
               <h4 className="font-semibold">AUGUST</h4>
               <h2 className={`text-6xl text-blue-800 ${gemsbuck.className}`}>
@@ -651,7 +724,7 @@ export default function Main() {
             </div>
           </article>
           <article className="max-[430px]:max-w-full max-w-[250px] border-[1px]">
-            <a className="cursor-pointer">
+            {/* <a className="cursor-pointer">
               <Image
                 src={calender}
                 alt=""
@@ -659,7 +732,7 @@ export default function Main() {
                 width={200}
                 height={200}
               />
-            </a>
+            </a> */}
             <div className="bg-white tracking-wider text-gray-600 p-4 pt-6 pb-16">
               <h4 className="font-semibold">AUGUST</h4>
               <h2 className={`text-6xl text-blue-800 ${gemsbuck.className}`}>
@@ -702,53 +775,47 @@ export default function Main() {
           Learn How Affordable RECTEM Fees Can Be
         </h4>
         <p className="p-5 text-gray-500">
-          Grants, scholarships, loans, and work study are offered to UC
-          Riverside students, who receive some of the most generous financial
-          aid packages in the nation. Business Insider ranked UCR No. 2 in the
-          country for financial aid.
+          Our philosophy centers on delivering world-class education that
+          doesn't come with a hefty price tag. We firmly believe that
+          affordability should never compromise the quality of education.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  gap-4 justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-4 justify-center">
           <a
             href="#"
             className="text-[0.85rem] text-center bg-blue-800 text-white tracking-widest uppercase font-semibold p-4 hover:bg-blue-900"
           >
-            FIRST YEAR
+            ND PROGRAMS
           </a>
           <a
             href="#"
             className="text-[0.85rem] text-center bg-blue-800 text-white tracking-widest uppercase font-semibold p-4 hover:bg-blue-900"
           >
-            TRANSFER
+            HND PROGRAMS
           </a>
           <a
             href="#"
             className="text-[0.85rem] text-center bg-blue-800 text-white tracking-widest uppercase font-semibold p-4 hover:bg-blue-900"
           >
-            OUT-OF-STATE
-          </a>
-          <a
-            href="#"
-            className="text-[0.85rem] text-center bg-blue-800 text-white tracking-widest uppercase font-semibold p-4 hover:bg-blue-900"
-          >
-            INTERNATIONAL
+            ENTREPRENEURSHIP
           </a>
         </div>
       </section>
-      <section className="bg-[url('/degree.webp')] bg-no-repeat bg-cover px-10 py-20">
+      <section className="bg-[url('/degree.png')] bg-no-repeat bg-cover px-10 py-20">
         <div className="ml-auto bg-blue-800 opacity-90 max-w-md p-6 text-white">
-          <h2 className={`pb-1 text-xl tracking-wider ${gemsbuck.className}`}>
-            Degrees and Majors
+          <h2 className={`pb-1 tracking-wider ${gemsbuck.className}`}>
+            ENTREPRENEURSHIP AND CERTIFICATE PROGRAM
           </h2>
           <p className="pb-3 tracking-wider">
-            Explore more than 80 undergraduate degree programs at UC Riverside.
-            If you want to go far, come here.
+            RECTEM Entrepreneurship and Certificate Program is designed to
+            empower individuals with the skills, knowledge, and mindset needed
+            to excel in the world of business and innovation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="#"
               className="items-center bg-yellow-500 text-black text-xs tracking-widest uppercase font-bold py-3 px-5 hover:bg-yellow-600"
             >
-              MAJOR
+              LEARN MORE
             </a>
           </div>
         </div>
@@ -759,92 +826,110 @@ export default function Main() {
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 justify-center items-center py-5">
           <article className="max-w-full sm:max-w-[270px] justify-self-center text-center">
-            <a className="cursor-pointer">
-              <Image
-                src={student}
-                alt=""
-                className="rounded-full mx-auto"
-                width={300}
+            <svg
+              className="m-auto text-blue-800"
+              xmlns="http://www.w3.org/2000/svg"
+              width="150"
+              height="150"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M12 4c4.41 0 8 3.59 8 8s-3.59 8-8 8s-8-3.59-8-8s3.59-8 8-8zm0-2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm2 8H7v2h7v-2zm0-3H7v2h7V7zm-7 8h3v-2H7v2zm12-1.59L17.59 12l-3.54 3.54l-1.41-1.41l-1.41 1.41l2.83 2.83L19 13.41z"
               />
-            </a>
+            </svg>
             <div className="flex flex-col gap-2 bg-white tracking-wider text-gray-600 p-4 pt-6 pb-16">
-              <h4 className="font-semibold text-blue-800 text-xl">
-                FIRST YEAR
+              <h4 className={`${gemsbuck.className} text-blue-800`}>
+                FULLY ACCREDITED PROGRAMS
               </h4>
               <p>
-                UC Riverside first-year students come from all over California
-                and throughout the world—ready for a challenge.
+                Our courses are fully accredited by National Board for Technical
+                Education (NBTE)
               </p>
-              <a className="border-2 text-blue-800 border-blue-800 py-2 px-6 cursor-pointer hover:bg-blue-800 hover:text-white">
-                FIRST YEAR
-              </a>
+              {/* <a className="border-2 text-blue-800 border-blue-800 py-2 px-6 cursor-pointer hover:bg-blue-800 hover:text-white">
+                NBTE LINK
+              </a> */}
             </div>
           </article>
           <article className="max-w-full sm:max-w-[270px] justify-self-center text-center">
-            <a className="cursor-pointer">
-              <Image
-                src={student}
-                alt=""
-                className="rounded-full mx-auto"
-                width={300}
+            <svg
+              className="m-auto text-blue-800"
+              xmlns="http://www.w3.org/2000/svg"
+              width="150"
+              height="150"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="m16.95 10.23l-5.66 5.66a.996.996 0 0 1-1.41 0l-2.83-2.83a.996.996 0 1 1 1.41-1.41l2.12 2.12l4.95-4.95a.996.996 0 0 1 1.41 0c.4.39.4 1.02.01 1.41zM4 12c0-2.33 1.02-4.42 2.62-5.88l1.53 1.53A.5.5 0 0 0 9 7.29V3c0-.28-.22-.5-.5-.5H4.21c-.45 0-.67.54-.35.85L5.2 4.7C3.24 6.52 2 9.11 2 12c0 4.75 3.32 8.73 7.76 9.75c.63.14 1.24-.33 1.24-.98c0-.47-.33-.87-.79-.98C6.66 18.98 4 15.8 4 12zm18 0c0-4.75-3.32-8.73-7.76-9.75c-.63-.14-1.24.33-1.24.98c0 .47.33.87.79.98C17.34 5.02 20 8.2 20 12c0 2.33-1.02 4.42-2.62 5.88l-1.53-1.53a.5.5 0 0 0-.85.36V21c0 .28.22.5.5.5h4.29c.45 0 .67-.54.35-.85L18.8 19.3c1.96-1.82 3.2-4.41 3.2-7.3z"
               />
-            </a>
+            </svg>
             <div className="flex flex-col gap-2 bg-white tracking-wider text-gray-600 p-4 pt-6 pb-16">
-              <h4 className="font-semibold text-blue-800 text-xl">TRANSFER</h4>
-              <p>
-                UC Riverside first-year students come from all over California
-                and throughout the world—ready for a challenge.
-              </p>
-              <a className="border-2 text-blue-800 border-blue-800 py-2 px-6 cursor-pointer hover:bg-blue-800 hover:text-white">
-                TRANSFER
-              </a>
-            </div>
-          </article>
-          <article className="max-w-full sm:max-w-[270px] justify-self-center text-center">
-            <a className="cursor-pointer">
-              <Image
-                src={student}
-                alt=""
-                className="rounded-full mx-auto"
-                width={300}
-              />
-            </a>
-            <div className="flex flex-col gap-2 bg-white tracking-wider text-gray-600 p-4 pt-6 pb-16">
-              <h4 className="font-semibold text-blue-800 text-xl">
-                INTERNATIONAL
+              <h4 className={`${gemsbuck.className} text-blue-800`}>
+                DEDICATED WORKFORCE
               </h4>
               <p>
-                UC Riverside first-year students come from all over California
-                and throughout the world—ready for a challenge.
+                Highly trained and dedicated workforce with 21st century skills
+                and quality years of experience.
               </p>
-              <a className="border-2 text-blue-800 border-blue-800 py-2 px-6 cursor-pointer hover:bg-blue-800 hover:text-white">
-                INTERNATIONAL
-              </a>
             </div>
           </article>
           <article className="max-w-full sm:max-w-[270px] justify-self-center text-center">
-            <a className="cursor-pointer">
-              <Image
-                src={student}
-                alt=""
-                className="rounded-full mx-auto"
-                width={300}
-              />
-            </a>
+            <svg
+              className="m-auto text-blue-800"
+              xmlns="http://www.w3.org/2000/svg"
+              width="150"
+              height="150"
+              viewBox="0 0 24 24"
+            >
+              <g
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              >
+                <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0" />
+                <path d="m10 16.5l2-3l2 3m-2-3v-2l3-1m-6 0l3 1" />
+                <circle cx="12" cy="7.5" r=".5" fill="currentColor" />
+              </g>
+            </svg>
             <div className="flex flex-col gap-2 bg-white tracking-wider text-gray-600 p-4 pt-6 pb-16">
-              <h4 className="font-semibold text-blue-800 text-xl">GRADUATE</h4>
+              <h4 className={`${gemsbuck.className} text-blue-800`}>
+                AFFORDABLE AND ACCESIBLE
+              </h4>
               <p>
-                UC Riverside first-year students come from all over California
-                and throughout the world—ready for a challenge.
+                Payment of fees can be paid installmentally and there are
+                scholarship opportunities for students.
               </p>
-              <a className="border-2 text-blue-800 border-blue-800 py-2 px-6 cursor-pointer hover:bg-blue-800 hover:text-white">
-                GRADUATE
-              </a>
+            </div>
+          </article>
+          <article className="max-w-full sm:max-w-[270px] justify-self-center text-center">
+            <svg
+              className="m-auto text-blue-800"
+              xmlns="http://www.w3.org/2000/svg"
+              width="150"
+              height="150"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M12 22a9 9 0 1 1 0-18a9 9 0 0 1 0 18Zm0-2a7 7 0 1 0 0-14a7 7 0 0 0 0 14Zm1-7h3v2h-5V8h2v5ZM1.745 6.283l3.536-3.536l1.414 1.414L3.16 7.697L1.746 6.283Zm16.97-3.536l3.536 3.536l-1.414 1.414l-3.536-3.536l1.415-1.414Z"
+              />
+            </svg>
+            <div className="flex flex-col gap-2 bg-white tracking-wider text-gray-600 p-4 pt-6 pb-16">
+              <h4 className={`${gemsbuck.className} text-blue-800`}>
+                FAST ACADEMIC CALENDAR
+              </h4>
+              <p>
+                We are not members of organized labour hence we don't go on
+                strike making our academic calendar faster.
+              </p>
             </div>
           </article>
         </div>
       </section>
-      <section className="bg-[url('/experience.webp')] bg-no-repeat bg-cover px-10 py-20">
+      <section className="bg-[url('/experience.png')] bg-no-repeat bg-cover px-10 py-20">
         <div className="ml-auto bg-yellow-500 opacity-90 w-full sm:w-[400px] md:w-1/2 p-6 text-white">
           <h2
             className={`pb-1 text-xl text-blue-800 tracking-wider ${gemsbuck.className}`}
@@ -852,22 +937,22 @@ export default function Main() {
             The Student Experience
           </h2>
           <p className="text-black pb-3 tracking-wider">
-            At RECTEM, our strength lies in our diversity. You'll be joining a
-            community of faculty and students from over 80 countries and
-            countless cultural identities to exchange knowledge, build social
-            mobility, and shape future leaders.
+            We believe that education is not confined to the classroom. Our
+            commitment extends beyond academics to encompass a holistic student
+            experience that nurtures growth, fosters connections, and creates
+            lasting memories.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="#"
               className="items-center bg-blue-800 text-white text-xs tracking-widest uppercase font-bold py-3 px-5 hover:bg-blue-900"
             >
-              EXPLORE CAMPUS LIFE
+              LEARN HOW TO APPLY
             </a>
           </div>
         </div>
       </section>
-      <section className="bg-[url('/follow.webp')] bg-no-repeat bg-cover px-10 py-20">
+      <section className="bg-[url('/follow.png')] bg-no-repeat bg-cover px-10 py-20">
         <div className="m-auto opacity-90 w-full sm:w-[400px] md:w-1/2 p-10 text-center">
           <h2
             className={`underline underline-offset-8 pb-1 text-xl sm:text-2xl text-white tracking-wider ${gemsbuck.className}`}

@@ -6,57 +6,71 @@ import googlemap from "../../public/images/googlemap.webp";
 export default function Footer() {
   return (
     <>
-      <section className="bg-[url('/footer.webp')] bg-no-repeat bg-cover">
+      <section className="bg-[url('/footer.png')] bg-no-repeat bg-cover">
         <div className="w-full h-full bg-blue-800 opacity-70 px-10 py-10">
           <hr className="border-yellow-500" />
-          <div className="grid grid-cols-1 sm:grid-cols-4 gap-5 tracking-wider text-white pt-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 tracking-wider text-white pt-10">
             <article className="text-xs tracking-wider pr-2 sm:border-r-2">
-              <h2 className={` text-2xl ${gemsbuck.className}`}>RECTEM</h2>
-              <address className="w-40  not-italic">
-                <p className="mb-4">900 University Ave. Riverside, CA 92521</p>
-                <p className="mb-4">Tel: (951) 827-1012</p>
-                <hr className="border-yellow-500 border-[0.1rem] w-7" />
+              <h2 className={`text-2xl ${gemsbuck.className}`}>RECTEM</h2>
+              <address className="w-40 not-italic">
+                <p className="mb-4">
+                  KM 46 Lagos - Ibadan Expressway, Redemption City, Mowe, Ogun
+                  State, Nigeria.
+                </p>
+                <div className="mt-5">
+                  <p className="cursor-pointer">
+                    Tel:
+                    <a className="ml-1">07025427441</a>
+                  </p>
+                  <p className="cursor-pointer">
+                    Tel:
+                    <a className="ml-1">09160895510</a>
+                  </p>
+                  <p className="cursor-pointer flex">
+                     <a className="underline ml-1">admin@rectem.edu.ng</a>
+                  </p>
+                </div>
               </address>
               <ul className="py-4 text-xs font-semibold">
                 <li className="p-3">
                   <a className="cursor-pointer hover:text-yellow-300">
-                    RECTEM Library
+                    About RECTEM
                   </a>
                 </li>
                 <hr className="border-yellow-500" />
                 <li className="p-3">
                   <a className="cursor-pointer hover:text-yellow-300">
-                    Campus Status
+                    Research & Publications
                   </a>
                 </li>
                 <hr className="border-yellow-500" />
                 <li className="p-3">
                   <a className="cursor-pointer hover:text-yellow-300">
-                    Campus Store
+                    Admissions Portal
                   </a>
                 </li>
                 <hr className="border-yellow-500" />
                 <li className="p-3">
                   <a className="cursor-pointer hover:text-yellow-300">
-                    Career Opportunities
+                    Students Portal
                   </a>
                 </li>
                 <hr className="border-yellow-500" />
                 <li className="p-3">
                   <a className="cursor-pointer hover:text-yellow-300">
-                    Diversity
+                    Admission Cost
                   </a>
                 </li>
                 <hr className="border-yellow-500" />
                 <li className="p-3">
                   <a className="cursor-pointer hover:text-yellow-300">
-                    Maps and Directions
+                    Governing Board
                   </a>
                 </li>
                 <hr className="border-yellow-500" />
                 <li className="p-3">
                   <a className="cursor-pointer hover:text-yellow-300">
-                    Visit RECTEM
+                    Enquiries
                   </a>
                 </li>
                 <hr className="border-yellow-500" />
@@ -68,12 +82,22 @@ export default function Footer() {
                 <hr className="border-yellow-500" />
               </div>
               <address className="not-italic">
-                <p className="mb-1">Admin Block, RECTEM.</p>
+                <p className="mb-1">
+                  Admission Office, Administrative Block, KM 46 Lagos - Ibadan
+                  Expressway, Redemption City, Mowe, Ogun State, Nigeria.
+                </p>
                 <hr className="border-white" />
                 <div className="mt-5">
-                  <p>tel: (951) 827-1012</p>
                   <p className="cursor-pointer">
-                    email: <a className="underline">webteam@ucr.edu</a>
+                    Tel:
+                    <a className="ml-1">07025427441</a>
+                  </p>
+                  <p className="cursor-pointer">
+                    Tel:
+                    <a className="ml-1">09160895510</a>
+                  </p>
+                  <p className="cursor-pointer">
+                     <a className="underline">admissions@rectem.edu.ng</a>
                   </p>
                 </div>
               </address>
@@ -110,44 +134,46 @@ export default function Footer() {
               </div>
               <ul className="py-4 text-xs font-semibold">
                 <li className="p-3">
+                  <a className="cursor-pointer hover:text-yellow-300">Events</a>
+                </li>
+                <hr className="border-yellow-500" />
+                <li className="p-3">
                   <a className="cursor-pointer hover:text-yellow-300">News</a>
                 </li>
                 <hr className="border-yellow-500" />
                 <li className="p-3">
                   <a className="cursor-pointer hover:text-yellow-300">
-                    Undergraduate Admissions
-                  </a>
-                </li>
-                <hr className="border-yellow-500" />
-                <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">Majors</a>
-                </li>
-                <hr className="border-yellow-500" />
-                <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">
-                    Graduate Division
-                  </a>
-                </li>
-                <hr className="border-yellow-500" />
-                <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">Giving</a>
-                </li>
-                <hr className="border-yellow-500" />
-                <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">
-                    Athletics
+                    Calendar
                   </a>
                 </li>
                 <hr className="border-yellow-500" />
                 <li className="p-3">
                   <a className="cursor-pointer hover:text-yellow-300">
-                    UCR Health
+                    ND Programs
                   </a>
                 </li>
                 <hr className="border-yellow-500" />
                 <li className="p-3">
                   <a className="cursor-pointer hover:text-yellow-300">
-                    Campus Return
+                    HND Programs
+                  </a>
+                </li>
+                <hr className="border-yellow-500" />
+                <li className="p-3">
+                  <a className="cursor-pointer hover:text-yellow-300">
+                    Part-time Programs
+                  </a>
+                </li>
+                <hr className="border-yellow-500" />
+                <li className="p-3">
+                  <a className="cursor-pointer hover:text-yellow-300">
+                    Entrepreneurship
+                  </a>
+                </li>
+                <hr className="border-yellow-500" />
+                <li className="p-3">
+                  <a className="cursor-pointer hover:text-yellow-300">
+                    Campus Map
                   </a>
                 </li>
                 <hr className="border-yellow-500" />
@@ -162,8 +188,8 @@ export default function Footer() {
                 <a className="hover:text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="35"
-                    height="35"
+                    width="30"
+                    height="30"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -175,8 +201,8 @@ export default function Footer() {
                 <a className="hover:text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="35"
-                    height="35"
+                    width="30"
+                    height="30"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -188,8 +214,8 @@ export default function Footer() {
                 <a className="hover:text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="35"
-                    height="35"
+                    width="30"
+                    height="30"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -201,8 +227,8 @@ export default function Footer() {
                 <a className="hover:text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="35"
-                    height="35"
+                    width="30"
+                    height="30"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -214,8 +240,8 @@ export default function Footer() {
                 <a className="hover:text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="35"
-                    height="35"
+                    width="30"
+                    height="30"
                     viewBox="0 0 24 24"
                   >
                     <path

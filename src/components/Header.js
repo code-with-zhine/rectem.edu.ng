@@ -21,10 +21,6 @@ const SETTING = {
         url: "#",
       },
       {
-        name: "RANKINGS AND FACTS",
-        url: "#",
-      },
-      {
         name: "HISTORY",
         url: "#",
       },
@@ -33,23 +29,19 @@ const SETTING = {
         url: "#",
       },
       {
-        name: "INTERNATIONAL",
-        url: "#",
-      },
-      {
-        name: "LEADERSHIP",
+        name: "VISION",
         url: "#",
       },
       {
         name: "MISSION",
         url: "#",
       },
-    ],
-    ACADEMICS: [
       {
-        name: "ACADEMICS OVERVIEW",
+        name: "GOVERNING BOARD",
         url: "#",
       },
+    ],
+    ACADEMICS: [
       {
         name: "ACADEMIC CALENDER",
         url: "#",
@@ -65,10 +57,6 @@ const SETTING = {
     ],
     ADMISSIONS: [
       {
-        name: "ADMISSIONS OVERVIEW",
-        url: "#",
-      },
-      {
         name: "ND ADMISSIONS",
         url: "#",
       },
@@ -76,14 +64,7 @@ const SETTING = {
         name: "HND ADMISSIONS",
         url: "#",
       },
-      {
-        name: "TRANSFER ADMISSIONS",
-        url: "#",
-      },
-      {
-        name: "INTERNATIONAL ADMISSIONS",
-        url: "#",
-      },
+      
       {
         name: "ADMISSION COST",
         url: "#",
@@ -91,7 +72,7 @@ const SETTING = {
     ],
     RESEARCH: [
       {
-        name: "RESEARCH OVERVIEW",
+        name: "RESEARCH & PUBLICATION",
         url: "#",
       },
       {
@@ -104,10 +85,6 @@ const SETTING = {
       },
     ],
     "CAMPUS LIFE": [
-      {
-        name: "CAMPUS LIFE OVERVIEW",
-        url: "#",
-      },
       {
         name: "EVENTS",
         url: "#",
@@ -123,19 +100,11 @@ const SETTING = {
       {
         name: "CAMPUS MAP",
         url: "#",
-      },
-      {
-        name: "ART AND CULTURE",
-        url: "#",
-      },
-      {
-        name: "HEALTH AND SAFETY",
-        url: "#",
-      },
+      }
     ],
     "INFORMATION FOR": [
       {
-        name: "CURRENT STUDENTS",
+        name: "NEW STUDENTS",
         url: "#",
       },
       {
@@ -143,7 +112,7 @@ const SETTING = {
         url: "#",
       },
       {
-        name: "FACULTY",
+        name: "SCHOOLS",
         url: "#",
       },
       {
@@ -164,23 +133,23 @@ const SETTING = {
     QUICKLINKS: [
       {
         name: "Student portal",
-        url: "#",
+        url: "https://portal.rectem.edu.ng",
       },
       {
         name: "Events",
-        url: "#",
+        url: "#events",
       },
       {
         name: "News",
-        url: "#",
+        url: "#news",
       },
       {
         name: "Calendar",
-        url: "#",
+        url: "#calendar",
       },
       {
         name: "Campus Map",
-        url: "#",
+        url: "#campus-map",
       },
       {
         name: "ND Programs",
@@ -202,7 +171,7 @@ export default function Header() {
   return (
     <header>
       {/* QUICKLINKS - TOP NAV */}
-      <div className="hidden md:block bg-blue-800">
+      <div className="hidden md:block bg-[#003DA5]">
         <nav className="flex justify-between items-center px-5">
           <ul className="flex list-none gap-4">
             {SETTING.more.QUICKLINKS.map((btn, index) => {
@@ -219,6 +188,7 @@ export default function Header() {
           </ul>
           <a
             href={SETTING.more.QUICKLINKS[0].url}
+            target="_blank"
             className="bg-yellow-500 text-black font-semibold text-xs uppercase p-3 hover:bg-yellow-400 "
           >
             {SETTING.more.QUICKLINKS[0].name}
@@ -232,14 +202,14 @@ export default function Header() {
           <Image src={logo} alt="Rectem logo" width={200} priority />
         </a>
         <h4
-          className={`hidden md:block text-blue-800 md:text-lg tracking-wide ${gemsbuck.className}`}
+          className={`hidden md:block text-[#003DA5] md:text-lg tracking-wide ${gemsbuck.className}`}
         >
           REDEEMER'S COLLEGE OF TECHNOLOGY AND MANAGEMENT
         </h4>
       </div>
       {/* END SITE LOGO & TITLE */}
       {/* TABLET & DESKTOP MENU */}
-      <div className="flex bg-blue-800 text-white border-y-[1px] border-t-[2px] border-yellow-500">
+      <div className="flex bg-[#003DA5] text-white border-y-[1px] border-t-[2px] border-yellow-500">
         <h6
           className={`md:hidden sm:block flex-1 py-3 pl-2 tracking-widest text-xs ${gemsbuck.className}`}
         >
@@ -254,7 +224,7 @@ export default function Header() {
 
         {/* Menu for medium and lg devices */}
         <nav className="hidden md:block px-10  m-auto">
-          <ul className="list-none flex flex-wrap justify-center ">
+          <ul className="list-none flex flex-wrap justify-center">
             {Object.keys(SETTING.menu).map((btn, index) => (
               <li
                 key={index}
@@ -267,7 +237,7 @@ export default function Header() {
                     size="1.7em"
                   />
                 </a>
-                <ul className="dropdown-menu hidden absolute z-[1] min-w-[200px] top-0 mt-10 bg-blue-800">
+                <ul className="dropdown-menu hidden absolute z-[1] min-w-[200px] top-0 mt-10 bg-[#003DA5]">
                   {SETTING.menu[btn].map((more, index) => (
                     <li
                       key={index}
@@ -281,7 +251,13 @@ export default function Header() {
             ))}
 
             <li className="btn bg-yellow-500 text-black font-semibold cursor-pointer hover:bg-yellow-400 py-2 px-4 border-b-4 border-transparent hover:border-white">
-              <a className="text-xs uppercase tracking-widest">APPLY NOW</a>
+              <a
+                href="https://onlineapp.rectem.edu.ng"
+                target="_blank"
+                className="text-xs uppercase tracking-widest"
+              >
+                APPLY NOW
+              </a>
             </li>
           </ul>
         </nav>
@@ -291,7 +267,7 @@ export default function Header() {
       <AnimatePresence initial={false}>
         {mobileNav && (
           <motion.div
-            className="bg-blue-800 text-white"
+            className="bg-[#003DA5] text-white"
             key="content"
             initial="collapsed"
             animate="open"
