@@ -1,7 +1,7 @@
 import "./globals.css";
-import { Fira_Sans } from "next/font/google";
+import {  Fira_Sans_Extra_Condensed } from "next/font/google";
 
-const firaSans = Fira_Sans({
+const firaSans = Fira_Sans_Extra_Condensed({
   weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
   variable: "--font-firaSans",

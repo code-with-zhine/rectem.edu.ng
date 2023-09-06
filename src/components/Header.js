@@ -12,120 +12,109 @@ import { LuPlus, LuMinus } from "react-icons/lu";
 
 import logo from "/public/images/rectem.jpeg";
 import { gemsbuck } from "@/app/page";
+import Link from "next/link";
 
 const SETTING = {
   menu: {
     ABOUT: [
       {
         name: "ABOUT RECTEM",
-        url: "#",
-      },
-      {
-        name: "HISTORY",
-        url: "#",
-      },
-      {
-        name: "VISITORS",
-        url: "#",
+        url: "/about",
       },
       {
         name: "VISION",
-        url: "#",
+        url: "/about#vision",
       },
       {
         name: "MISSION",
-        url: "#",
+        url: "/about#mission",
       },
       {
         name: "GOVERNING BOARD",
-        url: "#",
+        url: "/governing-board",
+      },
+      {
+        name: "PRINCIPAL OFFICERS",
+        url: "/principal-officers",
+      },
+      {
+        name: "VISITORS",
+        url: "/visitors",
       },
     ],
     ACADEMICS: [
       {
-        name: "ACADEMIC CALENDER",
-        url: "#",
+        name: "ACADEMIC CALENDAR",
+        url: "/calendar",
       },
       {
-        name: "ND PROGRAM",
-        url: "#",
+        name: "ND PROGRAMMES",
+        url: "/national-diploma",
       },
       {
-        name: "HND PROGRAM",
-        url: "#",
+        name: "HND PROGRAMMES",
+        url: "/higher-diploma",
       },
     ],
     ADMISSIONS: [
       {
         name: "ND ADMISSIONS",
-        url: "#",
+        url: "/national-diploma-admissions",
       },
       {
         name: "HND ADMISSIONS",
-        url: "#",
+        url: "/higher-diploma-admissions",
       },
-      
+
       {
-        name: "ADMISSION COST",
-        url: "#",
+        name: "PROGRAMME COST",
+        url: "/admission-cost",
       },
     ],
     RESEARCH: [
       {
         name: "RESEARCH & PUBLICATION",
-        url: "#",
+        url: "/research",
       },
       {
-        name: "LIBRARY",
-        url: "#",
-      },
-      {
-        name: "CENTER AND FACILITY",
-        url: "#",
+        name: "CENTER & FACILITIES",
+        url: "/facilities",
       },
     ],
     "CAMPUS LIFE": [
       {
         name: "EVENTS",
-        url: "#",
+        url: "/events",
       },
       {
         name: "HOUSING",
-        url: "#",
-      },
-      {
-        name: "ATHLETICS",
-        url: "#",
+        url: "/housing",
       },
       {
         name: "CAMPUS MAP",
-        url: "#",
-      }
+        url: "/campus-map",
+      },
     ],
-    "INFORMATION FOR": [
+    SCHOOLS: [
       {
-        name: "NEW STUDENTS",
-        url: "#",
+        name: "ENGINEERING",
+        url: "/schools/engineering",
       },
       {
-        name: "PROSPECTIVE STUDENTS",
-        url: "#",
+        name: "ENVIRONMENTAL TECHNOLOGY",
+        url: "/schools/environmental",
       },
       {
-        name: "SCHOOLS",
-        url: "#",
+        name: "MANAGEMENT",
+        url: "/schools/management",
       },
       {
-        name: "STAFF",
-        url: "#",
+        name: "SCIENCE & TECHNOLOGY",
+        url: "/schools/science-technology",
       },
       {
-        name: "PARENT",
-        url: "#",
-      },
-      {
-        name: "ALUMNI",
-        url: "#",
+        name: "PART-TIME",
+        url: "/schools/part-time",
       },
     ],
   },
@@ -137,27 +126,23 @@ const SETTING = {
       },
       {
         name: "Events",
-        url: "#events",
+        url: "/events",
       },
       {
         name: "News",
-        url: "#news",
+        url: "/blogs",
       },
       {
         name: "Calendar",
-        url: "#calendar",
+        url: "/calendar",
       },
       {
-        name: "Campus Map",
-        url: "#campus-map",
+        name: "ND PROGRAMMES",
+        url: "/national-diploma",
       },
       {
-        name: "ND Programs",
-        url: "#",
-      },
-      {
-        name: "HND Programs",
-        url: "#",
+        name: "HND PROGRAMMES",
+        url: "/higher-diploma",
       },
     ],
   },
@@ -189,7 +174,7 @@ export default function Header() {
           <a
             href={SETTING.more.QUICKLINKS[0].url}
             target="_blank"
-            className="bg-yellow-500 text-black font-semibold text-xs uppercase p-3 hover:bg-yellow-400 "
+            className="bg-[#f1ab00] text-black font-semibold text-xs uppercase p-3 hover:bg-[#f1ab00] "
           >
             {SETTING.more.QUICKLINKS[0].name}
           </a>
@@ -198,9 +183,9 @@ export default function Header() {
       {/* END QUICKLINKS - TOP NAV */}
       {/* SITE LOGO & TITLE */}
       <div className="flex justify-between gap-5 items-center p-5">
-        <a href="#">
+        <Link href="/" className="cursor-pointer">
           <Image src={logo} alt="Rectem logo" width={200} priority />
-        </a>
+        </Link>
         <h4
           className={`hidden md:block text-[#003DA5] md:text-lg tracking-wide ${gemsbuck.className}`}
         >
@@ -209,21 +194,21 @@ export default function Header() {
       </div>
       {/* END SITE LOGO & TITLE */}
       {/* TABLET & DESKTOP MENU */}
-      <div className="flex bg-[#003DA5] text-white border-y-[1px] border-t-[2px] border-yellow-500">
+      <div className="flex bg-[#003DA5] text-white border-y-[1px] border-t-[2px] border-[#f1ab00]">
         <h6
           className={`md:hidden sm:block flex-1 py-3 pl-2 tracking-widest text-xs ${gemsbuck.className}`}
         >
           REDEEMER'S COLLEGE OF TECHNOLOGY AND MANAGEMENT
         </h6>
         <button
-          className="md:hidden sm:block bg-yellow-500 px-2"
+          className="md:hidden sm:block bg-[#f1ab00] px-2"
           onClick={() => setMobileNav((prevMobileNav) => !prevMobileNav)}
         >
           {mobileNav ? <RxCross1 size="1.5em" /> : <RiMenu3Line size="1.5em" />}
         </button>
 
         {/* Menu for medium and lg devices */}
-        <nav className="hidden md:block px-10  m-auto">
+        <nav className="hidden md:block px-10  m-auto z-50">
           <ul className="list-none flex flex-wrap justify-center">
             {Object.keys(SETTING.menu).map((btn, index) => (
               <li
@@ -243,14 +228,14 @@ export default function Header() {
                       key={index}
                       className="border-t-[1px] text-xs font-semibold tracking-widest pl-3 py-3 border-[#7591b5] bg-[#407ec9] hover:bg-blue-500 transition duration-300 ease-in-out"
                     >
-                      <a href={more.url}>{more.name}</a>
+                      <Link href={more.url}>{more.name}</Link>
                     </li>
                   ))}
                 </ul>
               </li>
             ))}
 
-            <li className="btn bg-yellow-500 text-black font-semibold cursor-pointer hover:bg-yellow-400 py-2 px-4 border-b-4 border-transparent hover:border-white">
+            <li className="btn bg-[#f1ab00] text-black font-semibold cursor-pointer hover:bg-[#f1ab00] py-2 px-4 border-b-4 border-transparent hover:border-white">
               <a
                 href="https://onlineapp.rectem.edu.ng"
                 target="_blank"
@@ -329,9 +314,10 @@ export default function Header() {
                   );
                 })}
                 <menu.item
+                  url="https://onlineapp.rectem.edu.ng"
                   name="Apply for admission"
                   indent="4"
-                  variant="bg-yellow-500 text-black font-medium px-3"
+                  variant="bg-[#f1ab00] text-black font-medium px-3"
                   endIcon={<RiArrowRightLine />}
                 />
               </motion.ul>

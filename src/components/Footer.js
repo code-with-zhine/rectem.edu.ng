@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { gemsbuck } from "@/app/page";
 
 import googlemap from "../../public/images/googlemap.webp";
@@ -9,9 +10,11 @@ export default function Footer() {
       <section className="bg-[url('/footer.png')] bg-no-repeat bg-cover">
         <div className="w-full h-full bg-blue-800 opacity-70 px-10 py-10">
           <hr className="border-yellow-500" />
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 tracking-wider text-white pt-10">
-            <article className="text-xs tracking-wider pr-2 sm:border-r-2">
-              <h2 className={`text-2xl ${gemsbuck.className}`}>RECTEM</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 text-white pt-10">
+            <article className="text-xs pr-2 ">
+              <h2 className={`text-4xl -tracking-wider ${gemsbuck.className}`}>
+                RECTEM
+              </h2>
               <address className="w-40 not-italic">
                 <p className="mb-4">
                   KM 46 Lagos - Ibadan Expressway, Redemption City, Mowe, Ogun
@@ -27,58 +30,26 @@ export default function Footer() {
                     <a className="ml-1">09160895510</a>
                   </p>
                   <p className="cursor-pointer flex">
-                     <a className="underline ml-1">admin@rectem.edu.ng</a>
+                    <a className="underline ml-1">admin@rectem.edu.ng</a>
                   </p>
                 </div>
               </address>
-              <ul className="py-4 text-xs font-semibold">
-                <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">
-                    About RECTEM
-                  </a>
-                </li>
+              <ul className="pt-5">
+                <li className="font-bold text-sm">OUR PHILOSOPHY</li>
                 <hr className="border-yellow-500" />
-                <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">
-                    Research & Publications
-                  </a>
-                </li>
-                <hr className="border-yellow-500" />
-                <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">
-                    Admissions Portal
-                  </a>
-                </li>
-                <hr className="border-yellow-500" />
-                <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">
-                    Students Portal
-                  </a>
-                </li>
-                <hr className="border-yellow-500" />
-                <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">
-                    Admission Cost
-                  </a>
-                </li>
-                <hr className="border-yellow-500" />
-                <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">
-                    Governing Board
-                  </a>
-                </li>
-                <hr className="border-yellow-500" />
-                <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">
-                    Enquiries
-                  </a>
-                </li>
-                <hr className="border-yellow-500" />
+                <p className="py-4 text-[0.9rem]">
+                  The philosophy of RECTEM is to attain the ultimate height in
+                  providing middle and high level technical and vocational
+                  training of the highest standard in order to create a pool of
+                  highly trained technicians and technologists that will support
+                  the Nation's Engineering Infrastructural Development.
+                </p>
               </ul>
+              <hr className="border-yellow-500" />
             </article>
-            <article className="text-xs tracking-wider font-semibold pr-2 sm:border-r-2">
+            <article className="text-xs font-semibold pr-2 ">
               <div className="mb-5">
-                <p className="mb-1">ADMISSION DEPARTMENT</p>
+                <p className="mb-1 font-bold">ADMISSION DEPARTMENT</p>
                 <hr className="border-yellow-500" />
               </div>
               <address className="not-italic">
@@ -97,7 +68,9 @@ export default function Footer() {
                     <a className="ml-1">09160895510</a>
                   </p>
                   <p className="cursor-pointer">
-                     <a className="underline">admissions@rectem.edu.ng</a>
+                    <a className="underline line-clamp-1">
+                      admissions@rectem.edu.ng
+                    </a>
                   </p>
                 </div>
               </address>
@@ -125,67 +98,100 @@ export default function Footer() {
                   height={200}
                 />
               </div>
-              <hr className="border-yellow-500 mt-9" />
             </article>
-            <article className="text-xs tracking-wider font-semibold pr-2 sm:border-r-2">
+            <article className="text-xs font-semibold pr-2 ">
               <div>
-                <p className="mb-1">RELATED LINKS</p>
+                <p className="mb-1 font-bold">HOT LINKS</p>
                 <hr className="border-yellow-500" />
               </div>
               <ul className="py-4 text-xs font-semibold">
                 <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">Events</a>
-                </li>
-                <hr className="border-yellow-500" />
-                <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">News</a>
-                </li>
-                <hr className="border-yellow-500" />
-                <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">
-                    Calendar
+                  <a
+                    href="https://onlineapp.rectem.edu.ng"
+                    target="_blank"
+                    className="cursor-pointer hover:text-[#f1ab00]"
+                  >
+                    APPLICATION PORTAL
                   </a>
                 </li>
                 <hr className="border-yellow-500" />
                 <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">
-                    ND Programs
+                  <a
+                    href="https://portal.rectem.edu.ng"
+                    target="_blank"
+                    className="cursor-pointer hover:text-[#f1ab00]"
+                  >
+                    STUDENT PORTAL
                   </a>
                 </li>
                 <hr className="border-yellow-500" />
                 <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">
-                    HND Programs
+                  <Link
+                    href="/entrepreneurship"
+                    className="cursor-pointer hover:text-[#f1ab00]"
+                  >
+                    ENTREPRENEURSHIP
+                  </Link>
+                </li>
+                <hr className="border-yellow-500" />
+                <li className="p-3">
+                  <Link
+                    href="/national-diploma"
+                    className="cursor-pointer hover:text-[#f1ab00]"
+                  >
+                    ND PROGRAMMES
+                  </Link>
+                </li>
+                <hr className="border-yellow-500" />
+                <li className="p-3">
+                  <a
+                    href="/higher-diploma"
+                    className="cursor-pointer hover:text-[#f1ab00]"
+                  >
+                    HND PROGRAMMES
                   </a>
                 </li>
                 <hr className="border-yellow-500" />
                 <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">
-                    Part-time Programs
-                  </a>
+                  <Link
+                    href="/calendar"
+                    className="cursor-pointer hover:text-[#f1ab00]"
+                  >
+                    CALENDAR
+                  </Link>
                 </li>
                 <hr className="border-yellow-500" />
                 <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">
-                    Entrepreneurship
-                  </a>
+                  <Link
+                    href="/blogs"
+                    className="cursor-pointer hover:text-[#f1ab00]"
+                  >
+                    NEWS
+                  </Link>
                 </li>
                 <hr className="border-yellow-500" />
                 <li className="p-3">
-                  <a className="cursor-pointer hover:text-yellow-300">
-                    Campus Map
+                  <a
+                    href="campus-map"
+                    className="cursor-pointer hover:text-[#f1ab00]"
+                  >
+                    CAMPUS MAP
                   </a>
                 </li>
                 <hr className="border-yellow-500" />
               </ul>
             </article>
-            <article className="text-xs tracking-wider font-semibold">
+            <article className="text-xs font-semibold">
               <div>
-                <p className="mb-1">FOLLOW US:</p>
+                <p className="mb-1 font-bold">FOLLOW US</p>
                 <hr className="border-yellow-500" />
               </div>
               <div className="py-5 flex items-center gap-2 text-yellow-500">
-                <a className="hover:text-white">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/rectemofficial?mibextid=LQQJ4d"
+                  className="hover:text-white"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"
@@ -198,7 +204,11 @@ export default function Footer() {
                     />
                   </svg>
                 </a>
-                <a className="hover:text-white">
+                <a
+                  target="_blank"
+                  href="http://twitter.com/rectemofficial"
+                  className="hover:text-white"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"
@@ -211,7 +221,11 @@ export default function Footer() {
                     />
                   </svg>
                 </a>
-                <a className="hover:text-white">
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/channel/UCrchUquuLMBSDHhB6C2FMjA"
+                  className="hover:text-white"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"
@@ -224,7 +238,11 @@ export default function Footer() {
                     />
                   </svg>
                 </a>
-                <a className="hover:text-white">
+                <a
+                  target="_blank"
+                  href="http://instagram.com/rectemofficial"
+                  className="hover:text-white"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"
@@ -237,7 +255,11 @@ export default function Footer() {
                     />
                   </svg>
                 </a>
-                <a className="hover:text-white">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/company/redeemer-s-college-of-technology-management-rectem/"
+                  className="hover:text-white"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"
@@ -251,7 +273,6 @@ export default function Footer() {
                   </svg>
                 </a>
               </div>
-              <hr className="border-yellow-500" />
             </article>
           </div>
         </div>
@@ -259,10 +280,14 @@ export default function Footer() {
       <div className="bg-yellow-500 px-10 py-3 text-xs text-blue-800 font-semibold">
         <ul className="flex flex-wrap divide-x-2">
           <li className="px-2">
-            <a className="cursor-pointer">Privacy and Accessibility</a>
+            <Link href="/privacy" className="cursor-pointer">
+              Privacy and Accessibility
+            </Link>
           </li>
           <li className="px-2">
-            <a className="cursor-pointer">Terms and Conditions</a>
+            <Link href="terms" className="cursor-pointer">
+              Terms and Conditions
+            </Link>
           </li>
           <li className="px-2">© 2023 CITM RECTEM</li>
         </ul>
