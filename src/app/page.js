@@ -194,7 +194,7 @@ export default function Home() {
             <h2 className={`pb-1 text-xl ${gemsbuck.className}`}>
               EXPLORE RECTEM
             </h2>
-            <p className="pb-3 t">
+            <p className="pb-3">
               {`Embark on a journey through the RECTEM campus, granting you an
               exclusive insider's view from anywhere around the globe.`}
             </p>
