@@ -184,8 +184,17 @@ export default function Header() {
       {/* SITE LOGO & TITLE */}
       <div className="flex justify-between gap-5 items-center p-5">
         <Link href="/" className="cursor-pointer">
-          <Image src={logo} alt="Rectem logo" width={40} height={40} priority />
+          <Image src={logo} alt="Rectem logo" width={30} height={30} />
         </Link>
+        <div className="text-[0.85rem] md:hidden">
+          <h6 className="text-[#003DA5] font-semibold">2023/2024 ND & HND ADMISSION IS NOW OPEN</h6>
+          <a
+            href="https://portal.rectem.edu.ng"
+            className="text-[#D6336B] cursor-pointer"
+          >
+            APPLY NOW
+          </a>
+        </div>
         <h4
           className={`hidden md:block text-[#003DA5] md:text-lg tracking-wide ${gemsbuck.className}`}
         >
