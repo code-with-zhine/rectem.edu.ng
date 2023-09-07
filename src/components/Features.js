@@ -2,7 +2,7 @@ import { gemsbuck } from "@/app/page";
 
 export default function Features() {
   return (
-    <section className="bg-[url('/bg.png')] bg-no-repeat bg-cover p-10 py-28 ">
+    <section className="px-5 md:px-10 bg-[url('/bg.png')] bg-no-repeat bg-cover py-28 ">
       <div className="text-white grid sm:grid-cols-2 lg:grid-cols-4 justify-center align-middle gap-10">
         <div className="text-center">
           {/* <div className="text-4xl mb-2">〽️</div> */}

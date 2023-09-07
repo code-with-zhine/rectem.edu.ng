@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <Layout>
-      <section className="p-10">
+      <section className="px-5 md:px-10 py-10">
         <div className="py-4">
           <Link
             href="/"
@@ -45,7 +45,7 @@ export default function Home() {
               <h4
                 className={`py-4 text-[#003DA5] text-sm tracking-wider ${gemsbuck.className}`}
               >
-               SCHOOL OF ENGINEERING
+                SCHOOL OF ENGINEERING
               </h4>
               <hr className="w-20 border-[#f1ab00]" />
               <div className="flex flex-col">

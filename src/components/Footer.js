@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <>
       <section className="bg-[url('/footer.png')] bg-no-repeat bg-cover">
-        <div className="w-full h-full bg-blue-800 opacity-70 px-10 py-10">
+        <div className="px-5 md:px-10 w-full h-full bg-blue-800 opacity-70 py-10">
           <hr className="border-yellow-500" />
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 text-white pt-10">
             <article className="text-xs pr-2 ">
@@ -277,7 +277,7 @@ export default function Footer() {
           </div>
         </div>
       </section>
-      <div className="bg-yellow-500 px-10 py-3 text-xs text-blue-800 font-semibold">
+      <div className="px-5 md:px-10 bg-yellow-500 py-3 text-xs text-blue-800 font-semibold">
         <ul className="flex flex-wrap divide-x-2">
           <li className="px-2">
             <Link href="/privacy" className="cursor-pointer">

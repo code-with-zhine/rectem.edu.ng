@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <Layout>
-      <section className="p-10">
+      <section className="px-5 md:px-10 py-10">
         <div className="py-4">
           <Link
             href="/"

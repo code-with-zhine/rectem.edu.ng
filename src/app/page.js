@@ -50,8 +50,8 @@ export default function Home() {
     <Layout>
       <Hero />
       <main>
-        <section className="section flex justify-between items-center gap-10 flex-col md:flex-row py-16">
-          <div className="md:w-3/5">
+        <section className="px-5 md:px-10 py-16 grid grid-cols-1 md:grid-cols-2 gap-10 justify-center items-center">
+          <div className="">
             <h2
               className={`text-2xl tracking-wider text-[#003DA5] pb-2 ${gemsbuck.className}`}
             >
@@ -90,16 +90,16 @@ export default function Home() {
               </svg>
             </Link>
           </div>
-          <div className="md:w-2/5 self-center ">
+          <div className="">
             <Image src={rectem01} alt="" />
           </div>
         </section>
         {/* Features */}
         <Features />
-        <section className="grid grid-cols-1 md:grid-cols-3 gap-10 px-5 sm:px-10 py-10">
+        <section className="px-5 md:px-10 grid grid-cols-1 md:grid-cols-3 gap-10 py-10">
           <article id="news" className="sm:col-span-2">
             <h1
-              className={`text-2xl mb-2 text-[#003DA5] tracking-wider ${gemsbuck.className}`}
+              className={`text-2xl mb-2 text-[#003DA5] ${gemsbuck.className}`}
             >
               NEWS
             </h1>
@@ -143,7 +143,7 @@ export default function Home() {
           </article>
           <article id="events" className="sm:col-span-1">
             <h1
-              className={`text-2xl mb-2 text-[#003DA5] tracking-wider ${gemsbuck.className}`}
+              className={`text-2xl mb-2 text-[#003DA5] ${gemsbuck.className}`}
             >
               EVENTS
             </h1>
@@ -188,10 +188,10 @@ export default function Home() {
         </section>
         <section
           id="campus-map"
-          className="bg-[url('/tour.png')] bg-no-repeat bg-cover px-10 py-24"
+          className="px-5 md:px-10 py-24 bg-[url('/tour.png')] bg-no-repeat bg-cover"
         >
-          <div className="bg-[#003DA5] bg-opacity-70 max-w-[600px] p-10 text-white">
-            <h2 className={`pb-1 text-xl tracking-wider ${gemsbuck.className}`}>
+          <div className="p-7 md:p-10 bg-[#003DA5] bg-opacity-70 max-w-[600px] text-white">
+            <h2 className={`pb-1 text-xl ${gemsbuck.className}`}>
               EXPLORE RECTEM
             </h2>
             <p className="pb-3 tracking-wider text-justify">
@@ -211,9 +211,7 @@ export default function Home() {
             <Image src={partTime} alt="" />
           </div>
           <div className="md:w-1/2">
-            <h2
-              className={`text-xl tracking-wider text-[#003DA5] pb-2 ${gemsbuck.className}`}
-            >
+            <h2 className={`text-xl text-[#003DA5] pb-2 ${gemsbuck.className}`}>
               School of Part-Time Studies: Empowering Your Educational Journey
             </h2>
             <p className="text-gray-500 pb-5 text-justify">
@@ -246,9 +244,7 @@ export default function Home() {
           </div>
         </section>
         <section id="calendar" className="bg-blue-50 p-10">
-          <h1
-            className={`text-2xl mb-2 text-[#003DA5] tracking-wider ${gemsbuck.className}`}
-          >
+          <h1 className={`text-2xl mb-2 text-[#003DA5] ${gemsbuck.className}`}>
             ACADEMIC CALENDAR
           </h1>
           <hr className="border-t-[2px] mb-5" />
@@ -289,7 +285,7 @@ export default function Home() {
             </Link>
           </div>
         </section>
-        <section className="px-10 py-20 text-center">
+        <section className="px-5 md:px-10 py-20 text-center">
           <h4 className={`text-[#003DA5] text-xl ${gemsbuck.className}`}>
             Learn How Affordable RECTEM Fees Can Be
           </h4>
@@ -319,8 +315,8 @@ export default function Home() {
             </Link>
           </div>
         </section>
-        <section className="bg-[url('/degree.png')] bg-no-repeat bg-cover px-10 py-20">
-          <div className="ml-auto bg-[#003DA5] bg-opacity-70 max-w-[600px] p-10 text-white">
+        <section className="px-5 md:px-10 bg-[url('/degree.png')] bg-no-repeat bg-cover py-20">
+          <div className="p-7 md:p-10 ml-auto bg-[#003DA5] bg-opacity-70 max-w-[600px] text-white">
             <h2 className={`pb-1 tracking-wider ${gemsbuck.className}`}>
               ENTREPRENEURSHIP PROGRAMMES
             </h2>
@@ -451,11 +447,9 @@ export default function Home() {
             </article>
           </div>
         </section>
-        <section className="bg-[url('/experience.png')] bg-no-repeat bg-cover px-10 py-24">
-          <div className="ml-auto bg-[#f1ab00] bg-opacity-70 w-full sm:w-[400px] md:w-1/2 px-6 py-10 text-white">
-            <h2
-              className={`pb-1 text-xl text-[#003DA5] tracking-wider ${gemsbuck.className}`}
-            >
+        <section className="px-5 md:px-10 bg-[url('/experience.png')] bg-no-repeat bg-cover py-24">
+          <div className="p-7 md:p-10 ml-auto bg-[#f1ab00] bg-opacity-70 w-full sm:w-[400px] md:w-1/2 text-white">
+            <h2 className={`pb-1 text-xl text-[#003DA5] ${gemsbuck.className}`}>
               The Student Experience
             </h2>
             <p className="text-black pb-3 tracking-wider">
@@ -475,7 +469,7 @@ export default function Home() {
         </section>
         {/* FOLLOW */}
         <FollowUs />
-        <section className="bg-[#003DA5] px-10">
+        <section className="px-5 md:px-10 bg-[#003DA5]">
           <article className="grid grid-cols-2 sm:grid-cols-4 gap-1">
             <a
               href="/gallery/01.jpg"

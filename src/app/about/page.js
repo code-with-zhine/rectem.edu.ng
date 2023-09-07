@@ -10,7 +10,7 @@ import FollowUs from "@/components/Follow-us";
 export default function Home() {
   return (
     <Layout>
-      <section className="bg-[url('/about-hero.png')] bg-no-repeat bg-cover  text-white pl-10 py-20">
+      <section className="bg-[url('/about-hero.png')] bg-no-repeat bg-cover  text-white p-10 py-20">
         <div className="max-w-lg md:top-5 lg:top-1/4 left-8 p-5">
           <h4 className={`py-4 text-3xl ${gemsbuck.className}`}>
             RAISING GLOBAL CHAMPION
@@ -21,7 +21,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section className="p-10">
+      <section className="px-5 md:px-10 py-10">
         <div className="mb-4">
           <Link
             href="/"
@@ -172,7 +172,7 @@ export default function Home() {
         </a>
       </div>
       <hr />
-      <section id="mission" class="container mx-auto p-10">
+      <section id="mission" class="px-5 md:px-10 py-10 container mx-auto">
         <h1
           className={`text-[#003DA5] py-4 text-xl text-center tracking-wider ${gemsbuck.className}`}
         >
@@ -267,7 +267,7 @@ export default function Home() {
       <hr />
       <section
         id="vision"
-        className="bg-no-repeat bg-cover  text-gray-500 px-10 md:px-20 py-20"
+        className="px-5 md:px-10 py-10 bg-no-repeat bg-cover  text-gray-500"
       >
         <div className="max-w-4xl mx-auto text-center">
           <h4 className={`text-[#003DA5] py-3 text-xl ${gemsbuck.className}`}>

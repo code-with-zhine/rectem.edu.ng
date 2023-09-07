@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="relative text-white">
       <picture className="w-full">
-        <Image src={heroImage} alt="Rectem banner" priority />
+        <Image src={heroImage} alt="Rectem banner" className="min-h-[250px]" />
       </picture>
       <div className="flex justify-between w-full bg-black/50 absolute bottom-0 left-0 px-4">
         <h4
