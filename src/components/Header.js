@@ -186,8 +186,10 @@ export default function Header() {
         <Link href="/" className="cursor-pointer">
           <Image src={logo} alt="Rectem logo" width={30} height={30} />
         </Link>
-        <div className="text-[0.85rem] md:hidden">
-          <h6 className="text-[#003DA5] font-semibold">2023/2024 ND & HND ADMISSION IS NOW OPEN</h6>
+        <div className="text-[0.85rem] md:hidden font-semibold">
+          <h6 className="text-[#003DA5]">
+            2023/2024 ND & HND ADMISSION IS NOW OPEN
+          </h6>
           <a
             href="https://portal.rectem.edu.ng"
             className="text-[#D6336B] cursor-pointer"
