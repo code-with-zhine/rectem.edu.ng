@@ -278,7 +278,7 @@ export default function Footer() {
         </div>
       </section>
       <div className="px-5 md:px-10 bg-yellow-500 py-3 text-xs text-blue-800 font-semibold">
-        <ul className="flex flex-wrap divide-x-2">
+        <ul className="flex flex-wrap sm:divide-x-2">
           <li className="px-2">
             <Link href="/privacy" className="cursor-pointer">
               Privacy and Accessibility
