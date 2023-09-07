@@ -4,19 +4,19 @@ export default function Event({ month, date, time, event, location }) {
   return (
     <>
       <article className="flex items-center gap-5 py-2 cursor-pointer">
-        <div className="text-white">
+        <div className="text-white w-16">
           <h2
-            className="px-3 py-2 text-center bg-yellow-500 text-white font-extrabold"
+            className="px-3 py-2 text-center bg-yellow-500 text-white font-extrabold "
           >
             {month}
           </h2>
           <h2 className="px-3 py-2 text-center bg-blue-800 font-semibold">{date}</h2>
         </div>
-        <div>
+        <div className="pl-2">
           <h6 className="text-blue-800 font-semibold tracking-wider line-clamp-2">
             {event}
           </h6>
-          <div className="flex flex-col gap-1 text-xs tracking-wider">
+          <div className="flex flex-col gap-1 text-xs">
             <div>
               <svg
                 className="inline"

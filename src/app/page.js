@@ -212,7 +212,7 @@ export default function Home() {
           </div>
           <div className="md:w-1/2">
             <h2 className={`text-xl text-[#003DA5] pb-2 ${gemsbuck.className}`}>
-              School of Part-Time Studies: Empowering Your Educational Journey
+              School of Part-Time: Empowering Your Educational Journey
             </h2>
             <p className="text-gray-500 pb-5 text-justify">
               {`At the Redeemer's College of Technology and Management, we
