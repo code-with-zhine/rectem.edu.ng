@@ -194,7 +194,7 @@ export default function Home() {
             <h2 className={`pb-1 text-xl ${gemsbuck.className}`}>
               EXPLORE RECTEM
             </h2>
-            <p className="pb-3 tracking-wider text-justify">
+            <p className="pb-3 t">
               {`Embark on a journey through the RECTEM campus, granting you an
               exclusive insider's view from anywhere around the globe.`}
             </p>
@@ -309,7 +309,7 @@ export default function Home() {
             </svg>
             <Link
               href="/admission-cost"
-              className="text-xs text-center bg-[#003DA5] text-white tracking-wider uppercase font-semibold p-4 hover:bg-[#D6336B]"
+              className="text-xs text-center bg-[#003DA5] text-white uppercase font-semibold p-4 hover:bg-[#D6336B]"
             >
               FEES STRUCTURE
             </Link>
@@ -317,10 +317,10 @@ export default function Home() {
         </section>
         <section className="px-5 md:px-10 bg-[url('/degree.png')] bg-no-repeat bg-cover py-20">
           <div className="p-7 md:p-10 ml-auto bg-[#003DA5] bg-opacity-70 max-w-[600px] text-white">
-            <h2 className={`pb-1 tracking-wider ${gemsbuck.className}`}>
+            <h2 className={`pb-1 ${gemsbuck.className}`}>
               ENTREPRENEURSHIP PROGRAMMES
             </h2>
-            <p className="pb-3 tracking-wider">
+            <p className="pb-3">
               RECTEM entrepreneurship programmes are designed to empower
               individuals with the skills, knowledge, and mindset needed to
               excel in the world of business and innovation.
@@ -353,7 +353,7 @@ export default function Home() {
               </svg>
               <div className="flex flex-col gap-2 bg-white text-gray-500 p-4 pt-6 pb-16">
                 <h4
-                  className={`${gemsbuck.className} text-[#003DA5] tracking-wider min-h-[60px]`}
+                  className={`${gemsbuck.className} text-[#003DA5] min-h-[60px]`}
                 >
                   FULLY ACCREDITED PROGRAMS
                 </h4>
@@ -452,7 +452,7 @@ export default function Home() {
             <h2 className={`pb-1 text-xl text-[#003DA5] ${gemsbuck.className}`}>
               The Student Experience
             </h2>
-            <p className="text-black pb-3 tracking-wider">
+            <p className="text-black pb-3">
               We believe that education is not confined to the classroom. Our
               commitment extends beyond academics to encompass a holistic
               student experience that nurtures growth, fosters connections, and
