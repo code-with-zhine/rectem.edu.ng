@@ -52,7 +52,7 @@ export default function Home() {
                     Quality Education and Programs
                   </h6>
                   <p>
-                    RECTEM's School of Engineering offers a comprehensive range
+                    {`RECTEM's School of Engineering offers a comprehensive range
                     of degree programs tailored to meet the demands of today's
                     engineering landscape. These programs encompass a variety of
                     disciplines, including Civil Engineering, Electrical and
@@ -60,7 +60,7 @@ export default function Home() {
                     Engineering, and more. Each program is meticulously designed
                     to provide students with a solid foundation of theoretical
                     knowledge and practical skills necessary to thrive in their
-                    chosen fields.
+                    chosen fields.`}
                   </p>
                 </li>
                 <li className="py-4">
@@ -82,13 +82,13 @@ export default function Home() {
                     Facilities
                   </h6>
                   <p>
-                    RECTEM's commitment to excellence is reflected in its
+                    {`RECTEM's commitment to excellence is reflected in its
                     facilities, laboratories, and workshops. The School of
                     Engineering provides students with access to modern
                     equipment and technology that simulate real-world
                     engineering scenarios. This practical approach enables
                     students to experiment, design, and apply their theoretical
-                    knowledge to solve complex engineering challenges.
+                    knowledge to solve complex engineering challenges.`}
                   </p>
                 </li>
                 <li className="py-4">
@@ -110,13 +110,13 @@ export default function Home() {
                     Industry Partnerships
                   </h6>
                   <p>
-                    RECTEM's School of Engineering maintains strong ties with
+                    {`RECTEM's School of Engineering maintains strong ties with
                     various industries, including engineering firms,
                     corporations, and governmental organizations. These
                     partnerships provide students with opportunities for
                     internships, co-op programs, and networking events, enabling
                     them to build valuable connections and gain insights into
-                    the practical applications of their studies.
+                    the practical applications of their studies.`}
                   </p>
                 </li>
                 <li className="py-4">
@@ -124,12 +124,12 @@ export default function Home() {
                     Global Perspective
                   </h6>
                   <p>
-                    In an increasingly interconnected world, the School of
+                    {`In an increasingly interconnected world, the School of
                     Engineering at RECTEM recognizes the importance of a global
                     perspective. International collaborations, exchange
                     programs, and exposure to diverse engineering practices
                     broaden students' horizons and prepare them to work in
-                    multicultural environments.
+                    multicultural environments.`}
                   </p>
                 </li>
                 <li className="py-4">
@@ -137,12 +137,12 @@ export default function Home() {
                     Ethical and Responsible Engineering
                   </h6>
                   <p>
-                    Integral to RECTEM's philosophy is the emphasis on ethical
+                    {`Integral to RECTEM's philosophy is the emphasis on ethical
                     and responsible engineering practices. The School of
                     Engineering instills in its students a deep sense of social
                     responsibility, encouraging them to apply their skills and
                     knowledge to create sustainable solutions that address
-                    societal and environmental challenges.
+                    societal and environmental challenges.`}
                   </p>
                 </li>
               </ul>

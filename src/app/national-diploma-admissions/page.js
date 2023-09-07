@@ -214,11 +214,11 @@ const Tabs = () => {
                         className="text-[#D6336B] cursor-pointer"
                       >
                         application portal
-                      </a>{" "}
-                      or admission office, redeemers college of technology and
+                      </a>
+                      {`or admission office, redeemers college of technology and
                       management redemption city mowe, ogun state. As
                       prospective students, it's vital to accurately complete
-                      the application form and provide all required information.
+                      the application form and provide all required information.`}
                     </p>
                   </li>
 
@@ -240,12 +240,12 @@ const Tabs = () => {
                       Screening
                     </h6>
                     <p className="text-justify">
-                      Once application forms are submitted, candidates may
+                      {`Once application forms are submitted, candidates may
                       undergo a screening process. This may entail submitting
                       crucial documents such as academic transcripts, birth
                       certificates, and other credentials. Additionally, written
                       tests or interviews could be conducted to assess
-                      candidates' suitability for our programs.
+                      candidates' suitability for our programs.`}
                     </p>
                   </li>
 
@@ -317,11 +317,11 @@ const Tabs = () => {
                         className="text-[#D6336B] cursor-pointer"
                       >
                         application portal
-                      </a>{" "}
-                      or admission office, redeemers college of technology and
+                      </a>
+                      {`or admission office, redeemers college of technology and
                       management redemption city mowe, ogun state. As
                       prospective students, it's vital to accurately complete
-                      the application form and provide all required information.
+                      the application form and provide all required information.`}
                     </p>
                   </li>
 
@@ -343,12 +343,12 @@ const Tabs = () => {
                       Screening
                     </h6>
                     <p className="text-justify">
-                      Once application forms are submitted, candidates may
+                      {`Once application forms are submitted, candidates may
                       undergo a screening process. This may entail submitting
                       crucial documents such as academic transcripts, birth
                       certificates, and other credentials. Additionally, written
                       tests or interviews could be conducted to assess
-                      candidates' suitability for our programs.
+                      candidates' suitability for our programs.`}
                     </p>
                   </li>
 

@@ -187,9 +187,7 @@ const Tabs = () => {
                 Redeemers College of Technology and Management are as follows:
               </p>
 
-              <h4
-                className={`text-gray-600 tracking-wider font-semibold `}
-              >
+              <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 Eligibility Criteria
               </h4>
               <p className="text-gray-500 text-justify">
@@ -199,9 +197,7 @@ const Tabs = () => {
                 (6) credits at not more than two sittings.
               </p>
 
-              <h4
-                className={`text-gray-600 tracking-wider font-semibold `}
-              >
+              <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 Admission
               </h4>
               <p className="text-gray-500 text-justify">
@@ -213,15 +209,13 @@ const Tabs = () => {
                 >
                   application portal
                 </a>{" "}
-                or admission office, redeemers college of technology and
+                {`or admission office, redeemers college of technology and
                 management redemption city mowe, ogun state. As prospective
                 students, it's vital to accurately complete the application form
-                and provide all required information.
+                and provide all required information.`}
               </p>
 
-              <h4
-                className={`text-gray-600 tracking-wider font-semibold `}
-              >
+              <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 JAMB UTME
               </h4>
               <p className="text-gray-500 text-justify">
@@ -230,21 +224,17 @@ const Tabs = () => {
                 Examination (UTME) conducted by the Joint Admissions and
                 Matriculation Board (JAMB) for our ND programs.
               </p>
-              <h4
-                className={`text-gray-600 tracking-wider font-semibold `}
-              >
+              <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 Screening
               </h4>
               <p className="text-gray-500 text-justify">
-                Once application forms are submitted, candidates may undergo a
+                {`Once application forms are submitted, candidates may undergo a
                 screening process. This may entail submitting crucial documents
                 such as academic transcripts, birth certificates, and other
                 credentials. Additionally, written tests or interviews could be
-                conducted to assess candidates' suitability for our programs.
+                conducted to assess candidates' suitability for our programs.`}
               </p>
-              <h4
-                className={`text-gray-600 tracking-wider font-semibold `}
-              >
+              <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 Acceptance and Registration
               </h4>
               <p className="text-gray-500 text-justify">
@@ -281,9 +271,7 @@ const Tabs = () => {
                 Redeemers College of Technology and Management are as follows:
               </p>
 
-              <h4
-                className={`text-gray-600 tracking-wider font-semibold `}
-              >
+              <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 Eligibility Criteria
               </h4>
               <p className="text-gray-500 text-justify">
@@ -293,9 +281,7 @@ const Tabs = () => {
                 (6) credits at not more than two sittings.
               </p>
 
-              <h4
-                className={`text-gray-600 tracking-wider font-semibold `}
-              >
+              <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 Admission
               </h4>
               <p className="text-gray-500 text-justify">
@@ -306,16 +292,14 @@ const Tabs = () => {
                   className="text-[#D6336B] cursor-pointer"
                 >
                   application portal
-                </a>{" "}
-                or admission office, redeemers college of technology and
+                </a>
+                {`or admission office, redeemers college of technology and
                 management redemption city mowe, ogun state. As prospective
                 students, it's vital to accurately complete the application form
-                and provide all required information.
+                and provide all required information.`}
               </p>
 
-              <h4
-                className={`text-gray-600 tracking-wider font-semibold `}
-              >
+              <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 JAMB UTME
               </h4>
               <p className="text-gray-500 text-justify">
@@ -324,21 +308,17 @@ const Tabs = () => {
                 Examination (UTME) conducted by the Joint Admissions and
                 Matriculation Board (JAMB) for our ND programs.
               </p>
-              <h4
-                className={`text-gray-600 tracking-wider font-semibold `}
-              >
+              <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 Screening
               </h4>
               <p className="text-gray-500 text-justify">
-                Once application forms are submitted, candidates may undergo a
+                {`Once application forms are submitted, candidates may undergo a
                 screening process. This may entail submitting crucial documents
                 such as academic transcripts, birth certificates, and other
                 credentials. Additionally, written tests or interviews could be
-                conducted to assess candidates' suitability for our programs.
+                conducted to assess candidates' suitability for our programs.`}
               </p>
-              <h4
-                className={`text-gray-600 tracking-wider font-semibold `}
-              >
+              <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 Acceptance and Registration
               </h4>
               <p className="text-gray-500 text-justify">

@@ -41,6 +41,7 @@ export default function Slider() {
           <div className=" w-full text-white tracking-wider">
             <Image
               src="/bg.png"
+              alt=""
               width={700}
               height={500}
               className="min-h-[300px]"
@@ -62,6 +63,7 @@ export default function Slider() {
           <div className=" w-full text-white tracking-wider">
             <Image
               src="/bg.png"
+              alt=""
               width={700}
               height={500}
               className="min-h-[300px]"

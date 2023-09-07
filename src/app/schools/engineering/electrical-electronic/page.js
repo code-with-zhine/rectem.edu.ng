@@ -189,7 +189,7 @@ export default function Home() {
                 </a>
                 <hr />
                 <a
-                  href="national-diploma"
+                  href="/national-diploma"
                   className="text-xs font-semibold text-[#D6336B] cursor-pointer uppercase py-2"
                 >
                   <svg

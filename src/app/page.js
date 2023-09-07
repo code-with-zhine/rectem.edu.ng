@@ -58,14 +58,14 @@ export default function Home() {
               RAISING GLOBAL CHAMPION
             </h2>
             <p className="text-gray-500 pb-3 text-justify">
-              Redeemer's College of Science and Technology believe in the
+              {`Redeemer's College of Science and Technology believe in the
               boundless potential of scientific discovery and technological
               innovation. Our institution stands as a testament to the
               transformative power of education, where students embark on a
               journey of exploration, creativity, and intellectual growth. From
               cutting-edge research to hands-on experiential learning, we are
               dedicated to shaping the next generation of leaders, thinkers, and
-              problem solvers.
+              problem solvers.`}
             </p>
             <Link
               href="/about"
@@ -195,8 +195,8 @@ export default function Home() {
               EXPLORE RECTEM
             </h2>
             <p className="pb-3 tracking-wider text-justify">
-              Embark on a journey through the RECTEM campus, granting you an
-              exclusive insider's view from anywhere around the globe.
+              {`Embark on a journey through the RECTEM campus, granting you an
+              exclusive insider's view from anywhere around the globe.`}
             </p>
             <Link
               href="/campus-map"
@@ -217,13 +217,13 @@ export default function Home() {
               School of Part-Time Studies: Empowering Your Educational Journey
             </h2>
             <p className="text-gray-500 pb-5 text-justify">
-              At the Redeemer's College of Technology and Management, we
+              {`At the Redeemer's College of Technology and Management, we
               understand that the pursuit of higher education often aligns with
               existing commitments and responsibilities. That's why we proudly
               introduce the School of Part-Time Studies, a dynamic platform
               designed to provide flexible and accessible learning opportunities
               to individuals who are seeking to enhance their skills and
-              knowledge while balancing work, family, and personal commitments.
+              knowledge while balancing work, family, and personal commitments.`}
             </p>
             <Link
               href="/schools/part-time"
@@ -294,9 +294,9 @@ export default function Home() {
             Learn How Affordable RECTEM Fees Can Be
           </h4>
           <p className="p-5 text-gray-500">
-            Our philosophy centers on delivering world-class education that
+            {`Our philosophy centers on delivering world-class education that
             doesn't come with a hefty price tag. We firmly believe that
-            affordability should never compromise the quality of education.
+            affordability should never compromise the quality of education.`}
           </p>
           <div className="grid gap-4 max-w-sm mx-auto border rounded-sm pt-4">
             <svg
@@ -444,8 +444,8 @@ export default function Home() {
                   FAST ACADEMIC CALENDAR
                 </h4>
                 <p>
-                  We are not members of organized labour hence we don't go on
-                  strike making our academic calendar faster.
+                  {`We are not members of organized labour hence we don't go on
+                  strike making our academic calendar faster.`}
                 </p>
               </div>
             </article>

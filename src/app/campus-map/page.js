@@ -39,13 +39,13 @@ export default function Home() {
               <hr className="border-[#f1ab00]" />
               <div className="text-gray-500">
                 <p className="text-justify">
-                  Welcome to Redeemers College of Technology and Management! Our
+                  {`Welcome to Redeemers College of Technology and Management! Our
                   vibrant campus offers a dynamic learning environment where
                   students, faculty, and visitors can thrive. To help you
                   navigate our extensive facilities, we have created this
                   comprehensive campus map. Whether you're a new student,
                   faculty member, or a guest, this guide will assist you in
-                  finding your way around our beautiful campus.
+                  finding your way around our beautiful campus.`}
                 </p>
               </div>
               <div className="grid grid-cols-1 py-5 text-gray-500">
@@ -55,11 +55,11 @@ export default function Home() {
                       Administration Building
                     </h6>
                     <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
-                      Start your journey at the Administration Building, where
+                      {`Start your journey at the Administration Building, where
                       you'll find our administrative offices, including
                       admissions, finance, and academic services. Our friendly
                       staff is here to assist you with any inquiries or support
-                      you may need.
+                      you may need.`}
                     </p>
                     <a
                       className="text-[#D6336B] text-xs uppercase w-full tracking-wider font-semibold"
@@ -83,6 +83,7 @@ export default function Home() {
                   <Image
                     className="col-span-1 hover:bg-[#003DA5] hover:bg-opacity-30 hover:border cursor-pointer"
                     src=""
+                    alt=""
                     width={250}
                     height={250}
                   />
@@ -119,6 +120,7 @@ export default function Home() {
                   </div>
                   <Image
                     className="col-span-1 hover:bg-[#003DA5] hover:bg-opacity-30 hover:border cursor-pointer"
+                    alt=""
                     src=""
                     width={250}
                     height={250}
@@ -128,10 +130,10 @@ export default function Home() {
                   <div className="col-span-2">
                     <h6 className="font-semibold text-gray-600">Library</h6>
                     <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
-                      The heart of academic research, our library houses an
+                      {`The heart of academic research, our library houses an
                       extensive collection of books, journals, and digital
                       resources. It's also a quiet space for studying and group
-                      collaboration.
+                      collaboration.`}
                     </p>
                     <a
                       className="text-[#D6336B] text-xs uppercase w-full tracking-wider font-semibold"
@@ -155,6 +157,7 @@ export default function Home() {
                   <Image
                     className="col-span-1 hover:bg-[#003DA5] hover:bg-opacity-30 hover:border cursor-pointer"
                     src=""
+                    alt=""
                     width={250}
                     height={250}
                   />
@@ -191,6 +194,7 @@ export default function Home() {
                   <Image
                     className="col-span-1 hover:bg-[#003DA5] hover:bg-opacity-30 hover:border cursor-pointer"
                     src=""
+                    alt=""
                     width={250}
                     height={250}
                   />

@@ -49,7 +49,7 @@ export default function Home() {
             </h1>
             <hr className="w-32 border-[#f1ab00]" />
             <p className="py-5 text-gray-500 text-justify">
-              The Redeemer's College of Technology and Management (RECTEM) was
+              {`The Redeemer's College of Technology and Management (RECTEM) was
               borne out of the vision of the General overseer of the Redeemed
               Christian Church of God, Pastor Enoch Adejare Adeboye early in
               2015, to have two world class Tertiary Institutions in the field
@@ -68,7 +68,7 @@ export default function Home() {
               Education (NBTE) for assessment and approval purpose. These
               painstaking efforts culminated in the approval by the Federal
               Government and issuance of operating license for RECTEM to
-              commence on 3rd September, 2018.
+              commence on 3rd September, 2018.`}
             </p>
           </div>
           <div className="sm:col-span-1">
@@ -239,9 +239,9 @@ export default function Home() {
               />
             </svg>
             <p className="text-gray-500">
-              To produce skilled manpower that is globally competitive and are
+              {`To produce skilled manpower that is globally competitive and are
               required by large companies, as well as the nation's micro, small
-              and medium enterprises.
+              and medium enterprises.`}
             </p>
           </li>
           {/* <li className="bg-white shadow-md rounded-md p-6">

@@ -189,7 +189,7 @@ export default function Header() {
         <h4
           className={`hidden md:block text-[#003DA5] md:text-lg tracking-wide ${gemsbuck.className}`}
         >
-          REDEEMER'S COLLEGE OF TECHNOLOGY AND MANAGEMENT
+          {`REDEEMER'S COLLEGE OF TECHNOLOGY AND MANAGEMENT`}
         </h4>
       </div>
       {/* END SITE LOGO & TITLE */}
@@ -198,7 +198,7 @@ export default function Header() {
         <h6
           className={`md:hidden sm:block flex-1 py-3 pl-2 tracking-widest text-xs ${gemsbuck.className}`}
         >
-          REDEEMER'S COLLEGE OF TECHNOLOGY AND MANAGEMENT
+          {`REDEEMER'S COLLEGE OF TECHNOLOGY AND MANAGEMENT`}
         </h6>
         <button
           className="md:hidden sm:block bg-[#f1ab00] px-2"

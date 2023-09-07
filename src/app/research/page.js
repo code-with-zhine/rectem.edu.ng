@@ -38,14 +38,14 @@ export default function Home() {
               <hr className="border-[#f1ab00]" />
               <div className="text-gray-500">
                 <p className="text-justify">
-                  We are committed to fostering a culture of innovation,
+                  {`We are committed to fostering a culture of innovation,
                   discovery, and academic excellence. Our dedication to research
                   and publications is a testament to our mission to empower
                   students and faculty members to explore, create, and
                   disseminate knowledge that positively impacts society. In this
                   document, we provide an overview of our institution's
                   commitment to research and our achievements in the realm of
-                  academic publications.
+                  academic publications.`}
                 </p>
                 <ul className="py-10">
                   <li className="py-4">

@@ -38,14 +38,14 @@ export default function Home() {
               <hr className="border-[#f1ab00]" />
               <div className="text-gray-500">
                 <p className="text-justify">
-                  The National Diploma (ND) programme in Nigeria is a
+                  {`The National Diploma (ND) programme in Nigeria is a
                   significant component of the country's tertiary education
                   system, providing students with practical skills and knowledge
                   in various fields. It is a two-year academic program offered
                   by polytechnics and similar institutions across the country.
                   The ND programme plays a vital role in preparing students for
                   employment or further education, aligning with Nigeria's
-                  developmental goals and needs.
+                  developmental goals and needs.`}
                 </p>
                 <ul className="py-10">
                   <li className="py-4">
@@ -110,14 +110,14 @@ export default function Home() {
                       Practical Training
                     </h6>
                     <p className="text-justify">
-                      Practical training is a cornerstone of the ND programme.
+                      {`Practical training is a cornerstone of the ND programme.
                       Students engage in laboratory work, workshops, and
                       projects that simulate real-world scenarios. Some
                       programmes also incorporate industrial training, where
                       students spend a certain period working in industries
                       related to their field of study. This hands-on experience
                       enhances students' employability and prepares them for the
-                      demands of the workforce.
+                      demands of the workforce.`}
                     </p>
                   </li>
 
@@ -126,13 +126,13 @@ export default function Home() {
                       Career Prospects
                     </h6>
                     <p className="text-justify">
-                      Graduates of the ND programme have a wide range of career
+                      {`Graduates of the ND programme have a wide range of career
                       opportunities. They can enter the workforce directly,
                       applying their skills and knowledge in various industries.
                       Alternatively, some graduates choose to pursue further
                       education, often progressing to Higher National Diploma
                       (HND) programmes, bachelor's degree programmes, or
-                      professional certifications.
+                      professional certifications.`}
                     </p>
                   </li>
 
@@ -141,11 +141,11 @@ export default function Home() {
                       Contribution to Development
                     </h6>
                     <p className="text-justify">
-                      The ND programme plays a crucial role in addressing the
+                      {`The ND programme plays a crucial role in addressing the
                       skills gap in Nigeria's workforce. By producing graduates
                       with practical skills that align with industry needs, the
                       programme contributes to economic development, innovation,
-                      and technological advancement in the country.
+                      and technological advancement in the country.`}
                     </p>
                   </li>
                 </ul>

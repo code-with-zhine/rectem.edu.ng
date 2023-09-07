@@ -37,7 +37,7 @@ export default function Home() {
             <hr className="w-32 border-[#f1ab00]" />
             <div className="text-gray-500 text-justify">
               <p>
-                In today's fast-paced world, education is no longer confined to
+                {`In today's fast-paced world, education is no longer confined to
                 traditional classroom settings and rigid schedules. Recognizing
                 the evolving needs of modern learners, Redeemers College of
                 Technology and Management has taken a pioneering step by
@@ -45,7 +45,7 @@ export default function Home() {
                 This initiative aims to bridge the gap between higher education
                 and the demands of a dynamic society, offering students a chance
                 to pursue their academic dreams while juggling various other
-                commitments.
+                commitments.`}
               </p>
               <ul className="py-5">
                 <li className="py-4">
@@ -84,14 +84,14 @@ export default function Home() {
                     Blending Technology and Interaction
                   </h6>
                   <p>
-                    Leveraging technology to enhance learning, Redeemers College
+                    {`Leveraging technology to enhance learning, Redeemers College
                     integrates online platforms and digital resources into the
                     School of Part-Time's framework. Students can access lecture
                     materials, participate in virtual discussions, and
                     collaborate with peers through online portals. This approach
                     not only facilitates learning at one's own pace but also
                     fosters a sense of community among part-time students,
-                    creating a supportive network even in the virtual space.
+                    creating a supportive network even in the virtual space.`}
                   </p>
                 </li>
                 <li className="py-4">

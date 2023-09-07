@@ -50,7 +50,9 @@ export default function Home() {
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                     <article>
                       <div className="py-4">
-                        <h6 className="font-semibold text-gray-600">Modern Lecture Halls</h6>
+                        <h6 className="font-semibold text-gray-600">
+                          Modern Lecture Halls
+                        </h6>
                         <p className="text-justify">
                           RECTEM boasts well-equipped classrooms and lecture
                           halls that facilitate interactive and engaging
@@ -107,12 +109,12 @@ export default function Home() {
                           Computer Labs and IT Infrastructure
                         </h6>
                         <p className="text-justify">
-                          RECTEM's computer labs are equipped with the latest
+                          {`RECTEM's computer labs are equipped with the latest
                           technology, allowing students to practice coding,
                           software development, simulations, and more. The
                           college's robust IT infrastructure ensures seamless
                           connectivity, enabling students to access online
-                          resources and engage in virtual learning experiences.
+                          resources and engage in virtual learning experiences.`}
                         </p>
                       </div>
                       <div className="py-4">
@@ -129,7 +131,9 @@ export default function Home() {
                         </p>
                       </div>
                       <div className="py-4">
-                        <h6 className="font-semibold text-gray-600">Research Centers</h6>
+                        <h6 className="font-semibold text-gray-600">
+                          Research Centers
+                        </h6>
                         <p className="text-justify">
                           For students keen on research, RECTEM offers dedicated
                           research centers that encourage exploration and
@@ -157,11 +161,11 @@ export default function Home() {
                           Auditoriums and Event Spaces
                         </h6>
                         <p className="text-justify">
-                          RECTEM's auditoriums and event spaces are designed to
+                          {`RECTEM's auditoriums and event spaces are designed to
                           host seminars, conferences, workshops, and cultural
                           events. These spaces provide a platform for students
                           to showcase their talents, share knowledge, and engage
-                          with industry experts.
+                          with industry experts.`}
                         </p>
                       </div>
                     </article>
@@ -291,7 +295,6 @@ export default function Home() {
                 RESEARCH & PUBLICATION
               </Link>
               <hr />
-              
             </div>
           </div>
         </div>

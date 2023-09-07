@@ -37,14 +37,14 @@ export default function Home() {
             <hr className="w-32 border-[rgb(241,171,0)]" />
             <div className="text-gray-500">
               <p className="text-justify">
-                Student housing plays a vital role in the overall college
+                {` Student housing plays a vital role in the overall college
                 experience, impacting academic performance, personal growth, and
                 overall well-being. At Redeemers College of Technology and
                 Management, the commitment to providing exceptional student
                 housing goes beyond mere accommodation. With a focus on
                 fostering a supportive and enriching environment, the college's
                 student housing facilities contribute significantly to the
-                holistic development of its students.
+                holistic development of its students.`}
               </p>
               <ul className="py-5">
                 <li className="py-4">
@@ -86,13 +86,13 @@ export default function Home() {
                     Facilities
                   </h6>
                   <p className="text-justify">
-                    RECTEM's commitment to excellence is reflected in its
+                    {`RECTEM's commitment to excellence is reflected in its
                     facilities, laboratories, and workshops. The School of
                     Engineering provides students with access to modern
                     equipment and technology that simulate real-world
                     engineering scenarios. This practical approach enables
                     students to experiment, design, and apply their theoretical
-                    knowledge to solve complex engineering challenges.
+                    knowledge to solve complex engineering challenges.`}
                   </p>
                 </li>
                 <li className="py-4">
@@ -100,14 +100,14 @@ export default function Home() {
                     Creating a Community
                   </h6>
                   <p className="text-justify">
-                    Student housing is not just about a place to sleep; it's
+                    {`Student housing is not just about a place to sleep; it's
                     about creating a community that supports personal growth and
                     lifelong friendships. Redeemers College fosters this sense
                     of community through various initiatives, including social
                     events, workshops, and shared spaces within the housing
                     complexes. Collaborative study lounges, communal kitchens,
                     and recreational areas encourage students to interact, share
-                    experiences, and learn from one another.
+                    experiences, and learn from one another.`}
                   </p>
                 </li>
                 <li className="py-4">
@@ -115,13 +115,13 @@ export default function Home() {
                     Supportive Staff
                   </h6>
                   <p className="text-justify">
-                    The college's commitment to student success extends to its
+                    {`The college's commitment to student success extends to its
                     housing staff. Dedicated resident advisors are available to
                     assist students with any concerns, provide guidance, and
                     organize activities that promote personal development and a
                     sense of belonging. This support network ensures that
                     students feel valued and heard throughout their academic
-                    journey.
+                    journey.`}
                   </p>
                 </li>
                 <li className="py-4">
@@ -129,15 +129,14 @@ export default function Home() {
                     Safety and Security
                   </h6>
                   <p className="text-justify">
-                    Safety is a top priority in Redeemers College's student
+                    {`Safety is a top priority in Redeemers College's student
                     housing. The facilities are equipped with modern security
                     measures, including surveillance cameras, secure entry
                     systems, and 24/7 security personnel. This ensures that
                     students can focus on their studies and extracurricular
-                    activities without worrying about their well-being.
+                    activities without worrying about their well-being.`}
                   </p>
                 </li>
-                
               </ul>
             </div>
           </div>
@@ -206,11 +205,10 @@ export default function Home() {
                       d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z"
                     />
                   </svg>
-                 CENTER & FACILITIES
+                  CENTER & FACILITIES
                 </Link>
               </div>
             </div>
-            
           </div>
         </div>
       </section>

@@ -20,11 +20,11 @@ export default function NewsCard() {
           Admissions for 2022/2023 Now Open!
         </h6>
         <p className="text-gray-500 line-clamp-5 mb-10">
-          Are you ready to embark on a transformative educational journey? Look
+          {`Are you ready to embark on a transformative educational journey? Look
           no further than REDEEMER'S COLLEGE, where doors are opening for the
           2022/2023 academic year. With a legacy of excellence in education and
           a commitment to fostering future leaders, RECTEM invites you to join
-          our vibrant community and unlock the path to a brighter future.
+          our vibrant community and unlock the path to a brighter future.`}
         </p>
       </div>
       <button className="absolute bottom-0 w-full text-xs font-medium bg-blue-800 hover:bg-blue-900 text-white text-left tracking-wider px-4 py-1 m-0">

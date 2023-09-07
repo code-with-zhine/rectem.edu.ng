@@ -39,14 +39,14 @@ export default function Home() {
               <hr className="border-[#f1ab00]" />
               <div className="text-gray-500 text-justify">
                 <p>
-                  Redeemer's College of Technology and Management (RECTEM) is a
+                  {`Redeemer's College of Technology and Management (RECTEM) is a
                   distinguished institution that stands at the intersection of
                   education and spirituality. Founded on the principles of
                   academic excellence and faith-based values, RECTEM has become
                   a symbol of quality education in Nigeria and beyond. At the
                   heart of this institution's success are its distinguished
                   visitors, Pastor E.A. Adeboye and Mrs. Folu Adeboye, who
-                  exemplify a commitment to both education and spirituality.
+                  exemplify a commitment to both education and spirituality.`}
                 </p>
               </div>
               <div className="grid grid-cols-1 py-5 text-gray-500">
@@ -54,6 +54,7 @@ export default function Home() {
                   <Image
                     className="col-span-1 hover:bg-[#003DA5] hover:bg-opacity-30 hover:border cursor-pointer"
                     src=""
+                    alt=""
                     width={250}
                     height={300}
                   />
@@ -62,7 +63,7 @@ export default function Home() {
                       The Chairman - J.F. Odesola, PhD
                     </h6>
                     <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
-                      Pastor J.F. Odesola is the Assistant General
+                      {`Pastor J.F. Odesola is the Assistant General
                       Overseer(Admin/Personnel) in the Redeemed Christian Church
                       of God, an HIV/AIDS and Economic Justice Activist. An
                       accomplished Author of more than 50 books and many
@@ -75,7 +76,7 @@ export default function Home() {
                       Belfast, A PhD in Christian Education from Ashland
                       University and another PhD in Intercultural Studies from
                       Trinity International University, a Professor of Divinity
-                      with Trinity International Institute of Advance Studies.
+                      with Trinity International Institute of Advance Studies.`}
                     </p>
                     <a
                       className="text-[#D6336B] text-xs uppercase w-full tracking-wider font-semibold"
@@ -101,6 +102,7 @@ export default function Home() {
                   <Image
                     className="col-span-1 hover:bg-[#003DA5] hover:bg-opacity-30 hover:border cursor-pointer"
                     src=""
+                    alt=""
                     width={250}
                     height={300}
                   />
@@ -109,7 +111,7 @@ export default function Home() {
                       The Chairman - J.F. Odesola, PhD
                     </h6>
                     <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
-                      Pastor J.F. Odesola is the Assistant General
+                      {`Pastor J.F. Odesola is the Assistant General
                       Overseer(Admin/Personnel) in the Redeemed Christian Church
                       of God, an HIV/AIDS and Economic Justice Activist. An
                       accomplished Author of more than 50 books and many
@@ -122,7 +124,7 @@ export default function Home() {
                       Belfast, A PhD in Christian Education from Ashland
                       University and another PhD in Intercultural Studies from
                       Trinity International University, a Professor of Divinity
-                      with Trinity International Institute of Advance Studies.
+                      with Trinity International Institute of Advance Studies.`}
                     </p>
                     <a
                       className="text-[#D6336B] text-xs uppercase w-full tracking-wider font-semibold"

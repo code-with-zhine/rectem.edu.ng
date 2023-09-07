@@ -64,11 +64,11 @@ export default function Home() {
                       website.
                     </li>
                     <li>
-                      Non-Personal Information: We may collect information about
+                      {`Non-Personal Information: We may collect information about
                       your browsing habits, such as your IP address, browser
                       type, and pages visited on our site. This information is
                       used to improve our website's functionality and user
-                      experience.
+                      experience.`}
                     </li>
                   </ol>
                 </article>

@@ -38,11 +38,11 @@ export default function Footer() {
                 <li className="font-bold text-sm">OUR PHILOSOPHY</li>
                 <hr className="border-yellow-500" />
                 <p className="py-4 text-[0.9rem]">
-                  The philosophy of RECTEM is to attain the ultimate height in
+                  {`The philosophy of RECTEM is to attain the ultimate height in
                   providing middle and high level technical and vocational
                   training of the highest standard in order to create a pool of
                   highly trained technicians and technologists that will support
-                  the Nation's Engineering Infrastructural Development.
+                  the Nation's Engineering Infrastructural Development.`}
                 </p>
               </ul>
               <hr className="border-yellow-500" />

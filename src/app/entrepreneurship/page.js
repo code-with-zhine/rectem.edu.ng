@@ -39,24 +39,24 @@ export default function Home() {
               <hr className="border-[#f1ab00]" />
               <div className="text-gray-500">
                 <p>
-                  We are committed to empowering the next generation of
+                  {`We are committed to empowering the next generation of
                   entrepreneurs and equipping them with essential skills for
                   success in today's dynamic business landscape. Our mission is
                   to foster a culture of innovation, creativity, and
                   entrepreneurship, ensuring that our students are well-prepared
                   to thrive in an ever-evolving world of business and
-                  technology.
+                  technology.`}
                 </p>
                 <article className="py-4">
                   <h6 className="font-semibold">Entrepreneurship Education</h6>
                   <p>
-                    Entrepreneurship is at the heart of our academic programs.
+                    {`Entrepreneurship is at the heart of our academic programs.
                     We believe that entrepreneurship is not just a career path;
                     it's a mindset. Our curriculum is designed to cultivate this
                     entrepreneurial spirit in our students, whether they aspire
                     to start their own businesses or excel in existing
                     enterprises. Here's what you can expect from our
-                    entrepreneurship education:
+                    entrepreneurship education:`}
                   </p>
                   <ol className="py-5 pl-12 list-decimal">
                     <li>Web Development</li>
@@ -81,9 +81,9 @@ export default function Home() {
                   <address className="py-4">
                     <p>For any enquires visit:</p>
                     <p>
-                      Entrepreneurship and skills acquisition, Administrative Block, KM 46 Lagos -
-                      Ibadan Expressway, Redemption City, Mowe, Ogun State,
-                      Nigeria.
+                      Entrepreneurship and skills acquisition, Administrative
+                      Block, KM 46 Lagos - Ibadan Expressway, Redemption City,
+                      Mowe, Ogun State, Nigeria.
                     </p>
                   </address>
                 </article>
