@@ -290,61 +290,40 @@ const Tabs = () => {
       {activeTab === "tab1" && (
         <div className="py-4 text-gray-500">
           <p className="text-justify">
-            In the rapidly evolving landscape of technology, computer
-            engineering stands as a cornerstone, driving innovation and
-            progress. In Nigeria, the pursuit of a National Diploma in Computer
-            Engineering offers students the opportunity to become pioneers in
-            this dynamic field. This comprehensive program equips students with
-            the skills and knowledge needed to navigate the ever-changing world
-            of computing, ensuring they are well-prepared to make significant
-            contributions to the tech industry.
+            {`The Quantity Surveying Department in Nigeria plays a critical role in the construction and real estate industry. Quantity surveyors are professionals responsible for managing the financial aspects of construction projects, including cost estimation, procurement, contract administration, and cost control. `}
           </p>
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
             <p className="text-justify">
-              Computer engineering is a discipline that integrates quite a few
-              fields of electrical engineering and computer science required to
-              advance computer hardware and software. Computer engineers
-              normally have coaching in digital/electronic engineering (or
-              electrical engineering), software program design, and
-              hardware–software integration alternatively of solely software
-              program engineering or digital engineering. Computer engineers get
-              involved in many hardware and software program form of computing,
-              from the microcontrollers, microprocessors, non-public computers,
-              and supercomputers, to circuit design. This area of engineering no
-              longer solely focuses on how computer system themselves work,
-              however additionally how they combine into the large picture.
+              {`The activities of the department were designed to properly equip students with the right knowledge of impacts of economic, technological and social considerations on project initiation and development, and effective cost management of infrastructural and capital projects to prepare students for whatever challenges in Quantity Surveying and subsequently qualifying them for registration with the Nigerian Institute of Quantity Surveyors (NIQS).  And also to train and produce world-class young intellectuals to be logically sound and research-oriented professionals with high skill and credibility in delivering total cost and procurement management, for the achievement of client’s objectives in all types of capital projects and developments, from conception to commissioning and maintenance, in all sectors of the economy, for the attainment of sustainable National development and goals.`}
             </p>
           </div>
 
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">
-              Job opportunities in COMPUTER ENGINEERING
+              Job opportunities in QUANTITY SURVEYING
             </h6>
             <p className="text-justify">
-              Computer Engineering is a dynamic professional field that offers
-              different career directions in hardware engineering (e.g.
-              microprocessors) and software program development. The demand for
-              computer engineers is high in this information age hence, at the
-              profession level, there are two predominant specialties: hardware
-              and software program engineering. Hardware engineers use their
-              abilities on pc system and components, designing microprocessors,
-              circuit boards, routers and different embedded devices. Software
-              engineers create, check and debug applications and functions that
-              run on computers, mobile devices and more. Some jobs you can do as
-              a computer engineering graduate include:
+              {`Quantity surveyors estimate and manage the costs of materials and
+              labor on large building projects. (it’s also known as 'cost
+              consultants', 'commercial managers', 'cost managers' and 'cost
+              engineers' manage costs on construction projects a quantity
+              surveyor also performs other tasks that can effectively reduce the
+              risks associated with any type of construction project. These
+              tasks include cost planning, setting timetables, value
+              engineering, conducting feasibility studies, and valuation of
+              works and work packages. Some jobs you can do as a quantity surveying graduate include:`}
             </p>
             <ol className="py-4 pl-10 list-decimal">
-              <li>Software Engineer</li>
-              <li>Software Tester</li>
-              <li>Project Manager</li>
-              <li>Application Developer</li>
-              <li>Software Developer</li>
-              <li>Hardware Engineer</li>
-              <li>Microprocessor Engineer</li>
-              <li>High School Teacher</li>
-              <li>Product Engineer</li>
-              <li>Product Designer</li>
+              <li>Architectural technologist</li>
+              <li>Building surveyor</li>
+              <li>Commercial/residential surveyor</li>
+              <li>Construction manager</li>
+              <li>Estimator</li>
+              <li>Planning and development surveyor</li>
+              <li>Project manager</li>
+              <li>Quantity surveyor</li>
+              <li>Site engineer</li>
             </ol>
           </div>
 

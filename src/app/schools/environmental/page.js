@@ -37,112 +37,85 @@ export default function Home() {
             <hr className="w-32 border-[#f1ab00]" />
             <div className="text-gray-500 text-justify">
               <p>
-                The School of Engineering at Redeemers College of Technology and
-                Management (RECTEM) is a dynamic and innovative academic
-                department dedicated to providing high-quality education and
-                training in various engineering disciplines. With a commitment
-                to excellence, hands-on learning, and cutting-edge technology,
-                the School of Engineering at RECTEM strives to prepare students
-                for successful careers in the ever-evolving field of
-                engineering. Below are what our school offer...
+                {`
+                  The School of Environmental Technology at RECTEM (Redeemer's College of Technology and Management) is a dynamic and innovative academic institution that focuses on preparing students for a future in environmental sciences and technology. With a strong commitment to academic excellence, research, and community engagement, RECTEM's School of Environmental Technology offers a range of programs and opportunities that bridge the gap between theory and practice in the field of environmental technology.
+                  `}
               </p>
               <ul className="py-5">
                 <li className="py-4">
-                  <h6 className="font-semibold tracking-wider pb-2 text-gray-600">
+                  <h6 className="font-semibold pb-2 text-gray-600">
                     Quality Education and Programs
                   </h6>
                   <p>
-                    {`RECTEM's School of Engineering offers a comprehensive range
-                    of degree programs tailored to meet the demands of today's
-                    engineering landscape. These programs encompass a variety of
-                    disciplines, including Civil Engineering, Electrical and
-                    Electronics Engineering, Mechanical Engineering, Computer
-                    Engineering, and more. Each program is meticulously designed
+                    {`RECTEM's School of Environmental Technology offers a comprehensive range
+                    of programs tailored to meet the demands of today's landscape. These programs encompass a variety of
+                    disciplines, including Architectural Technology, Estate Management and Quantity Surveying. Each program is meticulously designed
                     to provide students with a solid foundation of theoretical
                     knowledge and practical skills necessary to thrive in their
                     chosen fields.`}
                   </p>
                 </li>
                 <li className="py-4">
-                  <h6 className="font-semibold tracking-wider pb-2 text-gray-600">
+                  <h6 className="font-semibold pb-2 text-gray-600">
                     Expert Staffs
                   </h6>
                   <p>
-                    The School of Engineering boasts a dedicated and diverse
+                    {`
+                    The School of Environmental Technology boasts a dedicated and diverse
                     team of staffs who are experts in their respective fields.
                     These experienced educators bring a wealth of industry
                     knowledge and academic excellence to the classroom, ensuring
                     that students receive up-to-date insights and hands-on
                     training in alignment with the latest industry trends and
                     standards.
+                    `}
                   </p>
                 </li>
                 <li className="py-4">
-                  <h6 className="font-semibold tracking-wider pb-2 text-gray-600">
+                  <h6 className="font-semibold pb-2 text-gray-600">
                     Facilities
                   </h6>
                   <p>
                     {`RECTEM's commitment to excellence is reflected in its
-                    facilities, laboratories, and workshops. The School of
-                    Engineering provides students with access to modern
-                    equipment and technology that simulate real-world
-                    engineering scenarios. This practical approach enables
+                    facilities, and workshops. The School of
+                    Environmental Technology provides students with access to modern
+                    equipment and technology that simulate real-world scenarios. This practical approach enables
                     students to experiment, design, and apply their theoretical
-                    knowledge to solve complex engineering challenges.`}
+                    knowledge to solve complex challenges.`}
                   </p>
                 </li>
                 <li className="py-4">
-                  <h6 className="font-semibold tracking-wider pb-2 text-gray-600">
+                  <h6 className="font-semibold pb-2 text-gray-600">
                     Innovation and Research
                   </h6>
                   <p>
-                    The School of Engineering encourages students and faculty
-                    members to engage in innovative research projects that
-                    address current engineering issues and contribute to
-                    technological advancements. This culture of research
-                    nurtures creativity and empowers students to explore
-                    groundbreaking solutions that have the potential to
-                    transform industries and improve lives.
+                    {`
+                    RECTEM's School of Environmental Technology actively engages in research initiatives that address pressing environmental challenges. This commitment to research contributes to the development of innovative solutions and informs policy decisions.
+                    `}
                   </p>
                 </li>
                 <li className="py-4">
-                  <h6 className="font-semibold tracking-wider pb-2 text-gray-600">
-                    Industry Partnerships
+                  <h6 className="font-semibold pb-2 text-gray-600">
+                    Practical Training
                   </h6>
                   <p>
-                    {`RECTEM's School of Engineering maintains strong ties with
-                    various industries, including engineering firms,
-                    corporations, and governmental organizations. These
-                    partnerships provide students with opportunities for
-                    internships, co-op programs, and networking events, enabling
-                    them to build valuable connections and gain insights into
-                    the practical applications of their studies.`}
+                    {`Hands-on training and industry internships enhance students' practical skills and employability.`}
                   </p>
                 </li>
                 <li className="py-4">
-                  <h6 className="font-semibold tracking-wider pb-2 text-gray-600">
-                    Global Perspective
+                  <h6 className="font-semibold pb-2 text-gray-600">
+                    Industry-Relevant Curriculum
                   </h6>
                   <p>
-                    {`In an increasingly interconnected world, the School of
-                    Engineering at RECTEM recognizes the importance of a global
-                    perspective. International collaborations, exchange
-                    programs, and exposure to diverse engineering practices
-                    broaden students' horizons and prepare them to work in
-                    multicultural environments.`}
+                    {`Our programs align with industry standards and emerging trends, preparing students for real-world challenges.`}
                   </p>
                 </li>
                 <li className="py-4">
-                  <h6 className="font-semibold tracking-wider pb-2 text-gray-600">
-                    Ethical and Responsible Engineering
+                  <h6 className="font-semibold pb-2 text-gray-600">
+                    Career Opportunities
                   </h6>
                   <p>
-                    {`Integral to RECTEM's philosophy is the emphasis on ethical
-                    and responsible engineering practices. The School of
-                    Engineering instills in its students a deep sense of social
-                    responsibility, encouraging them to apply their skills and
-                    knowledge to create sustainable solutions that address
-                    societal and environmental challenges.`}
+                    {`Graduates of our School of Environmental Technology find rewarding careers in architectural firms, real estate companies, construction companies, and government agencies.`}
                   </p>
                 </li>
               </ul>
@@ -152,7 +125,7 @@ export default function Home() {
             <div>
               <hr className="border-[#f1ab00]" />
               <h4
-                className={`py-4 text-[#003DA5] text-sm tracking-wider ${gemsbuck.className}`}
+                className={`py-4 text-[#003DA5] text-sm ${gemsbuck.className}`}
               >
                 DEPARTMENTS
               </h4>
@@ -221,7 +194,7 @@ export default function Home() {
             <div>
               <hr className="border-[#f1ab00]" />
               <h4
-                className={`py-4 text-[#003DA5] text-sm tracking-wider ${gemsbuck.className}`}
+                className={`py-4 text-[#003DA5] text-sm ${gemsbuck.className}`}
               >
                 MORE SCHOOLS
               </h4>
@@ -290,7 +263,7 @@ export default function Home() {
             <div>
               <hr className="border-[#f1ab00]" />
               <h4
-                className={`py-4 text-[#003DA5] text-sm tracking-wider ${gemsbuck.className}`}
+                className={`py-4 text-[#003DA5] text-sm ${gemsbuck.className}`}
               >
                 QUICKLINKS
               </h4>

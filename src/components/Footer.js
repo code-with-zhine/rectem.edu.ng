@@ -74,7 +74,11 @@ export default function Footer() {
                   </p>
                 </div>
               </address>
-              <div className="cursor-pointer hover:text-yellow-500 pt-10">
+              <a
+                href="https://goo.gl/maps/n3Mfi7Xkxqy1Tx6W6"
+                target="_blank"
+                className="cursor-pointer hover:text-yellow-500 pt-10"
+              >
                 <h6 className="mb-5">
                   <svg
                     className="inline mr-4"
@@ -97,7 +101,7 @@ export default function Footer() {
                   width={200}
                   height={200}
                 />
-              </div>
+              </a>
             </article>
             <article className="text-xs font-semibold pr-2 ">
               <div>

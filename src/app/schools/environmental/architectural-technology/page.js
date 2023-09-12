@@ -290,61 +290,37 @@ const Tabs = () => {
       {activeTab === "tab1" && (
         <div className="py-4 text-gray-500">
           <p className="text-justify">
-            In the rapidly evolving landscape of technology, computer
-            engineering stands as a cornerstone, driving innovation and
-            progress. In Nigeria, the pursuit of a National Diploma in Computer
-            Engineering offers students the opportunity to become pioneers in
-            this dynamic field. This comprehensive program equips students with
-            the skills and knowledge needed to navigate the ever-changing world
-            of computing, ensuring they are well-prepared to make significant
-            contributions to the tech industry.
+            {`Architectural technology, often referred to as "architectural tech" or "arch-tech," is a field of study and practice that focuses on the application of technology to the design, construction, and management of buildings and architectural projects. It encompasses a wide range of knowledge and skills related to the technical aspects of architecture and the built environment.`}
           </p>
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
             <p className="text-justify">
-              Computer engineering is a discipline that integrates quite a few
-              fields of electrical engineering and computer science required to
-              advance computer hardware and software. Computer engineers
-              normally have coaching in digital/electronic engineering (or
-              electrical engineering), software program design, and
-              hardware–software integration alternatively of solely software
-              program engineering or digital engineering. Computer engineers get
-              involved in many hardware and software program form of computing,
-              from the microcontrollers, microprocessors, non-public computers,
-              and supercomputers, to circuit design. This area of engineering no
-              longer solely focuses on how computer system themselves work,
-              however additionally how they combine into the large picture.
+              {`The programme's goal is to prepare technicians capable of carrying out various innovative tasks while nurturing and sustaining the culture of best practices in teaching/learning methods, research demonstration, skills and technology innovations in order to produce job creators for the globe. With the goals and objectives to produce basic presentation and perspective drawings; make a good freehand sketch; build simple models; develop spatial relationship, circulation and area diagram and interpret technical drawings and specifications and incorporate such details in the architectural working drawings; supervise construction works and make progress reports on simple structures; make presentation drawings of architectural works and draw detailed perspective with necessary renderings and requisite color scheme; collect information and date on simple architectural projects; write specifications for simple building projects.`}
             </p>
           </div>
 
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">
-              Job opportunities in COMPUTER ENGINEERING
+              Job opportunities in ARCHITECTURAL TECHNOLOGY
             </h6>
             <p className="text-justify">
-              Computer Engineering is a dynamic professional field that offers
-              different career directions in hardware engineering (e.g.
-              microprocessors) and software program development. The demand for
-              computer engineers is high in this information age hence, at the
-              profession level, there are two predominant specialties: hardware
-              and software program engineering. Hardware engineers use their
-              abilities on pc system and components, designing microprocessors,
-              circuit boards, routers and different embedded devices. Software
-              engineers create, check and debug applications and functions that
-              run on computers, mobile devices and more. Some jobs you can do as
-              a computer engineering graduate include:
+              {`Architecture careers are more diverse than you might think, including: Building architecture – designing new buildings, or adapting existing ones. Landscape architecture – planning, designing and managing open spaces, including both natural and urban areas.  Their duties include meeting with clients to discuss their vision, drawing up building plans and modifying their designs throughout the building process to maximize structural integrity. Some jobs you can do as an architectural technology graduate include:`}
             </p>
             <ol className="py-4 pl-10 list-decimal">
-              <li>Software Engineer</li>
-              <li>Software Tester</li>
-              <li>Project Manager</li>
-              <li>Application Developer</li>
-              <li>Software Developer</li>
-              <li>Hardware Engineer</li>
-              <li>Microprocessor Engineer</li>
-              <li>High School Teacher</li>
-              <li>Product Engineer</li>
-              <li>Product Designer</li>
+              <li>Architect</li>
+              <li>Landscape Architect</li>
+              <li>Interior design</li>
+              <li>Urban planner</li>
+              <li>Architectural designer</li>
+              <li>Architectural technologist</li>
+              <li>Project architect</li>
+              <li>Structural engineer</li>
+              <li>Industrial designer</li>
+              <li>Production Designer</li>
+              <li>Urban design</li>
+              <li>Interior architecture</li>
+              <li>Architectural and Engineering Managers</li>
+              <li>Architectural historian</li>
             </ol>
           </div>
 

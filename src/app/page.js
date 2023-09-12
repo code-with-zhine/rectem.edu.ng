@@ -10,13 +10,13 @@ import Layout from "@/components/Layout";
 import Features from "@/components/Features";
 import FollowUs from "@/components/Follow-us";
 import Calendar from "@/components/Calendar";
+import Blog from "@/components/Blog";
 import { useState, useEffect } from "react";
 import Event from "@/components/Event";
 
 import { current } from "../../data/calendar-data";
 import { eventsData } from "../../data/event-data";
 import { blogsData } from "../../data/blogs-data";
-import Blog from "@/components/Blog";
 
 export const gemsbuck = localFont({ src: "../../public/gemsbuck.ttf" });
 

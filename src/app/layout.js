@@ -9,7 +9,7 @@ const firaSans = Fira_Sans_Extra_Condensed({
 
 export const metadata = {
   title: "RECTEM | REDEEMERS COLLEGE OF TECHNOLOGY AND MANAGEMENT",
-  description: "College of Technology and Management",
+  description: "REDEEMERS COLLEGE OF TECHNOLOGY AND MANAGEMENT, REDEMPTION CITY, OGUN STATE.",
 };
 
 export default function RootLayout({ children }) {

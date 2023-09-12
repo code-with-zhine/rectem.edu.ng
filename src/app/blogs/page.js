@@ -36,7 +36,7 @@ export default function Home() {
     <Layout>
       <>
         {/* <Slider /> */}
-        <section className="p-10">
+        <section className="px-5 md:px-10 py-10">
           <div className="py-4">
             <Link
               href="/"

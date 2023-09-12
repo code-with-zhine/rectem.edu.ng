@@ -271,61 +271,60 @@ const Tabs = () => {
       {activeTab === "tab1" && (
         <div className="py-4 text-gray-500">
           <p className="text-justify">
-            In the rapidly evolving landscape of technology, computer
-            engineering stands as a cornerstone, driving innovation and
-            progress. In Nigeria, the pursuit of a National Diploma in Computer
-            Engineering offers students the opportunity to become pioneers in
-            this dynamic field. This comprehensive program equips students with
-            the skills and knowledge needed to navigate the ever-changing world
-            of computing, ensuring they are well-prepared to make significant
-            contributions to the tech industry.
+            {`The accounting department within an organization is a critical component responsible for managing financial transactions, ensuring compliance with financial regulations, and providing valuable financial insights to support decision-making.`}
           </p>
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
             <p className="text-justify">
-              Computer engineering is a discipline that integrates quite a few
-              fields of electrical engineering and computer science required to
-              advance computer hardware and software. Computer engineers
-              normally have coaching in digital/electronic engineering (or
-              electrical engineering), software program design, and
-              hardware–software integration alternatively of solely software
-              program engineering or digital engineering. Computer engineers get
-              involved in many hardware and software program form of computing,
-              from the microcontrollers, microprocessors, non-public computers,
-              and supercomputers, to circuit design. This area of engineering no
-              longer solely focuses on how computer system themselves work,
-              however additionally how they combine into the large picture.
+              {`The goal of this great institute in our Accountancy department is
+              to produce technical manpower who can effectively perform a range
+              of functions in the field of accountancy, insurance, banking and
+              in financial institutions. Graduates of the programme should be
+              able to: assist in collection and integration of basic financial
+              data for use in investment decisions; prepare final accounts of
+              companies; assist in the preparation of short and long term budget
+              plans; collect and collate relevant financial information to aid
+              superior officers and management in making financial decisions;
+              interpret some basic ratio, statistical and financial data; and to
+              carry out preliminary survey and feasibility studies. While
+              demonstrating basic knowledge of financial operations of different
+              types of businesses.`}
             </p>
           </div>
 
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">
-              Job opportunities in COMPUTER ENGINEERING
+              Job opportunities in ACCOUNTING
             </h6>
             <p className="text-justify">
-              Computer Engineering is a dynamic professional field that offers
-              different career directions in hardware engineering (e.g.
-              microprocessors) and software program development. The demand for
-              computer engineers is high in this information age hence, at the
-              profession level, there are two predominant specialties: hardware
-              and software program engineering. Hardware engineers use their
-              abilities on pc system and components, designing microprocessors,
-              circuit boards, routers and different embedded devices. Software
-              engineers create, check and debug applications and functions that
-              run on computers, mobile devices and more. Some jobs you can do as
-              a computer engineering graduate include:
+              {`Numerous career opportunities are available in accounting. The
+              importance of this very course and its function continues to be
+              enhanced in a complex, global business community. Accounting
+              positions students in range from bookkeeping clerks who maintain
+              financial data in computer and paper form to chief financial
+              officers who are responsible for providing leadership in the
+              design and operations of a total accounting information system and
+              the financial statements it produces. Opportunities for employment
+              are present for those with basic accounting/computer skills
+              acquired in our great institute. Some jobs you can do as a computer
+              engineering graduate include:`}
             </p>
             <ol className="py-4 pl-10 list-decimal">
-              <li>Software Engineer</li>
-              <li>Software Tester</li>
-              <li>Project Manager</li>
-              <li>Application Developer</li>
-              <li>Software Developer</li>
-              <li>Hardware Engineer</li>
-              <li>Microprocessor Engineer</li>
-              <li>High School Teacher</li>
-              <li>Product Engineer</li>
-              <li>Product Designer</li>
+              <li>Management accounting</li>
+              <li>Financial Analyst</li>
+              <li>Bookkeeper</li>
+              <li>Controller</li>
+              <li>Auditor</li>
+              <li>Chartered accountant</li>
+              <li>Cost accounting</li>
+              <li>Chief Financial Officer</li>
+              <li>Financial Manager</li>
+              <li>Governmental accounting</li>
+              <li>Financial Management</li>
+              <li>Tax advisor</li>
+              <li>Forensic accounting</li>
+              <li>Business Analyst</li>
+              <li>Bookkeeping, Accounting, and Auditing Clerks</li>
             </ol>
           </div>
 

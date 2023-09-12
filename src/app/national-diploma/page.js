@@ -38,70 +38,67 @@ export default function Home() {
               <hr className="border-[#f1ab00]" />
               <div className="text-gray-500">
                 <p className="text-justify">
-                  {` The National Diploma (ND) programme in Nigeria is a
-                  significant component of the country's tertiary education
-                  system, providing students with practical skills and knowledge
-                  in various fields. It is a two-year academic program offered
-                  by polytechnics and similar institutions across the country.
-                  The ND programme plays a vital role in preparing students for
-                  employment or further education, aligning with Nigeria's
-                  developmental goals and needs.`}
+                  {`The National Diploma (ND) is an academic qualification in Nigeria, commonly awarded by polytechnics and other tertiary institutions. It is typically a two-year program that provides students with a strong foundation in various technical and vocational fields. One such institution offering National Diploma programs in Nigeria is the Redeemer's College of Technology and Management (RECTEM).`}
                 </p>
-                <ul className="py-10">
+                <p className="text-justify py-2">
+                  {`RECTEM is a reputable tertiary institution in Nigeria that focuses on providing quality education in technology and management disciplines. It is accredited by relevant educational bodies and offers National Diploma programs in various fields, aligning with the country's educational standards and requirements.`}
+                </p>
+                <ul className="py-4">
                   <li className="py-4">
                     <h6 className="font-semibold pb-2 text-gray-600">
-                      Purpose and Scope
+                      ND in RECTEM
                     </h6>
                     <p className="text-justify">
-                      The National Diploma programme is designed to equip
-                      students with practical skills and theoretical knowledge
-                      necessary to excel in their chosen fields. It aims to
-                      bridge the gap between theoretical learning and real-world
-                      application, promoting a hands-on approach to education.
+                      RECTEM stands out as an institution that places a strong
+                      emphasis on the quality and relevance of its ND programs.
+                      Here's how RECTEM's ND programs relate to the broader
+                      context of ND education in Nigeria:
                     </p>
                   </li>
                   <li className="py-4">
                     <h6 className="font-semibold pb-2 text-gray-600">
-                      Duration and Structure
+                      Accredited National Diploma Programs:
                     </h6>
                     <p className="text-justify">
-                      The National Diploma programme is designed to equip
-                      students with practical skills and theoretical knowledge
-                      necessary to excel in their chosen fields. It aims to
-                      bridge the gap between theoretical learning and real-world
-                      application, promoting a hands-on approach to education.
+                      RECTEM offers accredited National Diploma programs in
+                      several technical and management disciplines. These
+                      programs are designed to equip students with practical
+                      skills and knowledge relevant to their chosen fields.
+                    </p>
+                  </li>
+                  <li className="py-4">
+                    <h6 className="font-semibold pb-2 text-gray-600">
+                      Quality Education
+                    </h6>
+                    <p className="text-justify">
+                      RECTEM is committed to providing high-quality education,
+                      and its ND programs are no exception. The institution
+                      ensures that students receive a well-rounded education
+                      that prepares them for the demands of the workforce.
                     </p>
                   </li>
 
                   <li className="py-4">
                     <h6 className="font-semibold pb-2 text-gray-600">
-                      Curriculum
+                      Experienced Staffs
                     </h6>
                     <p className="text-justify">
-                      The curriculum for the ND programme is tailored to the
-                      specific field of study. It includes core subjects,
-                      practical sessions, and elective courses that provide a
-                      well-rounded education. The emphasis is on skills
-                      development, problem-solving, critical thinking, and
-                      application of concepts to real-world scenarios.
+                      RECTEM boasts a team of experienced faculty members who
+                      are experts in their respective fields. These educators
+                      play a crucial role in imparting knowledge and practical
+                      skills to ND students.
                     </p>
                   </li>
 
                   <li className="py-4">
                     <h6 className="font-semibold pb-2 text-gray-600">
-                      Admission Process
+                      Modern Facilities
                     </h6>
                     <p className="text-justify">
-                      To gain admission into the ND programme, aspiring students
-                      need to meet specific eligibility criteria set by the
-                      institutions. These criteria often include a minimum
-                      requirement of credits in relevant subjects from O-level
-                      examinations such as the West African Senior School
-                      Certificate Examination (WASSCE) or the National
-                      Examination Council (NECO). Some institutions might also
-                      consider scores from the Unified Tertiary Matriculation
-                      Examination (UTME) conducted by the Joint Admissions and
-                      Matriculation Board (JAMB).
+                      To enhance the learning experience, RECTEM provides modern
+                      facilities, laboratories, and equipment that are essential
+                      for hands-on training and skill development in various ND
+                      programs.
                     </p>
                   </li>
 
@@ -110,42 +107,34 @@ export default function Home() {
                       Practical Training
                     </h6>
                     <p className="text-justify">
-                      {`Practical training is a cornerstone of the ND programme.
-                      Students engage in laboratory work, workshops, and
-                      projects that simulate real-world scenarios. Some
-                      programmes also incorporate industrial training, where
-                      students spend a certain period working in industries
-                      related to their field of study. This hands-on experience
-                      enhances students' employability and prepares them for the
-                      demands of the workforce.`}
+                      {` One of the key features of National Diploma programs is the emphasis on practical training. RECTEM ensures that students receive ample hands-on experience and exposure to real-world scenarios in their chosen fields.`}
                     </p>
                   </li>
 
                   <li className="py-4">
                     <h6 className="font-semibold pb-2 text-gray-600">
-                      Career Prospects
+                      Industry Connections
                     </h6>
                     <p className="text-justify">
-                      {`Graduates of the ND programme have a wide range of career
-                      opportunities. They can enter the workforce directly,
-                      applying their skills and knowledge in various industries.
-                      Alternatively, some graduates choose to pursue further
-                      education, often progressing to Higher National Diploma
-                      (HND) programmes, bachelor's degree programmes, or
-                      professional certifications.`}
+                      {`RECTEM often collaborates with industries and businesses to provide students with internship and job placement opportunities. This helps ND students gain practical experience and establish valuable industry connections.`}
                     </p>
                   </li>
 
                   <li className="py-4">
                     <h6 className="font-semibold pb-2 text-gray-600">
-                      Contribution to Development
+                      Preparation for Higher Education
                     </h6>
                     <p className="text-justify">
-                      {`The ND programme plays a crucial role in addressing the
-                      skills gap in Nigeria's workforce. By producing graduates
-                      with practical skills that align with industry needs, the
-                      programme contributes to economic development, innovation,
-                      and technological advancement in the country.`}
+                      {`For students who wish to further their education, RECTEM's ND programs serve as a stepping stone. The National Diploma is a recognized qualification that allows students to pursue Higher National Diploma (HND) programs or even bachelor's degrees at universities.`}
+                    </p>
+                  </li>
+
+                  <li className="py-4">
+                    <h6 className="font-semibold pb-2 text-gray-600">
+                      Supportive Learning Environment
+                    </h6>
+                    <p className="text-justify">
+                      {`RECTEM promotes a supportive and conducive learning environment where students can excel academically and personally. This includes mentorship programs and academic counseling services.`}
                     </p>
                   </li>
                 </ul>

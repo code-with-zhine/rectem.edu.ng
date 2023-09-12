@@ -33,120 +33,126 @@ export default function Home() {
               <h2
                 className={`text-[#003DA5] py-4 text-lg tracking-wider ${gemsbuck.className}`}
               >
-                National Diploma Overview
+                Higher National Diploma Overview
               </h2>
               <hr className="border-[#f1ab00]" />
               <div className="text-gray-500">
                 <p className="text-justify">
-                  {`The National Diploma (ND) programme in Nigeria is a
-                  significant component of the country's tertiary education
-                  system, providing students with practical skills and knowledge
-                  in various fields. It is a two-year academic program offered
-                  by polytechnics and similar institutions across the country.
-                  The ND programme plays a vital role in preparing students for
-                  employment or further education, aligning with Nigeria's
-                  developmental goals and needs.`}
+                  {`In Nigeria, the Higher National Diploma (HND) is a significant educational qualification offered by various institutions, including the Redeemer's College of Technology and Management (RECTEM). RECTEM, an institution known for its commitment to academic excellence, provides HND programs that equip students with practical skills and knowledge to excel in their chosen fields.`}
                 </p>
-                <ul className="py-10">
+                <p className="text-justify py-2">
+                  {`The Higher National Diploma (HND) is a higher education qualification in Nigeria designed to prepare students for practical, technical, and professional roles in various industries. HND programs typically have a strong focus on hands-on training and real-world applications, making them ideal for individuals seeking to enter the workforce with practical skills or enhance their career prospects.`}
+                </p>
+                <ul className="py-4">
                   <li className="py-4">
                     <h6 className="font-semibold pb-2 text-gray-600">
-                      Purpose and Scope
+                      HND in RECTEM
                     </h6>
                     <p className="text-justify">
-                      The National Diploma programme is designed to equip
-                      students with practical skills and theoretical knowledge
-                      necessary to excel in their chosen fields. It aims to
-                      bridge the gap between theoretical learning and real-world
-                      application, promoting a hands-on approach to education.
+                      RECTEM stands out as an institution that places a strong
+                      emphasis on the quality and relevance of its HND programs.
+                      Here's how RECTEM's HND programs relate to the broader
+                      context of HND education in Nigeria:
                     </p>
                   </li>
                   <li className="py-4">
                     <h6 className="font-semibold pb-2 text-gray-600">
-                      Duration and Structure
+                      Industry-Relevant Curriculum
                     </h6>
                     <p className="text-justify">
-                      The National Diploma programme is designed to equip
-                      students with practical skills and theoretical knowledge
-                      necessary to excel in their chosen fields. It aims to
-                      bridge the gap between theoretical learning and real-world
-                      application, promoting a hands-on approach to education.
-                    </p>
-                  </li>
-
-                  <li className="py-4">
-                    <h6 className="font-semibold pb-2 text-gray-600">
-                      Curriculum
-                    </h6>
-                    <p className="text-justify">
-                      The curriculum for the ND programme is tailored to the
-                      specific field of study. It includes core subjects,
-                      practical sessions, and elective courses that provide a
-                      well-rounded education. The emphasis is on skills
-                      development, problem-solving, critical thinking, and
-                      application of concepts to real-world scenarios.
+                      RECTEM's HND programs are carefully crafted to meet the
+                      demands of the modern workforce. The curriculum is
+                      designed in collaboration with industry experts to ensure
+                      that students acquire the skills and knowledge needed to
+                      excel in their chosen fields.
                     </p>
                   </li>
 
                   <li className="py-4">
                     <h6 className="font-semibold pb-2 text-gray-600">
-                      Admission Process
+                      State-of-the-Art Facilities
                     </h6>
                     <p className="text-justify">
-                      To gain admission into the ND programme, aspiring students
-                      need to meet specific eligibility criteria set by the
-                      institutions. These criteria often include a minimum
-                      requirement of credits in relevant subjects from O-level
-                      examinations such as the West African Senior School
-                      Certificate Examination (WASSCE) or the National
-                      Examination Council (NECO). Some institutions might also
-                      consider scores from the Unified Tertiary Matriculation
-                      Examination (UTME) conducted by the Joint Admissions and
-                      Matriculation Board (JAMB).
+                      RECTEM invests in state-of-the-art facilities and
+                      resources to support HND students' practical training.
+                      This includes well-equipped laboratories, workshops, and
+                      technology to simulate real-world working environments.
                     </p>
                   </li>
 
                   <li className="py-4">
                     <h6 className="font-semibold pb-2 text-gray-600">
-                      Practical Training
+                      Experienced Staffs
                     </h6>
                     <p className="text-justify">
-                      {`Practical training is a cornerstone of the ND programme.
-                      Students engage in laboratory work, workshops, and
-                      projects that simulate real-world scenarios. Some
-                      programmes also incorporate industrial training, where
-                      students spend a certain period working in industries
-                      related to their field of study. This hands-on experience
-                      enhances students' employability and prepares them for the
-                      demands of the workforce.`}
+                      RECTEM's staff members are experienced professionals in
+                      their respective fields. They provide students with not
+                      only theoretical knowledge but also valuable insights
+                      based on their practical industry experience.
                     </p>
                   </li>
 
                   <li className="py-4">
                     <h6 className="font-semibold pb-2 text-gray-600">
-                      Career Prospects
+                      Partnerships with Industry
                     </h6>
                     <p className="text-justify">
-                      {`Graduates of the ND programme have a wide range of career
-                      opportunities. They can enter the workforce directly,
-                      applying their skills and knowledge in various industries.
-                      Alternatively, some graduates choose to pursue further
-                      education, often progressing to Higher National Diploma
-                      (HND) programmes, bachelor's degree programmes, or
-                      professional certifications.`}
+                      {`RECTEM actively collaborates with industry partners to provide students with opportunities for internships, industrial attachments, and practical projects. This exposure to real work environments is invaluable for HND students.`}
                     </p>
                   </li>
 
                   <li className="py-4">
                     <h6 className="font-semibold pb-2 text-gray-600">
-                      Contribution to Development
+                      Career-Oriented Approach
                     </h6>
                     <p className="text-justify">
-                      {`The ND programme plays a crucial role in addressing the
-                      skills gap in Nigeria's workforce. By producing graduates
-                      with practical skills that align with industry needs, the
-                      programme contributes to economic development, innovation,
-                      and technological advancement in the country.`}
+                      {`RECTEM's HND programs are designed to prepare students for successful careers. Students receive guidance and support in developing essential employability skills, including communication, teamwork, and problem-solving.`}
                     </p>
+                  </li>
+
+                  <li className="py-4">
+                    <h6 className="font-semibold pb-2 text-gray-600">
+                      Entrepreneurship and Innovation
+                    </h6>
+                    <p className="text-justify">
+                      {`RECTEM encourages entrepreneurship and innovation among its HND students. Entrepreneurial skills are integrated into the curriculum to empower students to become job creators rather than just job seekers.`}
+                    </p>
+                  </li>
+
+                  <li className="py-4">
+                    <h6 className="font-semibold pb-2 text-gray-600">
+                      Continuous Improvement
+                    </h6>
+                    <p className="text-justify">
+                      {`RECTEM is dedicated to continuous improvement and stays updated with industry trends and technological advancements. This ensures that HND programs remain relevant and in sync with the evolving needs of the job market.`}
+                    </p>
+                  </li>
+
+                  <li className="py-4">
+                    <h6 className="font-semibold pb-2 text-gray-600">
+                      The Relevance of RECTEM's HND Programs
+                    </h6>
+                    <p className="text-justify">
+                      {`RECTEM's HND programs are not only relevant but also instrumental in shaping the future of students and the Nigerian workforce. By offering a comprehensive, industry-aligned education, RECTEM empowers HND graduates to:`}
+                    </p>
+                    <ul className="pt-4 pl-5 list-disc">
+                      <li>Secure gainful employment in various sectors.</li>
+                      <li>
+                        Contribute to the growth and development of their
+                        communities and the nation.
+                      </li>
+                      <li>
+                        Innovate and create solutions to complex challenges.
+                      </li>
+                      <li>
+                        Drive economic progress through entrepreneurship and
+                        industry-relevant skills.
+                      </li>
+                      <li>
+                        Pursue further education, including postgraduate
+                        studies, if they choose to do so.
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </div>

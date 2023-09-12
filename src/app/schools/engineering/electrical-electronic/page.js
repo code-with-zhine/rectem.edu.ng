@@ -359,10 +359,8 @@ const Tabs = () => {
             </p>
             <ol className="py-4 list-disc grid gap-4">
               <li>
-                <span className="font-semibold">Entry Requirements:</span>{" "}
-                Candidates are generally required to possess a Senior Secondary
-                School Certificate (SSCE) or its equivalent, with credits in
-                subjects such as Mathematics, Physics, and English Language.
+                <span className="font-semibold">Entry Requirements:</span>
+                At least five relevant passes at credit level in the West African Examination Council (WAEC), General Certificate of Education (GCE), Senior Secondary School Certificate (SSCE) or National Examinations Council (NECO) 'O' Levels or their equivalent including English Language and Mathematics (Literature-in-English and Oral English are not acceptable in place of English Lnguage), and any other three subjects from Economics, Business Studies/Methods, Financial Accounting/Principles of Accounts/Book Keeping, Literature-in-English, Commerce, History, Government, Statistics, Geography, Civil Education, Agricultural Science/Biology, obtained at not more than two sitting.
               </li>
               <li>
                 <span className="font-semibold">JAMB UTME: </span>

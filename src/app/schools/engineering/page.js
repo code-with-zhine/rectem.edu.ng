@@ -96,7 +96,7 @@ export default function Home() {
                     Innovation and Research
                   </h6>
                   <p className="text-justify">
-                    The School of Engineering encourages students and faculty
+                    The School of Engineering encourages students and staff
                     members to engage in innovative research projects that
                     address current engineering issues and contribute to
                     technological advancements. This culture of research

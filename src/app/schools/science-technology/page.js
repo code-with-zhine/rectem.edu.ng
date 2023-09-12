@@ -37,112 +37,72 @@ export default function Home() {
             <hr className="w-32 border-[#f1ab00]" />
             <div className="text-gray-500 text-justify">
               <p>
-                The School of Engineering at Redeemers College of Technology and
-                Management (RECTEM) is a dynamic and innovative academic
-                department dedicated to providing high-quality education and
-                training in various engineering disciplines. With a commitment
-                to excellence, hands-on learning, and cutting-edge technology,
-                the School of Engineering at RECTEM strives to prepare students
-                for successful careers in the ever-evolving field of
-                engineering. Below are what our school offer...
+                {`
+                The School of Science and Technology at RECTEM (Redeemer's College of Technology and Management) is a vital academic department dedicated to providing a strong foundation in various scientific and technological disciplines. This school plays a pivotal role in shaping the future of students and preparing them for careers in the rapidly evolving fields of science and technology.
+                `}
               </p>
               <ul className="py-5">
                 <li className="py-4">
-                  <h6 className="font-semibold tracking-wider pb-2 text-gray-600">
+                  <h6 className="font-semibold pb-2 text-gray-600">
                     Quality Education and Programs
                   </h6>
                   <p>
-                    {`RECTEM's School of Engineering offers a comprehensive range
-                    of degree programs tailored to meet the demands of today's
-                    engineering landscape. These programs encompass a variety of
-                    disciplines, including Civil Engineering, Electrical and
-                    Electronics Engineering, Mechanical Engineering, Computer
-                    Engineering, and more. Each program is meticulously designed
+                    {`RECTEM's School of Science and Technology offers a comprehensive range
+                    of programs tailored to meet the demands of today's
+                    science and technology landscape. These programs encompass a variety of
+                    disciplines, including Computer Science and
+                    Science Laboratory. Each program is meticulously designed
                     to provide students with a solid foundation of theoretical
                     knowledge and practical skills necessary to thrive in their
                     chosen fields.`}
                   </p>
                 </li>
                 <li className="py-4">
-                  <h6 className="font-semibold tracking-wider pb-2 text-gray-600">
+                  <h6 className="font-semibold pb-2 text-gray-600">
                     Expert Staffs
                   </h6>
                   <p>
-                    The School of Engineering boasts a dedicated and diverse
-                    team of staffs who are experts in their respective fields.
-                    These experienced educators bring a wealth of industry
-                    knowledge and academic excellence to the classroom, ensuring
-                    that students receive up-to-date insights and hands-on
-                    training in alignment with the latest industry trends and
-                    standards.
+                    {`The school is staffed with highly qualified and experienced staff members who are committed to excellence in teaching, research, and mentorship. They bring a wealth of knowledge and real-world experience to the classroom, ensuring that students receive a top-notch education.`}
                   </p>
                 </li>
                 <li className="py-4">
-                  <h6 className="font-semibold tracking-wider pb-2 text-gray-600">
+                  <h6 className="font-semibold pb-2 text-gray-600">
                     Facilities
                   </h6>
                   <p>
-                    {`RECTEM's commitment to excellence is reflected in its
-                    facilities, laboratories, and workshops. The School of
-                    Engineering provides students with access to modern
-                    equipment and technology that simulate real-world
-                    engineering scenarios. This practical approach enables
-                    students to experiment, design, and apply their theoretical
-                    knowledge to solve complex engineering challenges.`}
+                    {`RECTEM invests in state-of-the-art laboratories, computer centers, and research facilities to provide students with hands-on learning experiences. These facilities are equipped with the latest technology and equipment to support academic and research endeavors.`}
                   </p>
                 </li>
                 <li className="py-4">
-                  <h6 className="font-semibold tracking-wider pb-2 text-gray-600">
+                  <h6 className="font-semibold pb-2 text-gray-600">
                     Innovation and Research
                   </h6>
                   <p>
-                    The School of Engineering encourages students and faculty
-                    members to engage in innovative research projects that
-                    address current engineering issues and contribute to
-                    technological advancements. This culture of research
-                    nurtures creativity and empowers students to explore
-                    groundbreaking solutions that have the potential to
-                    transform industries and improve lives.
+                    {`The School of Science and Technology encourages research and innovation. Staffs and students engage in impactful research projects that contribute to advancements in their respective fields. RECTEM fosters a culture of curiosity and exploration.`}
                   </p>
                 </li>
                 <li className="py-4">
-                  <h6 className="font-semibold tracking-wider pb-2 text-gray-600">
+                  <h6 className="font-semibold pb-2 text-gray-600">
                     Industry Partnerships
                   </h6>
                   <p>
-                    {`RECTEM's School of Engineering maintains strong ties with
-                    various industries, including engineering firms,
-                    corporations, and governmental organizations. These
-                    partnerships provide students with opportunities for
-                    internships, co-op programs, and networking events, enabling
-                    them to build valuable connections and gain insights into
-                    the practical applications of their studies.`}
+                    {`RECTEM has established strong partnerships with industry leaders, allowing students to gain practical exposure through internships, workshops, and guest lectures. These connections enhance students' employability and provide them with insights into real-world challenges.`}
                   </p>
                 </li>
                 <li className="py-4">
-                  <h6 className="font-semibold tracking-wider pb-2 text-gray-600">
-                    Global Perspective
+                  <h6 className="font-semibold pb-2 text-gray-600">
+                    Interdisciplinary Approach
                   </h6>
                   <p>
-                    {`In an increasingly interconnected world, the School of
-                    Engineering at RECTEM recognizes the importance of a global
-                    perspective. International collaborations, exchange
-                    programs, and exposure to diverse engineering practices
-                    broaden students' horizons and prepare them to work in
-                    multicultural environments.`}
+                    {`The school recognizes the importance of interdisciplinary learning. It encourages collaboration among students from various disciplines, promoting a holistic understanding of complex problems and innovative solutions.`}
                   </p>
                 </li>
                 <li className="py-4">
-                  <h6 className="font-semibold tracking-wider pb-2 text-gray-600">
-                    Ethical and Responsible Engineering
+                  <h6 className="font-semibold pb-2 text-gray-600">
+                    Career Opportunities
                   </h6>
                   <p>
-                    {`Integral to RECTEM's philosophy is the emphasis on ethical
-                    and responsible engineering practices. The School of
-                    Engineering instills in its students a deep sense of social
-                    responsibility, encouraging them to apply their skills and
-                    knowledge to create sustainable solutions that address
-                    societal and environmental challenges.`}
+                    {`Graduates from the School of Science and Technology at RECTEM are well-equipped to embark on successful careers in a variety of sectors. They are in high demand by employers due to their strong technical skills, problem-solving abilities, and adaptability.`}
                   </p>
                 </li>
               </ul>
@@ -152,7 +112,7 @@ export default function Home() {
             <div>
               <hr className="border-[#f1ab00]" />
               <h4
-                className={`py-4 text-[#003DA5] text-sm tracking-wider ${gemsbuck.className}`}
+                className={`py-4 text-[#003DA5] text-sm ${gemsbuck.className}`}
               >
                 DEPARTMENTS
               </h4>
@@ -202,7 +162,7 @@ export default function Home() {
             <div>
               <hr className="border-[#f1ab00]" />
               <h4
-                className={`py-4 text-[#003DA5] text-sm tracking-wider ${gemsbuck.className}`}
+                className={`py-4 text-[#003DA5] text-sm ${gemsbuck.className}`}
               >
                 MORE SCHOOLS
               </h4>
@@ -271,7 +231,7 @@ export default function Home() {
             <div>
               <hr className="border-[#f1ab00]" />
               <h4
-                className={`py-4 text-[#003DA5] text-sm tracking-wider ${gemsbuck.className}`}
+                className={`py-4 text-[#003DA5] text-sm ${gemsbuck.className}`}
               >
                 QUICKLINKS
               </h4>

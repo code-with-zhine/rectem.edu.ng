@@ -206,16 +206,16 @@ const Tabs = () => {
                       Admission
                     </h6>
                     <p className="text-justify">
-                      Your journey commences with the release of our admission
+                      {`Your journey commences with the release of our admission
                       forms. These forms are conveniently accessible online via
-                      our{" "}
+                      our `}
                       <a
                         href="https://onlineapp.rectem.edu.ng"
                         className="text-[#D6336B] cursor-pointer"
                       >
                         application portal
                       </a>
-                      {`or admission office, redeemers college of technology and
+                      {` or admission office, redeemers college of technology and
                       management redemption city mowe, ogun state. As
                       prospective students, it's vital to accurately complete
                       the application form and provide all required information.`}
@@ -309,16 +309,16 @@ const Tabs = () => {
                       Admission
                     </h6>
                     <p className="text-justify">
-                      Your journey commences with the release of our admission
+                      {`Your journey commences with the release of our admission
                       forms. These forms are conveniently accessible online via
-                      our{" "}
+                      our `}
                       <a
                         href="https://onlineapp.rectem.edu.ng"
                         className="text-[#D6336B] cursor-pointer"
                       >
                         application portal
                       </a>
-                      {`or admission office, redeemers college of technology and
+                      {` or admission office, redeemers college of technology and
                       management redemption city mowe, ogun state. As
                       prospective students, it's vital to accurately complete
                       the application form and provide all required information.`}

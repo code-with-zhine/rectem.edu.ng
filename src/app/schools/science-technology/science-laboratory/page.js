@@ -271,61 +271,38 @@ const Tabs = () => {
       {activeTab === "tab1" && (
         <div className="py-4 text-gray-500">
           <p className="text-justify">
-            In the rapidly evolving landscape of technology, computer
-            engineering stands as a cornerstone, driving innovation and
-            progress. In Nigeria, the pursuit of a National Diploma in Computer
-            Engineering offers students the opportunity to become pioneers in
-            this dynamic field. This comprehensive program equips students with
-            the skills and knowledge needed to navigate the ever-changing world
-            of computing, ensuring they are well-prepared to make significant
-            contributions to the tech industry.
+            {`Science Laboratory Technology (SLT) is a branch of applied science that focuses on the practical aspects of laboratory work and scientific research. Professionals in this field, known as Science Laboratory Technologists or Technicians, play a crucial role in supporting scientific research, experimentation, and analysis in various fields of science and technology. `}
           </p>
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
             <p className="text-justify">
-              Computer engineering is a discipline that integrates quite a few
-              fields of electrical engineering and computer science required to
-              advance computer hardware and software. Computer engineers
-              normally have coaching in digital/electronic engineering (or
-              electrical engineering), software program design, and
-              hardware–software integration alternatively of solely software
-              program engineering or digital engineering. Computer engineers get
-              involved in many hardware and software program form of computing,
-              from the microcontrollers, microprocessors, non-public computers,
-              and supercomputers, to circuit design. This area of engineering no
-              longer solely focuses on how computer system themselves work,
-              however additionally how they combine into the large picture.
+              {`The programme's goal is to produce technicians capable of carrying out various laboratory analysis and practical works under the supervision of a technologist. The course is intended to produce technicians who will: Assist in chemical analysis and quality control in: Industry (oil, food, brewing, detergent, textile etc.) Hospitals, schools, colleges and research institutions. Assist in physical and electronic laboratories with physical analyses and the maintenance of instrumentation. Assist in biological and biochemical analysis and experiments in hospitals, schools, colleges and research institutes. It plays an important role in the foundation stages of research and development (R&D) and in scientific analysis and investigation`}
             </p>
           </div>
 
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">
-              Job opportunities in COMPUTER ENGINEERING
+              Job opportunities in SCIENCE LABORATORY TECHNOLOGY
             </h6>
             <p className="text-justify">
-              Computer Engineering is a dynamic professional field that offers
-              different career directions in hardware engineering (e.g.
-              microprocessors) and software program development. The demand for
-              computer engineers is high in this information age hence, at the
-              profession level, there are two predominant specialties: hardware
-              and software program engineering. Hardware engineers use their
-              abilities on pc system and components, designing microprocessors,
-              circuit boards, routers and different embedded devices. Software
-              engineers create, check and debug applications and functions that
-              run on computers, mobile devices and more. Some jobs you can do as
-              a computer engineering graduate include:
+              {`The course is expected to prepare students for employment in related work such as sales, marketing, administration and management in industry and also, for self-employment. Working as part of a scientific team with tasks that include: Sampling, testing, measuring, recording, analyzing results. While also assisting in the advancement and development of modern medicine and science. Some jobs you can do as a science laboratory technology graduate include:`}
             </p>
             <ol className="py-4 pl-10 list-decimal">
-              <li>Software Engineer</li>
-              <li>Software Tester</li>
-              <li>Project Manager</li>
-              <li>Application Developer</li>
-              <li>Software Developer</li>
-              <li>Hardware Engineer</li>
-              <li>Microprocessor Engineer</li>
-              <li>High School Teacher</li>
-              <li>Product Engineer</li>
-              <li>Product Designer</li>
+              <li>Laboratory Technician</li>
+              <li>Quality Control Technician</li>
+              <li>Medical Laboratory Technologist</li>
+              <li>Research Assistant</li>
+              <li>Biotech Manufacturing Technician</li>
+              <li>Biotech Research Associate</li>
+              <li>Regulatory Affairs Specialist</li>
+              <li>Biotech Patent Attorney</li>
+              <li>Quality Control Specialist</li>
+              <li>Biotech Clinical Research Associate</li>
+              <li>Biotech Project Manager</li>
+              <li>Medical Writer</li>
+              <li>Medical Illustrator</li>
+              <li>Medical Librarian</li>
+              <li>Science Writer</li>
             </ol>
           </div>
 

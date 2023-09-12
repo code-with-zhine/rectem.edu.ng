@@ -3,7 +3,7 @@ module.exports = {
     {
       date: "DECEMBER 1, 2022",
       title: "Admissions for 2022/2023 Now Open!",
-      imageUrl: "",
+      imageUrl: "/lead.jpg",
       body: `Are you ready to embark on a transformative educational
             journey? Look no further than REDEEMER'S COLLEGE, where
             doors are opening for the 2022/2023 academic year. With a
@@ -14,7 +14,7 @@ module.exports = {
     {
       date: "JUNE 28, 2023",
       title: "5th Matriculation Ceremony for the 2022/2023 Session.",
-      imageUrl: "",
+      imageUrl: "/admission.jpg",
       body: `We are thrilled to extend a warm invitation to you for a
             momentous occasion - the 5th Matriculation Ceremony of
             REDEEMER'S COLLEGE, marking the beginning of the 2022/2023

@@ -197,8 +197,8 @@ const Tabs = () => {
                       id="selectInput"
                       className="block w-full text-xs appearance-none bg-white border border-gray-300  px-4 py-2 pr-8 leading-tight focus:outline-none focus:ring focus:border-blue-500"
                     >
-                      <option>FIRST SEMESTER</option>
-                      <option>SECOND SEMESTER</option>
+                      <option>ENGINEERING</option>
+                      <option>ENVIRONMENTAL</option>
                     </select>
                     <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
                       <svg
@@ -278,17 +278,17 @@ const Tabs = () => {
                 <ul className="text-gray-500">
                   <li className="py-2 flex justify-between uppercase text-xs font-semibold tracking-wider">
                     <span>First Semester</span>
-                    <span>30000</span>
+                    <span>----</span>
                   </li>
                   <hr />
                   <li className="py-2 flex justify-between uppercase text-xs font-semibold tracking-wider">
                     <span>Second Semester</span>
-                    <span>30000</span>
+                    <span>----</span>
                   </li>
                   <hr />
                   <li className="py-2 flex justify-between uppercase text-xs font-semibold tracking-wider">
                     <span></span>
-                    <span>30000</span>
+                    <span>----</span>
                   </li>
                 </ul>
                 <h4 className="text-xs tracking-wider font-medium text-gray-500 ">
@@ -298,22 +298,22 @@ const Tabs = () => {
                 <ul className="text-gray-500">
                   <li className="py-2 flex justify-between uppercase text-xs font-semibold tracking-wider">
                     <span>First Semester</span>
-                    <span>30000</span>
+                    <span>----</span>
                   </li>
                   <hr />
                   <li className="py-2 flex justify-between uppercase text-xs font-semibold tracking-wider">
                     <span>Second Semester</span>
-                    <span>30000</span>
+                    <span>----</span>
                   </li>
                   <hr />
                   <li className="py-2 flex justify-between uppercase text-xs font-semibold tracking-wider">
                     <span></span>
-                    <span>30000</span>
+                    <span>----</span>
                   </li>
                   <hr className="border-[#f1ab00]" />
                   <li className="py-2 flex justify-between uppercase text-xs font-semibold tracking-wider">
                     <span>Total</span>
-                    <span>30000</span>
+                    <span>----</span>
                   </li>
                 </ul>
               </div>
@@ -334,7 +334,7 @@ const Tabs = () => {
                 </a>
               </div>
 
-              <div class="overflow-x-auto text-gray-500">
+              {/* <div class="overflow-x-auto text-gray-500">
                 <table class="min-w-full bg-white border border-gray-200 shadow-md rounded-lg">
                   <thead class="bg-gray-100 uppercase ">
                     <tr>
@@ -359,15 +359,10 @@ const Tabs = () => {
                       <td class="px-6 py-4 whitespace-nowrap">300,000</td>
                       <td class="px-6 py-4 whitespace-nowrap">500,000</td>
                     </tr>
-                    <tr>
-                      <td class="px-6 py-4 whitespace-nowrap">Architectural</td>
-                      <td class="px-6 py-4 whitespace-nowrap">250,000</td>
-                      <td class="px-6 py-4 whitespace-nowrap">250,000</td>
-                      <td class="px-6 py-4 whitespace-nowrap">500,000</td>
-                    </tr>
+                
                   </tbody>
                 </table>
-              </div>
+              </div> */}
             </div>
 
             <div className="pt-5">
@@ -403,8 +398,8 @@ const Tabs = () => {
                       id="selectInput"
                       className="block w-full text-xs appearance-none bg-white border border-gray-300  px-4 py-2 pr-8 leading-tight focus:outline-none focus:ring focus:border-blue-500"
                     >
-                      <option>FIRST SEMESTER</option>
-                      <option>SECOND SEMESTER</option>
+                      <option>ENGINEERING</option>
+                      <option>ENVIRONMENTAL</option>
                     </select>
                     <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
                       <svg
@@ -484,17 +479,17 @@ const Tabs = () => {
                 <ul className="text-gray-500">
                   <li className="py-2 flex justify-between uppercase text-xs font-semibold tracking-wider">
                     <span>First Semester</span>
-                    <span>30000</span>
+                    <span>----</span>
                   </li>
                   <hr />
                   <li className="py-2 flex justify-between uppercase text-xs font-semibold tracking-wider">
                     <span>Second Semester</span>
-                    <span>30000</span>
+                    <span>----</span>
                   </li>
                   <hr />
                   <li className="py-2 flex justify-between uppercase text-xs font-semibold tracking-wider">
                     <span></span>
-                    <span>30000</span>
+                    <span>----</span>
                   </li>
                 </ul>
                 <h4 className="text-xs tracking-wider font-medium text-gray-500 ">
@@ -504,22 +499,22 @@ const Tabs = () => {
                 <ul className="text-gray-500">
                   <li className="py-2 flex justify-between uppercase text-xs font-semibold tracking-wider">
                     <span>First Semester</span>
-                    <span>30000</span>
+                    <span>----</span>
                   </li>
                   <hr />
                   <li className="py-2 flex justify-between uppercase text-xs font-semibold tracking-wider">
                     <span>Second Semester</span>
-                    <span>30000</span>
+                    <span>----</span>
                   </li>
                   <hr />
                   <li className="py-2 flex justify-between uppercase text-xs font-semibold tracking-wider">
                     <span></span>
-                    <span>30000</span>
+                    <span>----</span>
                   </li>
                   <hr className="border-[#f1ab00]" />
                   <li className="py-2 flex justify-between uppercase text-xs font-semibold tracking-wider">
                     <span>Total</span>
-                    <span>30000</span>
+                    <span>----</span>
                   </li>
                 </ul>
               </div>
@@ -540,7 +535,7 @@ const Tabs = () => {
                 </a>
               </div>
 
-              <div class="overflow-x-auto text-gray-500">
+              {/* <div class="overflow-x-auto text-gray-500">
                 <table class="min-w-full bg-white border border-gray-200 shadow-md rounded-lg">
                   <thead class="bg-gray-100 uppercase ">
                     <tr>
@@ -565,15 +560,10 @@ const Tabs = () => {
                       <td class="px-6 py-4 whitespace-nowrap">300,000</td>
                       <td class="px-6 py-4 whitespace-nowrap">500,000</td>
                     </tr>
-                    <tr>
-                      <td class="px-6 py-4 whitespace-nowrap">Architectural</td>
-                      <td class="px-6 py-4 whitespace-nowrap">250,000</td>
-                      <td class="px-6 py-4 whitespace-nowrap">250,000</td>
-                      <td class="px-6 py-4 whitespace-nowrap">500,000</td>
-                    </tr>
+                   
                   </tbody>
                 </table>
-              </div>
+              </div> */}
             </div>
 
             <div className="pt-5">

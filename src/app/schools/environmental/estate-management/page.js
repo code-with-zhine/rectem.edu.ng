@@ -290,61 +290,63 @@ const Tabs = () => {
       {activeTab === "tab1" && (
         <div className="py-4 text-gray-500">
           <p className="text-justify">
-            In the rapidly evolving landscape of technology, computer
-            engineering stands as a cornerstone, driving innovation and
-            progress. In Nigeria, the pursuit of a National Diploma in Computer
-            Engineering offers students the opportunity to become pioneers in
-            this dynamic field. This comprehensive program equips students with
-            the skills and knowledge needed to navigate the ever-changing world
-            of computing, ensuring they are well-prepared to make significant
-            contributions to the tech industry.
+            {`Estate management and valuation are essential aspects of real estate that involve the planning, development, and assessment of properties. These two fields often overlap but have distinct focuses and purposes.`}
           </p>
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
             <p className="text-justify">
-              Computer engineering is a discipline that integrates quite a few
-              fields of electrical engineering and computer science required to
-              advance computer hardware and software. Computer engineers
-              normally have coaching in digital/electronic engineering (or
-              electrical engineering), software program design, and
-              hardware–software integration alternatively of solely software
-              program engineering or digital engineering. Computer engineers get
-              involved in many hardware and software program form of computing,
-              from the microcontrollers, microprocessors, non-public computers,
-              and supercomputers, to circuit design. This area of engineering no
-              longer solely focuses on how computer system themselves work,
-              however additionally how they combine into the large picture.
+              {`The aim of the Department is to educate and equip students with
+              fundamental body of knowledge in the constituent disciplines of
+              Property Valuation, Development Appraisal, Building Construction,
+              Land Surveying, Economics, Town Planning, Land Law, Land
+              Economics, Urban Economics, Property Management and Property
+              Development. With the objective of Graduating aspirant with the
+              acquired skills to demonstrate spontaneous analytic deductive and
+              competent judgments on issues relating to interests in landed
+              property. The graduates are also trained to interact with other
+              allied professionals in the construction industry and build an
+              unimaginable community while letting them pursue their goals in an
+              environment that value diversity, individuality, mutual respect
+              and free exchange of ideas.`}
             </p>
           </div>
 
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">
-              Job opportunities in COMPUTER ENGINEERING
+              Job opportunities in ESTATE MANAGEMENT & VALUATION
             </h6>
             <p className="text-justify">
-              Computer Engineering is a dynamic professional field that offers
-              different career directions in hardware engineering (e.g.
-              microprocessors) and software program development. The demand for
-              computer engineers is high in this information age hence, at the
-              profession level, there are two predominant specialties: hardware
-              and software program engineering. Hardware engineers use their
-              abilities on pc system and components, designing microprocessors,
-              circuit boards, routers and different embedded devices. Software
-              engineers create, check and debug applications and functions that
-              run on computers, mobile devices and more. Some jobs you can do as
-              a computer engineering graduate include:
+              {` An estate management graduate can work in any property investment
+              and development company (private or public) either as a property
+              developer, project manager/officer, estate/property marketer,
+              estate manager, property/facility manager, project appraisal,
+              estate surveyor and valuer, or construction project
+              supervisor/officer. Some jobs you can do as an estate management &
+              valuation graduate include:`}
             </p>
             <ol className="py-4 pl-10 list-decimal">
-              <li>Software Engineer</li>
-              <li>Software Tester</li>
-              <li>Project Manager</li>
-              <li>Application Developer</li>
-              <li>Software Developer</li>
-              <li>Hardware Engineer</li>
-              <li>Microprocessor Engineer</li>
-              <li>High School Teacher</li>
-              <li>Product Engineer</li>
-              <li>Product Designer</li>
+              <li>Estate Surveyor and Valuer</li>
+              <li>Property manager</li>
+              <li>Facility manager</li>
+              <li>Real estate marketer</li>
+              <li>Maintenance officer/manager</li>
+              <li>Project manager</li>
+              <li>Project coordinator/supervisor</li>
+              <li>Property developer</li>
+              <li>Estate manager/officer</li>
+              <li>Rating valuer/officer</li>
+              <li>Premises manager</li>
+              <li>Project appraisal</li>
+              <li>Construction project supervisor/officer</li>
+              <li>Expert witness</li>
+              <li>Property arbitrator/mediator</li>
+              <li>Property auctioneer</li>
+              <li>Housing development supervisor/coordinator</li>
+              <li>Real estate contract officer</li>
+              <li>Property inspection officer</li>
+              <li>Land valuer</li>
+              <li>Property assessor</li>
+              <li>Property valuation officer/manager</li>
             </ol>
           </div>
 

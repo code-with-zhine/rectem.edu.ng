@@ -271,61 +271,45 @@ const Tabs = () => {
       {activeTab === "tab1" && (
         <div className="py-4 text-gray-500">
           <p className="text-justify">
-            In the rapidly evolving landscape of technology, computer
-            engineering stands as a cornerstone, driving innovation and
-            progress. In Nigeria, the pursuit of a National Diploma in Computer
-            Engineering offers students the opportunity to become pioneers in
-            this dynamic field. This comprehensive program equips students with
-            the skills and knowledge needed to navigate the ever-changing world
-            of computing, ensuring they are well-prepared to make significant
-            contributions to the tech industry.
+            {`The Computer Science Department in Nigeria, like in many other countries, plays a crucial role in shaping the future of technology, innovation, and education. It serves as a hub for computer-related research, education, and technological advancements.`}
           </p>
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
             <p className="text-justify">
-              Computer engineering is a discipline that integrates quite a few
-              fields of electrical engineering and computer science required to
-              advance computer hardware and software. Computer engineers
-              normally have coaching in digital/electronic engineering (or
-              electrical engineering), software program design, and
-              hardware–software integration alternatively of solely software
-              program engineering or digital engineering. Computer engineers get
-              involved in many hardware and software program form of computing,
-              from the microcontrollers, microprocessors, non-public computers,
-              and supercomputers, to circuit design. This area of engineering no
-              longer solely focuses on how computer system themselves work,
-              however additionally how they combine into the large picture.
+              {`Computer science is centered on the development and testing of software and software systems. It involves working with mathematical models, data analysis and security, algorithms, and computational theory, their applications, and their impact on society. Majorly Computer scientist in this great institute have concluded the reason behind the study of such a course is the passion for problem-solving and the joy from working on complex technical challenges as it also enables them to make a positive Impact in The World, however Instead of teaching the same lesson plans to our student, we educators focus on the 5 Cs {collaboration, communication, creativity, and critical and computational thinking} to foster greater learning.`}
             </p>
           </div>
 
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">
-              Job opportunities in COMPUTER ENGINEERING
+              Job opportunities in COMPUTER SCIENCE
             </h6>
             <p className="text-justify">
-              Computer Engineering is a dynamic professional field that offers
-              different career directions in hardware engineering (e.g.
-              microprocessors) and software program development. The demand for
-              computer engineers is high in this information age hence, at the
-              profession level, there are two predominant specialties: hardware
-              and software program engineering. Hardware engineers use their
-              abilities on pc system and components, designing microprocessors,
-              circuit boards, routers and different embedded devices. Software
-              engineers create, check and debug applications and functions that
-              run on computers, mobile devices and more. Some jobs you can do as
-              a computer engineering graduate include:
+              {`Computer science is one of the fastest growing academic
+              disciplines today, and it offers an excellent career pathway (e.g.
+              web development) and software program development, at the
+              profession level, There are around 20 specializations in computer
+              science – AI, ML, Cognitive Science, Computer Graphics, Data
+              Processing, Information Technology, Software Engineering,
+              Theoretical Computer Science, Bioinformatics and more with various
+              abilities to major or cut across any of your choice. Some jobs you can do as a
+              computer science graduate include:`}
             </p>
             <ol className="py-4 pl-10 list-decimal">
-              <li>Software Engineer</li>
-              <li>Software Tester</li>
-              <li>Project Manager</li>
-              <li>Application Developer</li>
-              <li>Software Developer</li>
-              <li>Hardware Engineer</li>
-              <li>Microprocessor Engineer</li>
-              <li>High School Teacher</li>
-              <li>Product Engineer</li>
-              <li>Product Designer</li>
+              <li>Application analyst</li>
+              <li>Applications developer</li>
+              <li>Cyber security analyst</li>
+              <li>Data analyst</li>
+              <li>Forensic computer analyst</li>
+              <li>Game designer</li>
+              <li>Games developer</li>
+              <li>Machine learning engineer</li>
+              <li>Penetration tester</li>
+              <li>Software engineer</li>
+              <li>Systems analyst</li>
+              <li>UX designer</li>
+              <li>Web designer</li>
+              <li>Web developer</li>
             </ol>
           </div>
 
