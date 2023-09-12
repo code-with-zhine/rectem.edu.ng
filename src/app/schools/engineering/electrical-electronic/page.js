@@ -290,19 +290,19 @@ const Tabs = () => {
       {activeTab === "tab1" && (
         <div className="py-4 text-gray-500">
           <p className="text-justify">
-            In the rapidly evolving landscape of technology, computer
+            {`In the rapidly evolving landscape of technology, computer
             engineering stands as a cornerstone, driving innovation and
             progress. In Nigeria, the pursuit of a National Diploma in Computer
             Engineering offers students the opportunity to become pioneers in
             this dynamic field. This comprehensive program equips students with
             the skills and knowledge needed to navigate the ever-changing world
             of computing, ensuring they are well-prepared to make significant
-            contributions to the tech industry.
+            contributions to the tech industry.`}
           </p>
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
             <p className="text-justify">
-              Computer engineering is a discipline that integrates quite a few
+              {`Computer engineering is a discipline that integrates quite a few
               fields of electrical engineering and computer science required to
               advance computer hardware and software. Computer engineers
               normally have coaching in digital/electronic engineering (or
@@ -313,7 +313,7 @@ const Tabs = () => {
               from the microcontrollers, microprocessors, non-public computers,
               and supercomputers, to circuit design. This area of engineering no
               longer solely focuses on how computer system themselves work,
-              however additionally how they combine into the large picture.
+              however additionally how they combine into the large picture.`}
             </p>
           </div>
 
@@ -322,7 +322,7 @@ const Tabs = () => {
               Job opportunities in COMPUTER ENGINEERING
             </h6>
             <p className="text-justify">
-              Computer Engineering is a dynamic professional field that offers
+              {`Computer Engineering is a dynamic professional field that offers
               different career directions in hardware engineering (e.g.
               microprocessors) and software program development. The demand for
               computer engineers is high in this information age hence, at the
@@ -332,7 +332,7 @@ const Tabs = () => {
               circuit boards, routers and different embedded devices. Software
               engineers create, check and debug applications and functions that
               run on computers, mobile devices and more. Some jobs you can do as
-              a computer engineering graduate include:
+              a computer engineering graduate include:`}
             </p>
             <ol className="py-4 pl-10 list-decimal">
               <li>Software Engineer</li>
@@ -353,20 +353,20 @@ const Tabs = () => {
               Course Requirements
             </h6>
             <p className="text-justify">
-              To embark on the journey toward a National Diploma in Computer
+              {`To embark on the journey toward a National Diploma in Computer
               Engineering, prospective students typically need to fulfill
-              certain prerequisites. These include:
+              certain prerequisites. These include:`}
             </p>
             <ol className="py-4 list-disc grid gap-4">
               <li>
                 <span className="font-semibold">Entry Requirements:</span>
-                At least five relevant passes at credit level in the West African Examination Council (WAEC), General Certificate of Education (GCE), Senior Secondary School Certificate (SSCE) or National Examinations Council (NECO) 'O' Levels or their equivalent including English Language and Mathematics (Literature-in-English and Oral English are not acceptable in place of English Lnguage), and any other three subjects from Economics, Business Studies/Methods, Financial Accounting/Principles of Accounts/Book Keeping, Literature-in-English, Commerce, History, Government, Statistics, Geography, Civil Education, Agricultural Science/Biology, obtained at not more than two sitting.
+                {`At least five relevant passes at credit level in the West African Examination Council (WAEC), General Certificate of Education (GCE), Senior Secondary School Certificate (SSCE) or National Examinations Council (NECO) 'O' Levels or their equivalent including English Language and Mathematics (Literature-in-English and Oral English are not acceptable in place of English Lnguage), and any other three subjects from Economics, Business Studies/Methods, Financial Accounting/Principles of Accounts/Book Keeping, Literature-in-English, Commerce, History, Government, Statistics, Geography, Civil Education, Agricultural Science/Biology, obtained at not more than two sitting.`}
               </li>
               <li>
                 <span className="font-semibold">JAMB UTME: </span>
-                Joint Admissions and Matriculation Board Unified Tertiary
+                {`Joint Admissions and Matriculation Board Unified Tertiary
                 Matriculation Examination (JAMB UTME) scores will be used as
-                part of the selection process.
+                part of the selection process.`}
               </li>
             </ol>
           </div>

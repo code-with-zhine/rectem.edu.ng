@@ -49,10 +49,10 @@ export default function Home() {
                       ND in RECTEM
                     </h6>
                     <p className="text-justify">
-                      RECTEM stands out as an institution that places a strong
+                      {`RECTEM stands out as an institution that places a strong
                       emphasis on the quality and relevance of its ND programs.
                       Here's how RECTEM's ND programs relate to the broader
-                      context of ND education in Nigeria:
+                      context of ND education in Nigeria:`}
                     </p>
                   </li>
                   <li className="py-4">
@@ -60,10 +60,10 @@ export default function Home() {
                       Accredited National Diploma Programs:
                     </h6>
                     <p className="text-justify">
-                      RECTEM offers accredited National Diploma programs in
+                      {`RECTEM offers accredited National Diploma programs in
                       several technical and management disciplines. These
                       programs are designed to equip students with practical
-                      skills and knowledge relevant to their chosen fields.
+                      skills and knowledge relevant to their chosen fields.`}
                     </p>
                   </li>
                   <li className="py-4">
@@ -71,10 +71,10 @@ export default function Home() {
                       Quality Education
                     </h6>
                     <p className="text-justify">
-                      RECTEM is committed to providing high-quality education,
+                      {`RECTEM is committed to providing high-quality education,
                       and its ND programs are no exception. The institution
                       ensures that students receive a well-rounded education
-                      that prepares them for the demands of the workforce.
+                      that prepares them for the demands of the workforce.`}
                     </p>
                   </li>
 
@@ -83,10 +83,10 @@ export default function Home() {
                       Experienced Staffs
                     </h6>
                     <p className="text-justify">
-                      RECTEM boasts a team of experienced faculty members who
+                      {`RECTEM boasts a team of experienced faculty members who
                       are experts in their respective fields. These educators
                       play a crucial role in imparting knowledge and practical
-                      skills to ND students.
+                      skills to ND students.`}
                     </p>
                   </li>
 
@@ -95,10 +95,10 @@ export default function Home() {
                       Modern Facilities
                     </h6>
                     <p className="text-justify">
-                      To enhance the learning experience, RECTEM provides modern
+                      {`To enhance the learning experience, RECTEM provides modern
                       facilities, laboratories, and equipment that are essential
                       for hands-on training and skill development in various ND
-                      programs.
+                      programs.`}
                     </p>
                   </li>
 

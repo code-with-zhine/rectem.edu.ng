@@ -49,10 +49,10 @@ export default function Home() {
                       HND in RECTEM
                     </h6>
                     <p className="text-justify">
-                      RECTEM stands out as an institution that places a strong
+                      {`RECTEM stands out as an institution that places a strong
                       emphasis on the quality and relevance of its HND programs.
                       Here's how RECTEM's HND programs relate to the broader
-                      context of HND education in Nigeria:
+                      context of HND education in Nigeria:`}
                     </p>
                   </li>
                   <li className="py-4">
@@ -60,11 +60,11 @@ export default function Home() {
                       Industry-Relevant Curriculum
                     </h6>
                     <p className="text-justify">
-                      RECTEM's HND programs are carefully crafted to meet the
+                      {`RECTEM's HND programs are carefully crafted to meet the
                       demands of the modern workforce. The curriculum is
                       designed in collaboration with industry experts to ensure
                       that students acquire the skills and knowledge needed to
-                      excel in their chosen fields.
+                      excel in their chosen fields.`}
                     </p>
                   </li>
 
@@ -73,10 +73,10 @@ export default function Home() {
                       State-of-the-Art Facilities
                     </h6>
                     <p className="text-justify">
-                      RECTEM invests in state-of-the-art facilities and
+                      {`RECTEM invests in state-of-the-art facilities and
                       resources to support HND students' practical training.
                       This includes well-equipped laboratories, workshops, and
-                      technology to simulate real-world working environments.
+                      technology to simulate real-world working environments.`}
                     </p>
                   </li>
 
@@ -85,10 +85,10 @@ export default function Home() {
                       Experienced Staffs
                     </h6>
                     <p className="text-justify">
-                      RECTEM's staff members are experienced professionals in
+                      {`RECTEM's staff members are experienced professionals in
                       their respective fields. They provide students with not
                       only theoretical knowledge but also valuable insights
-                      based on their practical industry experience.
+                      based on their practical industry experience.`}
                     </p>
                   </li>
 
@@ -130,7 +130,7 @@ export default function Home() {
 
                   <li className="py-4">
                     <h6 className="font-semibold pb-2 text-gray-600">
-                      The Relevance of RECTEM's HND Programs
+                      {`The Relevance of RECTEM's HND Programs`}
                     </h6>
                     <p className="text-justify">
                       {`RECTEM's HND programs are not only relevant but also instrumental in shaping the future of students and the Nigerian workforce. By offering a comprehensive, industry-aligned education, RECTEM empowers HND graduates to:`}
