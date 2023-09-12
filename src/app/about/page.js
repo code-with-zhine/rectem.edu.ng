@@ -10,7 +10,7 @@ import FollowUs from "@/components/Follow-us";
 export default function Home() {
   return (
     <Layout>
-      <section className="bg-[url('/about-hero.png')] bg-no-repeat bg-cover  text-white p-10 py-20">
+      <section className="bg-[url('/about-hero.png')] bg-no-repeat bg-cover  text-white md:p-10 py-20">
         <div className="max-w-lg md:top-5 lg:top-1/4 left-8 p-5">
           <h4 className={`py-4 text-3xl ${gemsbuck.className}`}>
             RAISING GLOBAL CHAMPION
