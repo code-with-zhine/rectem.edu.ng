@@ -378,7 +378,7 @@ const Tabs = ({year, setYear}) => {
       {activeTab === "tab2" && (
         <div>
           <div className="container mx-auto pt-10">
-            <div className="flex gap-2 items-center">
+            <div className="flex items-center">
               <h4
                 className={`py-4 text-sm text-[#003DA5] ${gemsbuck.className}`}
               >
@@ -386,7 +386,7 @@ const Tabs = ({year, setYear}) => {
               </h4>
               <a
                 onClick={() => setYear(1)}
-                className={`text-xs cursor-pointer px-2 py-1 font-semibold hover:bg-gray-500 text-white rounded-sm ${
+                className={`text-xs cursor-pointer mx-2 px-2 py-1 font-semibold hover:bg-gray-500 text-white rounded-sm ${
                   year == 1 ? "bg-gray-600" : "bg-gray-400"
                 }`}
               >
@@ -394,7 +394,7 @@ const Tabs = ({year, setYear}) => {
               </a>
               <a
                 onClick={() => setYear(2)}
-                className={`text-xs cursor-pointer px-2 py-1 font-semibold hover:bg-gray-500 text-white rounded-sm ${
+                className={`text-xs cursor-pointer mx-2 px-2 py-1 font-semibold hover:bg-gray-500 text-white rounded-sm ${
                   year == 2 ? "bg-gray-600" : "bg-gray-400"
                 }`}
               >
