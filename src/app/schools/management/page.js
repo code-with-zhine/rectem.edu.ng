@@ -38,7 +38,7 @@ export default function Home() {
             <div className="text-gray-500 text-justify">
               <p>
                 {`
-                The School of Management at RECTEM is a dynamic and innovative hub for academic excellence and professional development. As an integral part of RECTEM, our School of Management is committed to fostering future leaders, entrepreneurs, and change-makers in the field of business and management.
+                The School of Management at RECTEM is a dynamic and innovative hub for academic excellence and professional development. As an integral part of RECTEM, our School of Management is committed to fostering future leaders, entrepreneurs, and change-makers in the field of business and management. Below are what our school offer...
                 `}
               </p>
               <ul className="py-5">

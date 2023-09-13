@@ -38,7 +38,7 @@ export default function Home() {
             <div className="text-gray-500 text-justify">
               <p>
                 {`
-                The School of Science and Technology at RECTEM (Redeemer's College of Technology and Management) is a vital academic department dedicated to providing a strong foundation in various scientific and technological disciplines. This school plays a pivotal role in shaping the future of students and preparing them for careers in the rapidly evolving fields of science and technology.
+                The School of Science and Technology at RECTEM (Redeemer's College of Technology and Management) is a vital academic department dedicated to providing a strong foundation in various scientific and technological disciplines. This school plays a pivotal role in shaping the future of students and preparing them for careers in the rapidly evolving fields of science and technology. Below are what our school offer...
                 `}
               </p>
               <ul className="py-5">

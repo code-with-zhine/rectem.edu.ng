@@ -38,7 +38,7 @@ export default function Home() {
             <div className="text-gray-500 text-justify">
               <p>
                 {`
-                  The School of Environmental Technology at RECTEM (Redeemer's College of Technology and Management) is a dynamic and innovative academic institution that focuses on preparing students for a future in environmental sciences and technology. With a strong commitment to academic excellence, research, and community engagement, RECTEM's School of Environmental Technology offers a range of programs and opportunities that bridge the gap between theory and practice in the field of environmental technology.
+                  The School of Environmental Technology at RECTEM (Redeemer's College of Technology and Management) is a dynamic and innovative academic institution that focuses on preparing students for a future in environmental sciences and technology. With a strong commitment to academic excellence, research, and community engagement, RECTEM's School of Environmental Technology offers a range of programs and opportunities that bridge the gap between theory and practice in the field of environmental technology. Below are what our school offer...
                   `}
               </p>
               <ul className="py-5">
