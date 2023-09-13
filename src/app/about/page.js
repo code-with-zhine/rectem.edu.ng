@@ -22,12 +22,13 @@ export default function Home() {
         </div>
       </section>
       <section className="px-5 md:px-10 py-10">
-        <div className="mb-4">
+        <div className="py-4">
           <Link
             href="/"
-            className="flex text-xs items-center gap-2 text-[#003DA5] font-semibold"
+            className="flex text-xs items-center text-[#003DA5] font-semibold"
           >
             <svg
+              className="mx-2"
               xmlns="http://www.w3.org/2000/svg"
               width="20"
               height="20"
@@ -244,7 +245,6 @@ export default function Home() {
               and medium enterprises.`}
             </p>
           </li>
-          
         </ul>
       </section>
       <hr />

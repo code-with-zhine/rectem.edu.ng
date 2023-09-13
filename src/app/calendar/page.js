@@ -25,9 +25,10 @@ export default function Home() {
         <div className="py-4">
           <Link
             href="/"
-            className="flex text-xs items-center gap-2 text-[#003DA5] font-semibold"
+            className="flex text-xs items-center text-[#003DA5] font-semibold"
           >
             <svg
+              className="mx-2"
               xmlns="http://www.w3.org/2000/svg"
               width="20"
               height="20"
