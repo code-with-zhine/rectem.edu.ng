@@ -384,7 +384,7 @@ const Tabs = () => {
               Course list
             </h4>
             <div class="overflow-x-auto text-gray-500">
-              <table class="text-center text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+              <table class="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
                 <thead class="bg-gray-100">
                   <tr>
                     <th class="px-6 py-4 text-xs font-semibold">S/N</th>

@@ -290,61 +290,35 @@ const Tabs = () => {
       {activeTab === "tab1" && (
         <div className="py-4 text-gray-500">
           <p className="text-justify">
-            {`In the rapidly evolving landscape of technology, computer
-            engineering stands as a cornerstone, driving innovation and
-            progress. In Nigeria, the pursuit of a National Diploma in Computer
-            Engineering offers students the opportunity to become pioneers in
-            this dynamic field. This comprehensive program equips students with
-            the skills and knowledge needed to navigate the ever-changing world
-            of computing, ensuring they are well-prepared to make significant
-            contributions to the tech industry.`}
+            {`Electrical and electronic engineering is a branch of engineering that deals with the study and application of electricity, electronics, and electromagnetism. It is a broad and dynamic field that plays a crucial role in today's modern technology-driven world.`}
           </p>
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
             <p className="text-justify">
-              {`Computer engineering is a discipline that integrates quite a few
-              fields of electrical engineering and computer science required to
-              advance computer hardware and software. Computer engineers
-              normally have coaching in digital/electronic engineering (or
-              electrical engineering), software program design, and
-              hardware–software integration alternatively of solely software
-              program engineering or digital engineering. Computer engineers get
-              involved in many hardware and software program form of computing,
-              from the microcontrollers, microprocessors, non-public computers,
-              and supercomputers, to circuit design. This area of engineering no
-              longer solely focuses on how computer system themselves work,
-              however additionally how they combine into the large picture.`}
+              {`The overarching philosophy of the department is to develop national capacity in Electrical and Electronics Engineering, with the goal of transforming the country from a third world and developing nation into an advanced and developed nation. This transformation is envisioned through the development of highly skilled human capital in the field of Electrical and Electronics Engineering. Over the years, our great institute has produced numerous graduates. They’ve found employment in various sectors in Nigeria and abroad. Many of them have achieved significant milestones in their respective fields, particularly in Power Systems, Machines, Control, Telecommunication, Oil and Gas, Banking and Finance, Computer, and Manufacturing Industries. Some graduates have also pursued careers in academia. Overall, the Department of Electrical and Electronics Engineering aims to provide a robust education and training to its students, equipping them with the necessary skills and knowledge to contribute to the advancement of the field and the development of the nation.`}
             </p>
           </div>
 
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">
-              Job opportunities in COMPUTER ENGINEERING
+              Job opportunities in ELECTRICAL/ELECTRONIC ENGINEERING
             </h6>
             <p className="text-justify">
-              {`Computer Engineering is a dynamic professional field that offers
-              different career directions in hardware engineering (e.g.
-              microprocessors) and software program development. The demand for
-              computer engineers is high in this information age hence, at the
-              profession level, there are two predominant specialties: hardware
-              and software program engineering. Hardware engineers use their
-              abilities on pc system and components, designing microprocessors,
-              circuit boards, routers and different embedded devices. Software
-              engineers create, check and debug applications and functions that
-              run on computers, mobile devices and more. Some jobs you can do as
-              a computer engineering graduate include:`}
+              {`Electrical engineers design, develop, test, and supervise the manufacture of electrical equipment, such as electric motors, radar and navigation systems, communications systems, or power generation equipment. Electrical engineers also design the electrical systems of automobiles and aircraft. Some jobs you can do as
+              an electrical/electronic engineering graduate include:`}
             </p>
             <ol className="py-4 pl-10 list-decimal">
-              <li>Software Engineer</li>
-              <li>Software Tester</li>
-              <li>Project Manager</li>
-              <li>Application Developer</li>
-              <li>Software Developer</li>
-              <li>Hardware Engineer</li>
-              <li>Microprocessor Engineer</li>
-              <li>High School Teacher</li>
-              <li>Product Engineer</li>
-              <li>Product Designer</li>
+              <li>Acoustic consultant</li>
+              <li>Aerospace engineer</li>
+              <li>Broadcast engineer</li>
+              <li>CAD technician</li>
+              <li>Control and instrumentation engineer</li>
+              <li>Design engineer</li>
+              <li>Electrical engineer</li>
+              <li>Electronics engineer</li>
+              <li>Nuclear engineer</li>
+              <li>Sound engineer</li>
+              <li>Special effects technician</li>
             </ol>
           </div>
 
@@ -360,7 +334,7 @@ const Tabs = () => {
             <ol className="py-4 list-disc grid gap-4">
               <li>
                 <span className="font-semibold">Entry Requirements:</span>
-                {`At least five relevant passes at credit level in the West African Examination Council (WAEC), General Certificate of Education (GCE), Senior Secondary School Certificate (SSCE) or National Examinations Council (NECO) 'O' Levels or their equivalent including English Language and Mathematics (Literature-in-English and Oral English are not acceptable in place of English Lnguage), and any other three subjects from Economics, Business Studies/Methods, Financial Accounting/Principles of Accounts/Book Keeping, Literature-in-English, Commerce, History, Government, Statistics, Geography, Civil Education, Agricultural Science/Biology, obtained at not more than two sitting.`}
+                {` At least five relevant passes at credit level in the West African Examination Council (WAEC), General Certificate of Education (GCE), Senior Secondary School Certificate (SSCE) or National Examinations Council (NECO) 'O' Levels or their equivalent including English Language and Mathematics (Literature-in-English and Oral English are not acceptable in place of English Lnguage), and any other three subjects from Economics, Business Studies/Methods, Financial Accounting/Principles of Accounts/Book Keeping, Literature-in-English, Commerce, History, Government, Statistics, Geography, Civil Education, Agricultural Science/Biology, obtained at not more than two sitting.`}
               </li>
               <li>
                 <span className="font-semibold">JAMB UTME: </span>

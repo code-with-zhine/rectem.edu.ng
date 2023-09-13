@@ -32,7 +32,7 @@ export default function Home() {
           <div className="md:col-span-2 space-y-4">
             <hr className="border-[#f1ab00]" />
             <h1 className={`text-[#003DA5] pt-4 text-xl ${gemsbuck.className}`}>
-              BUSINESS ADMINISTRATION & MANAGEMENT
+              BUSINESS ADMINISTRATION AND MANAGEMENT
             </h1>
             <hr className="w-32 border-[#f1ab00]" />
             <div>
@@ -271,61 +271,47 @@ const Tabs = () => {
       {activeTab === "tab1" && (
         <div className="py-4 text-gray-500">
           <p className="text-justify">
-            In the rapidly evolving landscape of technology, computer
-            engineering stands as a cornerstone, driving innovation and
-            progress. In Nigeria, the pursuit of a National Diploma in Computer
-            Engineering offers students the opportunity to become pioneers in
-            this dynamic field. This comprehensive program equips students with
-            the skills and knowledge needed to navigate the ever-changing world
-            of computing, ensuring they are well-prepared to make significant
-            contributions to the tech industry.
+            {`Business administration refers to the management and operation of business organizations and encompasses a wide range of activities and responsibilities aimed at achieving business goals and objectives efficiently and effectively.`}
           </p>
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
             <p className="text-justify">
-              Computer engineering is a discipline that integrates quite a few
-              fields of electrical engineering and computer science required to
-              advance computer hardware and software. Computer engineers
-              normally have coaching in digital/electronic engineering (or
-              electrical engineering), software program design, and
-              hardware–software integration alternatively of solely software
-              program engineering or digital engineering. Computer engineers get
-              involved in many hardware and software program form of computing,
-              from the microcontrollers, microprocessors, non-public computers,
-              and supercomputers, to circuit design. This area of engineering no
-              longer solely focuses on how computer system themselves work,
-              however additionally how they combine into the large picture.
+              {`The programme was set up fundamentally to ensure that our students acquire profound theoretical and practical knowledge. This facilitates self-reliance, competence, excellence and high integrity. To this end, emphasis is on continuous articulation and provision of sound relevant broad knowledge about organizations and management in a dynamic environment and to educate and train would be managers by ensuring that they are equipped with requisite skills, knowledge and abilities that would enable them compete favorably and contribute efficiently in any organization they may find themselves.
+Thus, Business Administration and Management department strives to produce efficient managers that will contribute quality management to organizational development and growth. By ensuring that their skills are galvanized in utilizing various resources available within and outside the organizations. The acquired skills will enable students of management to identify and define problems, take appropriate decisions using various management tools, design management strategies and conduct structural analysis on any aspect of business. Finally, the department aims to prepare students for self-employment and careers in business and general management. The above objectives which are not fixed are revisited whenever there is need to meet with dynamism of the environment. Based on these objectives the academic contents of this programme is designed.
+`}
             </p>
           </div>
 
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">
-              Job opportunities in COMPUTER ENGINEERING
+              Job opportunities in BUSINESS ADMINISTRATION
             </h6>
             <p className="text-justify">
-              Computer Engineering is a dynamic professional field that offers
-              different career directions in hardware engineering (e.g.
-              microprocessors) and software program development. The demand for
-              computer engineers is high in this information age hence, at the
-              profession level, there are two predominant specialties: hardware
-              and software program engineering. Hardware engineers use their
-              abilities on pc system and components, designing microprocessors,
-              circuit boards, routers and different embedded devices. Software
-              engineers create, check and debug applications and functions that
-              run on computers, mobile devices and more. Some jobs you can do as
-              a computer engineering graduate include:
+              {`Business management majors study topics such as general business
+              principles, financial analysis, data analytics, organizational
+              effectiveness, and strategic planning. The field offers jobs in
+              finance, banking, and business administration, including positions
+              at the executive and C-suite levels. Their duties also include
+              hiring staff members, leading department meetings and
+              communicating with upper-management to implement new policies and
+              procedures among daily operations. Some jobs you can do as a
+              business administration graduate include:`}
             </p>
             <ol className="py-4 pl-10 list-decimal">
-              <li>Software Engineer</li>
-              <li>Software Tester</li>
-              <li>Project Manager</li>
-              <li>Application Developer</li>
-              <li>Software Developer</li>
-              <li>Hardware Engineer</li>
-              <li>Microprocessor Engineer</li>
-              <li>High School Teacher</li>
-              <li>Product Engineer</li>
-              <li>Product Designer</li>
+              <li>Actuarial analyst</li>
+              <li>Arbitrator</li>
+              <li>Business adviser</li>
+              <li>Business analyst</li>
+              <li>Business development manager</li>
+              <li>Chartered management accountant</li>
+              <li>Corporate investment banker</li>
+              <li>Data analyst</li>
+              <li>Data scientist</li>
+              <li>Forensic accountant</li>
+              <li>Insurance underwriter</li>
+              <li>Management consultant</li>
+              <li>Project manager</li>
+              <li>Risk manager</li>
             </ol>
           </div>
 

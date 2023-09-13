@@ -3,8 +3,7 @@ import Image from "next/image";
 
 export default function Blog({ date, title, body, imageUrl }) {
   return (
-    <>
-      <a className="relative sm:min-w-[200px] sm:max-w-[350px] border-[1px] rounded-t-lg  shadow-md hover:shadow-[#f1ab00] transition duration-500 ease-in-out cursor-pointer">
+      <div className="relative sm:min-w-[200px] sm:max-w-[350px] border-[1px] rounded-t-lg  shadow-md hover:shadow-[#f1ab00] transition duration-500 ease-in-out cursor-pointer">
         <div>
           <Image
             src={imageUrl}
@@ -38,7 +37,6 @@ export default function Blog({ date, title, body, imageUrl }) {
             />
           </svg>
         </a>
-      </a>
-    </>
+      </div>
   );
 }

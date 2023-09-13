@@ -10,7 +10,6 @@ import {
 import { RxCross1 } from "react-icons/rx";
 import { LuPlus, LuMinus } from "react-icons/lu";
 
-import logo from "/public/rectem.png";
 import { gemsbuck } from "@/app/page";
 import Link from "next/link";
 
@@ -184,7 +183,7 @@ export default function Header() {
       {/* SITE LOGO & TITLE */}
       <div className="flex justify-between gap-5 items-center p-5">
         <Link href="/" className="cursor-pointer">
-          <Image src={logo} alt="Rectem logo" width={30} height={30} />
+          <Image src="/rectem.png" alt="Rectem logo" width={30} height={30} className="w-auto h-auto" />
         </Link>
         <div className="text-[0.85rem] md:hidden font-semibold">
           <h6 className="text-[#003DA5]">

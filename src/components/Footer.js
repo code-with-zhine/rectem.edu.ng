@@ -96,7 +96,7 @@ export default function Footer() {
                 </h6>
                 <Image
                   src={googlemap}
-                  alt=""
+                  alt="google map"
                   className="w-full"
                   width={200}
                   height={200}
