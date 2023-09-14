@@ -459,7 +459,7 @@ export default function Home() {
         </section>
 
 
-        
+        <FollowUs />
       </main>
     </Layout>
   );
