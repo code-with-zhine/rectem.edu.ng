@@ -320,21 +320,37 @@ const Tabs = () => {
             </h6>
             <p className="text-justify">
               To embark on the journey toward a National Diploma in Computer
-              Engineering, prospective students typically need to fulfill
+              Science, prospective students typically need to fulfill
               certain prerequisites. These include:
             </p>
             <ol className="py-4 list-disc grid gap-4">
               <li>
-                <span className="font-semibold">Entry Requirements:</span>{" "}
-                Candidates are generally required to possess a Senior Secondary
-                School Certificate (SSCE) or its equivalent, with credits in
-                subjects such as Mathematics, Physics, and English Language.
+                <span className="font-semibold">Entry Requirements:</span>
+                {`
+                At least five relevant passes at credit level in the West African Examination Council (WAEC), General Certificate of Education (GCE), Senior Secondary School Certificate (SSCE) or National Examinations Council (NECO) 'O' Levels or their equivalent including English Language, at least a pass in Physics, Mathematics and any other TWO subjects from Economics, Geography, Further Mathematics, Chemistry, Biology/Agricultural Science, obtained at not more than two sitting.
+                `}
+              </li>
+              <li>
+                <span className="font-semibold">
+                  Computer Foundation Examination (CFE):
+                </span>
+                {`
+                A pass in Computer Foundation Examination (CFE) of Computer Professionals Registration Council of Nigeria (CPN).
+                `}
+              </li>
+              <li>
+                <span className="font-semibold">
+                  NBTE recognized pre-National Diploma Education:
+                </span>
+                {`
+                Credit passes in an NBTE recognised preliminary ND course offered in a Polytechnics or similar post-secondary technical institution (as stated in the NBTE brochure).
+                `}
               </li>
               <li>
                 <span className="font-semibold">JAMB UTME: </span>
-                Joint Admissions and Matriculation Board Unified Tertiary
+                {`Joint Admissions and Matriculation Board Unified Tertiary
                 Matriculation Examination (JAMB UTME) scores will be used as
-                part of the selection process.
+                part of the selection process for (FULL-TIME) candidates (as stated in the UTME brochure).`}
               </li>
             </ol>
           </div>

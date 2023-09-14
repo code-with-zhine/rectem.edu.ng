@@ -328,20 +328,37 @@ const Tabs = () => {
               Course Requirements
             </h6>
             <p className="text-justify">
-              {`To embark on the journey toward a National Diploma in Computer
-              Engineering, prospective students typically need to fulfill
+              {`To embark on the journey toward a National Diploma in Electrical/Electronic engineering, prospective students typically need to fulfill
               certain prerequisites. These include:`}
             </p>
             <ol className="py-4 list-disc grid gap-4">
               <li>
                 <span className="font-semibold">Entry Requirements:</span>
-                {` At least five relevant passes at credit level in the West African Examination Council (WAEC), General Certificate of Education (GCE), Senior Secondary School Certificate (SSCE) or National Examinations Council (NECO) 'O' Levels or their equivalent including English Language and Mathematics (Literature-in-English and Oral English are not acceptable in place of English Lnguage), and any other three subjects from Economics, Business Studies/Methods, Financial Accounting/Principles of Accounts/Book Keeping, Literature-in-English, Commerce, History, Government, Statistics, Geography, Civil Education, Agricultural Science/Biology, obtained at not more than two sitting.`}
+                {`
+                At least five relevant passes at credit level in the West African Examination Council (WAEC), General Certificate of Education (GCE), Senior Secondary School Certificate (SSCE) or National Examinations Council (NECO) 'O' Levels or their equivalent including English Language, Physics and Mathematics, and any TWO other science subjects, obtained at not more than two sitting.
+                `}
+              </li>
+              <li>
+                <span className="font-semibold">
+                  The National Technician Certificate (NTC):
+                </span>
+                {`
+                The National Technician Certificate (NTC) in electrical trade with credit passes in Mathematics, Physics and ONE other subject. Also a credit pass in English Language is mandatory.
+                `}
+              </li>
+              <li>
+                <span className="font-semibold">
+                  NBTE recognized pre-National Diploma Education:
+                </span>
+                {`
+                FOUR redit passes in an NBTE recognised preliminary ND course offered in a Polytechnics or similar post-secondary technical institution. The credit passes must include Mathematics, Physics any other TWO science subjects. Candidates must in addition obtain at least a credit pass in English language.
+                `}
               </li>
               <li>
                 <span className="font-semibold">JAMB UTME: </span>
                 {`Joint Admissions and Matriculation Board Unified Tertiary
                 Matriculation Examination (JAMB UTME) scores will be used as
-                part of the selection process.`}
+                part of the selection process for (FULL-TIME) candidates (as stated in the UTME brochure).`}
               </li>
             </ol>
           </div>

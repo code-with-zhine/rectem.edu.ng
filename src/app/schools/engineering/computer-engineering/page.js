@@ -361,16 +361,24 @@ const Tabs = ({year, setYear}) => {
             </p>
             <ol className="py-4 list-disc grid gap-4">
               <li>
-                <span className="font-semibold">Entry Requirements:</span>{" "}
-                Candidates are generally required to possess a Senior Secondary
-                School Certificate (SSCE) or its equivalent, with credits in
-                subjects such as Mathematics, Physics, and English Language.
+                <span className="font-semibold">Entry Requirements:</span>
+                {`
+                At least five relevant passes at credit level in the West African Examination Council (WAEC), General Certificate of Education (GCE), Senior Secondary School Certificate (SSCE) or National Examinations Council (NECO) 'O' Levels or their equivalent including English Language, Mathematics, Physics, Chemistry and one other subject from Metal or Wood work, Technical Drawing, Basic Electronics, Basic Electricity, Economics, Commerce, Statistics, Further Mathematics, Computer Studies, Geography and Agricultural Science/Biology, obtained at not more than two sitting.
+                `}
+              </li>
+              <li>
+                <span className="font-semibold">
+                  NBTE recognized pre-National Diploma Education:
+                </span>
+                {`
+                Credit passes in an NBTE recognised preliminary ND course offered in a Polytechnics or similar post-secondary technical institution (as stated in the NBTE brochure).
+                `}
               </li>
               <li>
                 <span className="font-semibold">JAMB UTME: </span>
-                Joint Admissions and Matriculation Board Unified Tertiary
+                {`Joint Admissions and Matriculation Board Unified Tertiary
                 Matriculation Examination (JAMB UTME) scores will be used as
-                part of the selection process.
+                part of the selection process for (FULL-TIME) candidates (as stated in the UTME brochure).`}
               </li>
             </ol>
           </div>

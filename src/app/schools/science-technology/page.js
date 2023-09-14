@@ -33,7 +33,7 @@ export default function Home() {
           <div className="md:col-span-2 space-y-4">
             <hr className="border-[#f1ab00]" />
             <h1 className={`text-[#003DA5] pt-4 text-xl ${gemsbuck.className}`}>
-              SCHOOL OF SCIENCE & TECHNOLOGY
+              SCHOOL OF SCIENCE AND TECHNOLOGY
             </h1>
             <hr className="w-32 border-[#f1ab00]" />
             <div className="text-gray-500 text-justify">
