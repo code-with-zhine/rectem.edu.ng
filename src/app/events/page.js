@@ -1,14 +1,11 @@
 "use client";
-import Image from "next/image";
-import Layout from "@/components/Layout";
-import { gemsbuck } from "@/app/page";
-import heroImage from "/public/about-hero.png";
-import Link from "next/link";
-import Features from "@/components/Features";
-import FollowUs from "@/components/Follow-us";
-import { eventsData } from "../../../data/event-data";
 import { useState, useEffect } from "react";
+import { gemsbuck } from "@/app/page";
+import Link from "next/link";
+import FollowUs from "@/components/Follow-us";
 import Event from "@/components/Event";
+
+import { eventsData } from "../../../data/event-data";
 
 export default function Home() {
   const [events, setEvents] = useState(null);
@@ -23,7 +20,7 @@ export default function Home() {
   };
 
   return (
-    <Layout>
+    <>
       <section className="px-5 md:px-10 py-10">
         <div className="py-4">
           <Link
@@ -187,6 +184,6 @@ export default function Home() {
         </div>
       </section>
       <FollowUs />
-    </Layout>
+    </>
   );
 }

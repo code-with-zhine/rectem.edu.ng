@@ -1,16 +1,9 @@
-"use client";
-import Layout from "@/components/Layout";
-import { useState } from "react";
 import { gemsbuck } from "@/app/page";
-import Image from "next/image";
 import Link from "next/link";
-import Slider from "@/components/Slider";
-import NewsCard from "@/components/NewsCard";
-import Event from "@/components/Event";
 
 export default function Home() {
   return (
-    <Layout>
+    <>
       <section className="px-5 md:px-10 py-10">
         <div className="py-4">
           <Link
@@ -231,6 +224,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </Layout>
+    </>
   );
 }
