@@ -38,14 +38,14 @@ export default function Home() {
               <hr className="border-[#f1ab00]" />
               <div className="text-gray-500 text-justify">
                 <p>
-                  Redeemer's College of Technology and Management (RECTEM) is an
+                  {`Redeemer's College of Technology and Management (RECTEM) is an
                   institution dedicated to providing high-quality education and
                   training in various fields of technology and management. The
                   college is known for its commitment to academic excellence,
                   innovation, and holistic development of its students. To
                   effectively run its operations, RECTEM has a team of dedicated
                   Principal Officers who play crucial roles in the
-                  administration and management of the institution.
+                  administration and management of the institution.`}
                 </p>
               </div>
               <div className="grid grid-cols-1 py-5 text-gray-500">

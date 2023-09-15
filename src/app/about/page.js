@@ -12,8 +12,8 @@ export default function Home() {
             RAISING GLOBAL CHAMPION
           </h4>
           <p className="text-[1.1rem] text-gray-200">
-            Empowering Minds, Inspiring Innovation: Your Pathway to Excellence
-            at Redeemer's College of Technology and Management
+            {`Empowering Minds, Inspiring Innovation: Your Pathway to Excellence
+            at Redeemer's College of Technology and Management`}
           </p>
         </div>
       </section>
@@ -190,8 +190,8 @@ export default function Home() {
               />
             </svg>
             <p className="text-gray-500">
-              To develop a center of academic excellence for training students
-              to acquire qualifications higher than secondary school level.
+              {`To develop a center of academic excellence for training students
+              to acquire qualifications higher than secondary school level.`}
             </p>
           </li>
           <li className="bg-white shadow-md rounded-md p-6">
@@ -218,9 +218,9 @@ export default function Home() {
               </g>
             </svg>
             <p className="text-gray-500">
-              To produce high quality, knowledgeable and innovative graduates,
+              {`To produce high quality, knowledgeable and innovative graduates,
               worthy in skill and character, through effective teaching,
-              learning and research.
+              learning and research.`}
             </p>
           </li>
           <li className="bg-white shadow-md rounded-md p-6">
@@ -254,9 +254,9 @@ export default function Home() {
           </h4>
           <hr className="w-32 border-[#f1ab00] mx-auto" />
           <p className="text-[1.1rem] py-4">
-            To be a trail-blazer in raising Champions, who will become first
+            {`To be a trail-blazer in raising Champions, who will become first
             class professionals in the field of Science, Technology and
-            Management.
+            Management.`}
           </p>
         </div>
       </section>
