@@ -8,7 +8,6 @@ export default function Features() {
     ref: "student-counter",
     start: 500,
     end: 3200,
-    separator: "",
     enableScrollSpy: true,
     scrollSpyDelay: 1000,
     scrollSpyOnce: true
