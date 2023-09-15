@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import localFont from "next/font/local";
 import Hero from "@/components/Hero";
@@ -6,12 +5,11 @@ import Hero from "@/components/Hero";
 import rectem01 from "/public/rectem01.jpg";
 import partTime from "../../public/images/part-time.png";
 import Link from "next/link";
-import Layout from "@/components/Layout";
+
 import Features from "@/components/Features";
 import FollowUs from "@/components/Follow-us";
 import Calendar from "@/components/Calendar";
 import Blog from "@/components/Blog";
-import { useState, useEffect } from "react";
 import Event from "@/components/Event";
 
 import { current } from "../../data/calendar-data";
@@ -21,33 +19,12 @@ import { blogsData } from "../../data/blogs-data";
 export const gemsbuck = localFont({ src: "../../public/gemsbuck.ttf" });
 
 export default function Home() {
-  const [calendar, setCalendar] = useState(null);
-  const [events, setEvents] = useState(null);
-  const [blogs, setBlogs] = useState(null);
-
-  useEffect(() => {
-    fetchCalendar();
-    fetchEvents();
-    fetchBlogs();
-  }, []);
-
-  const fetchCalendar = async () => {
-    const data = await current.slice(0, 5);
-    setCalendar(data);
-  };
-
-  const fetchEvents = async () => {
-    const data = await eventsData;
-    setEvents(data);
-  };
-
-  const fetchBlogs = async () => {
-    const data = await blogsData.slice(0, 2);
-    setBlogs(data);
-  };
+  const calendar = current.slice(0, 5);
+  const events = eventsData;
+  const blogs = blogsData.slice(0, 2);
 
   return (
-    <Layout>
+    <>
       <Hero />
       <main>
         <section className="px-5 md:px-10 py-16 grid grid-cols-1 md:grid-cols-2 gap-10 justify-center items-center">
@@ -458,9 +435,8 @@ export default function Home() {
           </div>
         </section>
 
-
         <FollowUs />
       </main>
-    </Layout>
+    </>
   );
 }

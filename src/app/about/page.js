@@ -1,15 +1,11 @@
-"use client";
-import Image from "next/image";
-import Layout from "@/components/Layout";
 import { gemsbuck } from "@/app/page";
-import heroImage from "/public/about-hero.png";
 import Link from "next/link";
 import Features from "@/components/Features";
 import FollowUs from "@/components/Follow-us";
 
 export default function Home() {
   return (
-    <Layout>
+    <>
       <section className="bg-[url('/about-hero.png')] bg-no-repeat bg-cover  text-white md:p-10 py-20">
         <div className="max-w-lg md:top-5 lg:top-1/4 left-8 p-5">
           <h4 className={`py-4 text-3xl ${gemsbuck.className}`}>
@@ -17,7 +13,7 @@ export default function Home() {
           </h4>
           <p className="text-[1.1rem] text-gray-200">
             Empowering Minds, Inspiring Innovation: Your Pathway to Excellence
-            at Rectem College of Science and Management
+            at Redeemer's College of Technology and Management
           </p>
         </div>
       </section>
@@ -265,6 +261,6 @@ export default function Home() {
         </div>
       </section>
       <FollowUs />
-    </Layout>
+    </>
   );
 }

@@ -1,13 +1,11 @@
 "use client";
-import Layout from "@/components/Layout";
-import { useState } from "react";
 import { gemsbuck } from "@/app/page";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <Layout>
+    <>
       <section className="px-5 md:px-10 py-10">
         <div className="py-4">
           <Link
@@ -40,7 +38,7 @@ export default function Home() {
               <hr className="border-[#f1ab00]" />
               <div className="text-gray-500 text-justify">
                 <p>
-                  Redeemers College of Technology and Management (RECTEM) is an
+                  Redeemer's College of Technology and Management (RECTEM) is an
                   institution dedicated to providing high-quality education and
                   training in various fields of technology and management. The
                   college is known for its commitment to academic excellence,
@@ -452,6 +450,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </Layout>
+    </>
   );
 }

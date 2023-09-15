@@ -40,7 +40,7 @@ export default function Home() {
               <hr className="border-[#f1ab00]" />
               <div className="text-gray-500 text-justify">
                 <p>
-                  {`Redeemer's College of Technology and Management (RCTM) is an
+                  {`Redeemer's College of Technology and Management (RECTEM) is an
                   institution that places a strong emphasis on effective
                   governance to ensure its mission and vision are fulfilled. The
                   college's Governing Board plays a pivotal role in overseeing

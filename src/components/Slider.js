@@ -1,3 +1,5 @@
+"use client";
+
 import { useRef } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,8 +16,6 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Image from "next/image";
 import heroImage from "/public/hero.png";
 import { gemsbuck } from "@/app/page";
-
-
 
 export default function Slider() {
   const progressCircle = useRef(null);
@@ -121,5 +121,3 @@ export default function Slider() {
     </>
   );
 }
-
- 

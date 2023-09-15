@@ -1,26 +1,16 @@
 "use client";
-import Layout from "@/components/Layout";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { gemsbuck } from "@/app/page";
-import Image from "next/image";
 import Link from "next/link";
 import Calendar from "@/components/Calendar";
-import calendarData  from "../../../data/calendar-data";
+
+import calendarData from "../../../data/calendar-data";
 
 export default function Home() {
-  const [calendar, setCalendar] = useState(null);
-
-    useEffect(() => {
-      fetchCalendar();
-    }, []);
-
-  const fetchCalendar = async () => {
-    const data = await calendarData;
-    setCalendar(data);
-  };
+  const calendar = calendarData;
 
   return (
-    <Layout>
+    <>
       <section className="px-5 md:px-10 py-10">
         <div className="py-4">
           <Link
@@ -122,7 +112,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </Layout>
+    </>
   );
 }
 
