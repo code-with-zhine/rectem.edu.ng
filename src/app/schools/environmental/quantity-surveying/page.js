@@ -3,6 +3,11 @@ import { useState } from "react";
 import { gemsbuck } from "@/app/page";
 import Link from "next/link";
 
+import { schools } from "../../../../../data/schools";
+
+const YEARONE = schools.science.departments[2].courses.yearOne;
+const YEARTWO = schools.science.departments[2].courses.yearTwo;
+
 export default function Home() {
   return (
     <>
@@ -255,6 +260,8 @@ export default function Home() {
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState("tab1");
+  const [year, setYear] = useState(1);
+  const [courses, setCourses] = useState(YEARONE);
 
   const handleTabChange = (tab) => {
     setActiveTab(tab);
@@ -353,146 +360,35 @@ const Tabs = () => {
         </div>
       )}
       {activeTab === "tab2" && (
-        <div>
-          {" "}
-          <div class="container mx-auto pt-10">
-            <h4
-              className={`py-4 text-sm text-[#003DA5] tracking-wider ${gemsbuck.className}`}
-            >
-              Course list
-            </h4>
-            <div class="overflow-x-auto text-gray-500">
-              <table class="text-center text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
-                <thead class="bg-gray-100">
-                  <tr>
-                    <th class="px-6 py-4 text-xs font-semibold">S/N</th>
-                    <th class="px-6 py-4 text-xs font-semibold ">
-                      Course Code
-                    </th>
-                    <th class="px-6 py-4 text-xs font-semibold ">
-                      Course title
-                    </th>
-                  </tr>
-                </thead>
-                <tbody class="divide-y divide-gray-200">
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">1</td>
-                    <td class="px-6 py-4 whitespace-nowrap">MTH 112</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Algebra and Elementary Trigonometry
+        <div className="overflow-x-auto text-gray-500">
+          <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+            <thead className="bg-gray-100">
+              <tr>
+                <th className="px-6 py-4 text-xs font-semibold">S/N</th>
+                <th className="px-6 py-4 text-xs font-semibold ">
+                  Course Code
+                </th>
+                <th className="px-6 py-4 text-xs font-semibold ">
+                  Course title
+                </th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-gray-200">
+              {courses.map((course, index) => {
+                return (
+                  <tr key={index}>
+                    <td className="px-6 py-4 whitespace-nowrap">{index + 1}</td>
+                    <td className="px-6 py-4 whitespace-nowrap">
+                      {course.code}
+                    </td>
+                    <td className="px-6 py-4 whitespace-nowrap">
+                      {course.title}
                     </td>
                   </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">2</td>
-                    <td class="px-6 py-4 whitespace-nowrap">MEC 101</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Technical Drawing
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">3</td>
-                    <td class="px-6 py-4 whitespace-nowrap">MEC 113</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Basic Workshop Technology and Practice
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">4</td>
-                    <td class="px-6 py-4 whitespace-nowrap">EEC 115</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Electrical Engineering Science 1
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">5</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 111</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Introduction to Computers & Information Technology
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">6</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 112</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Electrical Workshop Practice and Technology (Electrical
-                      Graphics)
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">7</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 113</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Computer Application Packages
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">8</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 114</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Internet and Web Technologies
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">9</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 115</td>
-                    <td class="px-6 py-4 whitespace-nowrap">Data Structures</td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">10</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 121</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Digital Computer Fundamentals I
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">11</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 122</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Electrical Measurement and Instrumentation I
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">12</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 123</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Computer/Electronic Maintenance and Repairs
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">13</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 124</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Technical Report Writing
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">14</td>
-                    <td class="px-6 py-4 whitespace-nowrap">EEC 124</td>
-                    <td class="px-6 py-4 whitespace-nowrap">Electronics I</td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">15</td>
-                    <td class="px-6 py-4 whitespace-nowrap">EEC 124</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Electrical Engineering Science II
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">16</td>
-                    <td class="px-6 py-4 whitespace-nowrap">MEC 102</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Machine Tools Technology and Practice
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">16</td>
-                    <td class="px-6 py-4 whitespace-nowrap">MTH 211</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CALCULUS</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
+                );
+              })}
+            </tbody>
+          </table>
         </div>
       )}
     </div>

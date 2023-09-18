@@ -3,6 +3,11 @@ import { useState } from "react";
 import { gemsbuck } from "@/app/page";
 import Link from "next/link";
 
+import { schools } from "../../../../../data/schools";
+
+const YEARONE = schools.science.departments[0].courses.yearOne;
+const YEARTWO = schools.science.departments[0].courses.yearTwo;
+
 export default function Home() {
   return (
     <>
@@ -236,6 +241,8 @@ export default function Home() {
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState("tab1");
+  const [year, setYear] = useState(1);
+  const [courses, setCourses] = useState(YEARONE);
 
   const handleTabChange = (tab) => {
     setActiveTab(tab);
@@ -270,45 +277,60 @@ const Tabs = () => {
       {activeTab === "tab1" && (
         <div className="py-4 text-gray-500">
           <p className="text-justify">
-            {`The Computer Science Department in Nigeria, like in many other countries, plays a crucial role in shaping the future of technology, innovation, and education. It serves as a hub for computer-related research, education, and technological advancements.`}
+            {`The accounting department within an organization is a critical component responsible for managing financial transactions, ensuring compliance with financial regulations, and providing valuable financial insights to support decision-making.`}
           </p>
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
             <p className="text-justify">
-              {`Computer science is centered on the development and testing of software and software systems. It involves working with mathematical models, data analysis and security, algorithms, and computational theory, their applications, and their impact on society. Majorly Computer scientist in this great institute have concluded the reason behind the study of such a course is the passion for problem-solving and the joy from working on complex technical challenges as it also enables them to make a positive Impact in The World, however Instead of teaching the same lesson plans to our student, we educators focus on the 5 Cs {collaboration, communication, creativity, and critical and computational thinking} to foster greater learning.`}
+              {`The goal of this great institute in our Accountancy department is
+              to produce technical manpower who can effectively perform a range
+              of functions in the field of accountancy, insurance, banking and
+              in financial institutions. Graduates of the programme should be
+              able to: assist in collection and integration of basic financial
+              data for use in investment decisions; prepare final accounts of
+              companies; assist in the preparation of short and long term budget
+              plans; collect and collate relevant financial information to aid
+              superior officers and management in making financial decisions;
+              interpret some basic ratio, statistical and financial data; and to
+              carry out preliminary survey and feasibility studies. While
+              demonstrating basic knowledge of financial operations of different
+              types of businesses.`}
             </p>
           </div>
 
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">
-              Job opportunities in COMPUTER SCIENCE
+              Job opportunities in ACCOUNTING
             </h6>
             <p className="text-justify">
-              {`Computer science is one of the fastest growing academic
-              disciplines today, and it offers an excellent career pathway (e.g.
-              web development) and software program development, at the
-              profession level, There are around 20 specializations in computer
-              science – AI, ML, Cognitive Science, Computer Graphics, Data
-              Processing, Information Technology, Software Engineering,
-              Theoretical Computer Science, Bioinformatics and more with various
-              abilities to major or cut across any of your choice. Some jobs you can do as a
-              computer science graduate include:`}
+              {`Numerous career opportunities are available in accounting. The
+              importance of this very course and its function continues to be
+              enhanced in a complex, global business community. Accounting
+              positions students in range from bookkeeping clerks who maintain
+              financial data in computer and paper form to chief financial
+              officers who are responsible for providing leadership in the
+              design and operations of a total accounting information system and
+              the financial statements it produces. Opportunities for employment
+              are present for those with basic accounting/computer skills
+              acquired in our great institute. Some jobs you can do as a computer
+              engineering graduate include:`}
             </p>
             <ol className="py-4 pl-10 list-decimal">
-              <li>Application analyst</li>
-              <li>Applications developer</li>
-              <li>Cyber security analyst</li>
-              <li>Data analyst</li>
-              <li>Forensic computer analyst</li>
-              <li>Game designer</li>
-              <li>Games developer</li>
-              <li>Machine learning engineer</li>
-              <li>Penetration tester</li>
-              <li>Software engineer</li>
-              <li>Systems analyst</li>
-              <li>UX designer</li>
-              <li>Web designer</li>
-              <li>Web developer</li>
+              <li>Management accounting</li>
+              <li>Financial Analyst</li>
+              <li>Bookkeeper</li>
+              <li>Controller</li>
+              <li>Auditor</li>
+              <li>Chartered accountant</li>
+              <li>Cost accounting</li>
+              <li>Chief Financial Officer</li>
+              <li>Financial Manager</li>
+              <li>Governmental accounting</li>
+              <li>Financial Management</li>
+              <li>Tax advisor</li>
+              <li>Forensic accounting</li>
+              <li>Business Analyst</li>
+              <li>Bookkeeping, Accounting, and Auditing Clerks</li>
             </ol>
           </div>
 
@@ -317,23 +339,15 @@ const Tabs = () => {
               Course Requirements
             </h6>
             <p className="text-justify">
-              To embark on the journey toward a National Diploma in Computer
-              Science, prospective students typically need to fulfill
-              certain prerequisites. These include:
+              To embark on the journey toward a National Diploma in Accounting,
+              prospective students typically need to fulfill certain
+              prerequisites. These include:
             </p>
             <ol className="py-4 list-disc grid gap-4">
               <li>
                 <span className="font-semibold">Entry Requirements:</span>
                 {`
-                At least five relevant passes at credit level in the West African Examination Council (WAEC), General Certificate of Education (GCE), Senior Secondary School Certificate (SSCE) or National Examinations Council (NECO) 'O' Levels or their equivalent including English Language, at least a pass in Physics, Mathematics and any other TWO subjects from Economics, Geography, Further Mathematics, Chemistry, Biology/Agricultural Science, obtained at not more than two sitting.
-                `}
-              </li>
-              <li>
-                <span className="font-semibold">
-                  Computer Foundation Examination (CFE):
-                </span>
-                {`
-                A pass in Computer Foundation Examination (CFE) of Computer Professionals Registration Council of Nigeria (CPN).
+                At least five relevant passes at credit level in the West African Examination Council (WAEC), General Certificate of Education (GCE), Senior Secondary School Certificate (SSCE) or National Examinations Council (NECO) 'O' Levels or their equivalent including English Language and Mathematics, and any other TWO subjects from Economics, Business Studies/Methods, Financial Accounting/Principles of Accounts/Book Keeping, Literature-in-English, Commerce, History, Government, Statistics, Geography, Agricultural Science/Biology, obtained at not more than two sitting.
                 `}
               </li>
               <li>
@@ -356,144 +370,105 @@ const Tabs = () => {
       )}
       {activeTab === "tab2" && (
         <div>
-          {" "}
-          <div class="container mx-auto pt-10">
-            <h4
-              className={`py-4 text-sm text-[#003DA5] tracking-wider ${gemsbuck.className}`}
-            >
-              Course list
-            </h4>
-            <div class="overflow-x-auto text-gray-500">
-              <table class="text-center text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
-                <thead class="bg-gray-100">
-                  <tr>
-                    <th class="px-6 py-4 text-xs font-semibold">S/N</th>
-                    <th class="px-6 py-4 text-xs font-semibold ">
-                      Course Code
-                    </th>
-                    <th class="px-6 py-4 text-xs font-semibold ">
-                      Course title
-                    </th>
-                  </tr>
-                </thead>
-                <tbody class="divide-y divide-gray-200">
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">1</td>
-                    <td class="px-6 py-4 whitespace-nowrap">MTH 112</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Algebra and Elementary Trigonometry
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">2</td>
-                    <td class="px-6 py-4 whitespace-nowrap">MEC 101</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Technical Drawing
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">3</td>
-                    <td class="px-6 py-4 whitespace-nowrap">MEC 113</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Basic Workshop Technology and Practice
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">4</td>
-                    <td class="px-6 py-4 whitespace-nowrap">EEC 115</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Electrical Engineering Science 1
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">5</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 111</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Introduction to Computers & Information Technology
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">6</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 112</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Electrical Workshop Practice and Technology (Electrical
-                      Graphics)
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">7</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 113</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Computer Application Packages
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">8</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 114</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Internet and Web Technologies
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">9</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 115</td>
-                    <td class="px-6 py-4 whitespace-nowrap">Data Structures</td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">10</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 121</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Digital Computer Fundamentals I
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">11</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 122</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Electrical Measurement and Instrumentation I
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">12</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 123</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Computer/Electronic Maintenance and Repairs
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">13</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 124</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Technical Report Writing
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">14</td>
-                    <td class="px-6 py-4 whitespace-nowrap">EEC 124</td>
-                    <td class="px-6 py-4 whitespace-nowrap">Electronics I</td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">15</td>
-                    <td class="px-6 py-4 whitespace-nowrap">EEC 124</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Electrical Engineering Science II
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">16</td>
-                    <td class="px-6 py-4 whitespace-nowrap">MEC 102</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Machine Tools Technology and Practice
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">16</td>
-                    <td class="px-6 py-4 whitespace-nowrap">MTH 211</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CALCULUS</td>
-                  </tr>
-                </tbody>
-              </table>
+          <div className="container mx-auto pt-10">
+            <div className="flex items-center">
+              <h4
+                className={`py-4 text-sm text-[#003DA5] ${gemsbuck.className}`}
+              >
+                Course list
+              </h4>
+              <a
+                onClick={() => {
+                  setCourses(YEARONE);
+                  setYear(1);
+                }}
+                className={`text-xs cursor-pointer mx-2 px-2 py-1 font-semibold hover:bg-gray-500 text-white rounded-sm ${
+                  year == 1 ? "bg-gray-600" : "bg-gray-400"
+                }`}
+              >
+                YEAR ONE
+              </a>
+              <a
+                onClick={() => {
+                  setCourses(YEARTWO);
+                  setYear(2);
+                }}
+                className={`text-xs cursor-pointer mx-2 px-2 py-1 font-semibold hover:bg-gray-500 text-white rounded-sm ${
+                  year == 2 ? "bg-gray-600" : "bg-gray-400"
+                }`}
+              >
+                YEAR TWO
+              </a>
             </div>
+            {year === 1 && (
+              <div className="overflow-x-auto text-gray-500">
+                <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+                  <thead className="bg-gray-100">
+                    <tr>
+                      <th className="px-6 py-4 text-xs font-semibold">S/N</th>
+                      <th className="px-6 py-4 text-xs font-semibold ">
+                        Course Code
+                      </th>
+                      <th className="px-6 py-4 text-xs font-semibold ">
+                        Course title
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200">
+                    {courses.map((course, index) => {
+                      return (
+                        <tr key={index}>
+                          <td className="px-6 py-4 whitespace-nowrap">
+                            {index + 1}
+                          </td>
+                          <td className="px-6 py-4 whitespace-nowrap">
+                            {course.code}
+                          </td>
+                          <td className="px-6 py-4 whitespace-nowrap">
+                            {course.title}
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            )}
+
+            {year === 2 && (
+              <div className="overflow-x-auto text-gray-500">
+                <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+                  <thead className="bg-gray-100">
+                    <tr>
+                      <th className="px-6 py-4 text-xs font-semibold">S/N</th>
+                      <th className="px-6 py-4 text-xs font-semibold ">
+                        Course Code
+                      </th>
+                      <th className="px-6 py-4 text-xs font-semibold ">
+                        Course title
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200">
+                    {courses.map((course, index) => {
+                      return (
+                        <tr key={index}>
+                          <td className="px-6 py-4 whitespace-nowrap">
+                            {index + 1}
+                          </td>
+                          <td className="px-6 py-4 whitespace-nowrap">
+                            {course.code}
+                          </td>
+                          <td className="px-6 py-4 whitespace-nowrap">
+                            {course.title}
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            )}
           </div>
         </div>
       )}

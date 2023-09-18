@@ -3,6 +3,11 @@ import { useState } from "react";
 import { gemsbuck } from "@/app/page";
 import Link from "next/link";
 
+import { schools } from "../../../../../data/schools";
+
+const YEARONE = schools.science.departments[1].courses.yearOne;
+const YEARTWO = schools.science.departments[1].courses.yearTwo;
+
 export default function Home() {
   return (
     <>
@@ -255,276 +260,113 @@ export default function Home() {
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState("tab1");
+  const [year, setYear] = useState(1);
+  const [courses, setCourses] = useState(YEARONE);
 
   const handleTabChange = (tab) => {
     setActiveTab(tab);
   };
 
   return (
-    <div className="mt-4">
-      <div className="border-b">
-        <div className="flex">
-          <button
-            onClick={() => handleTabChange("tab1")}
-            className={`tracking-wider py-2 px-4 text-xs font-medium ${
-              activeTab === "tab1"
-                ? "text-[#003DA5] border-b-2 border-[#003DA5]"
-                : "text-gray-500"
+    <div>
+      <div className="container mx-auto pt-10">
+        <div className="flex items-center">
+          <h4 className={`py-4 text-sm text-[#003DA5] ${gemsbuck.className}`}>
+            Course list
+          </h4>
+          <a
+            onClick={() => {
+              setCourses(YEARONE);
+              setYear(1);
+            }}
+            className={`text-xs cursor-pointer mx-2 px-2 py-1 font-semibold hover:bg-gray-500 text-white rounded-sm ${
+              year == 1 ? "bg-gray-600" : "bg-gray-400"
             }`}
           >
-            INTRODUCTION
-          </button>
-          <button
-            onClick={() => handleTabChange("tab2")}
-            className={`tracking-wider py-2 px-4 text-xs font-medium ${
-              activeTab === "tab2"
-                ? "text-[#003DA5] border-b-2 border-[#003DA5]"
-                : "text-gray-500"
+            YEAR ONE
+          </a>
+          <a
+            onClick={() => {
+              setCourses(YEARTWO);
+              setYear(2);
+            }}
+            className={`text-xs cursor-pointer mx-2 px-2 py-1 font-semibold hover:bg-gray-500 text-white rounded-sm ${
+              year == 2 ? "bg-gray-600" : "bg-gray-400"
             }`}
           >
-            COURSE OVERVIEW
-          </button>
+            YEAR TWO
+          </a>
         </div>
+        {year === 1 && (
+          <div className="overflow-x-auto text-gray-500">
+            <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+              <thead className="bg-gray-100">
+                <tr>
+                  <th className="px-6 py-4 text-xs font-semibold">S/N</th>
+                  <th className="px-6 py-4 text-xs font-semibold ">
+                    Course Code
+                  </th>
+                  <th className="px-6 py-4 text-xs font-semibold ">
+                    Course title
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-200">
+                {courses.map((course, index) => {
+                  return (
+                    <tr key={index}>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        {index + 1}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        {course.code}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        {course.title}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        )}
+
+        {year === 2 && (
+          <div className="overflow-x-auto text-gray-500">
+            <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+              <thead className="bg-gray-100">
+                <tr>
+                  <th className="px-6 py-4 text-xs font-semibold">S/N</th>
+                  <th className="px-6 py-4 text-xs font-semibold ">
+                    Course Code
+                  </th>
+                  <th className="px-6 py-4 text-xs font-semibold ">
+                    Course title
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-200">
+                {courses.map((course, index) => {
+                  return (
+                    <tr key={index}>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        {index + 1}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        {course.code}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap">
+                        {course.title}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        )}
       </div>
-      {activeTab === "tab1" && (
-        <div className="py-4 text-gray-500">
-          <p className="text-justify">
-            {`Estate management and valuation are essential aspects of real estate that involve the planning, development, and assessment of properties. These two fields often overlap but have distinct focuses and purposes.`}
-          </p>
-          <div className="py-4">
-            <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
-            <p className="text-justify">
-              {`The aim of the Department is to educate and equip students with
-              fundamental body of knowledge in the constituent disciplines of
-              Property Valuation, Development Appraisal, Building Construction,
-              Land Surveying, Economics, Town Planning, Land Law, Land
-              Economics, Urban Economics, Property Management and Property
-              Development. With the objective of Graduating aspirant with the
-              acquired skills to demonstrate spontaneous analytic deductive and
-              competent judgments on issues relating to interests in landed
-              property. The graduates are also trained to interact with other
-              allied professionals in the construction industry and build an
-              unimaginable community while letting them pursue their goals in an
-              environment that value diversity, individuality, mutual respect
-              and free exchange of ideas.`}
-            </p>
-          </div>
-
-          <div className="py-4">
-            <h6 className="text-gray-600 font-semibold py-2">
-              Job opportunities in ESTATE MANAGEMENT & VALUATION
-            </h6>
-            <p className="text-justify">
-              {` An estate management graduate can work in any property investment
-              and development company (private or public) either as a property
-              developer, project manager/officer, estate/property marketer,
-              estate manager, property/facility manager, project appraisal,
-              estate surveyor and valuer, or construction project
-              supervisor/officer. Some jobs you can do as an estate management &
-              valuation graduate include:`}
-            </p>
-            <ol className="py-4 pl-10 list-decimal">
-              <li>Estate Surveyor and Valuer</li>
-              <li>Property manager</li>
-              <li>Facility manager</li>
-              <li>Real estate marketer</li>
-              <li>Maintenance officer/manager</li>
-              <li>Project manager</li>
-              <li>Project coordinator/supervisor</li>
-              <li>Property developer</li>
-              <li>Estate manager/officer</li>
-              <li>Rating valuer/officer</li>
-              <li>Premises manager</li>
-              <li>Project appraisal</li>
-              <li>Construction project supervisor/officer</li>
-              <li>Expert witness</li>
-              <li>Property arbitrator/mediator</li>
-              <li>Property auctioneer</li>
-              <li>Housing development supervisor/coordinator</li>
-              <li>Real estate contract officer</li>
-              <li>Property inspection officer</li>
-              <li>Land valuer</li>
-              <li>Property assessor</li>
-              <li>Property valuation officer/manager</li>
-            </ol>
-          </div>
-
-          <div>
-            <h6 className="text-gray-600 font-semibold py-2">
-              Course Requirements
-            </h6>
-            <p className="text-justify">
-              To embark on the journey toward a National Diploma in Estate management and valuation, prospective students typically need to fulfill
-              certain prerequisites. These include:
-            </p>
-            <ol className="py-4 list-disc grid gap-4">
-              <li>
-                <span className="font-semibold">Entry Requirements:</span>
-                {`
-                At least five relevant passes at credit level in the West African Examination Council (WAEC), General Certificate of Education (GCE), Senior Secondary School Certificate (SSCE) or National Examinations Council (NECO) 'O' Levels or their equivalent including English Language, Mathematics, Economics and any other three subjects from Chemistry, Physics, Biology, Geography, Building construction, Technical Drawing, Government, Fine Arts, Literature in English, Agricultural Science/Biology, obtained at not more than two sitting.
-                `}
-              </li>
-              <li>
-                <span className="font-semibold">
-                  NBTE recognized pre-National Diploma Education:
-                </span>
-                {`
-                Credit passes in an NBTE recognised preliminary ND course offered in a Polytechnics or similar post-secondary technical institution (as stated in the NBTE brochure).
-                `}
-              </li>
-              <li>
-                <span className="font-semibold">JAMB UTME: </span>
-                {`Joint Admissions and Matriculation Board Unified Tertiary
-                Matriculation Examination (JAMB UTME) scores will be used as
-                part of the selection process for (FULL-TIME) candidates (as stated in the UTME brochure).`}
-              </li>
-            </ol>
-          </div>
-        </div>
-      )}
-      {activeTab === "tab2" && (
-        <div>
-          {" "}
-          <div class="container mx-auto pt-10">
-            <h4
-              className={`py-4 text-sm text-[#003DA5] tracking-wider ${gemsbuck.className}`}
-            >
-              Course list
-            </h4>
-            <div class="overflow-x-auto text-gray-500">
-              <table class="text-center text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
-                <thead class="bg-gray-100">
-                  <tr>
-                    <th class="px-6 py-4 text-xs font-semibold">S/N</th>
-                    <th class="px-6 py-4 text-xs font-semibold ">
-                      Course Code
-                    </th>
-                    <th class="px-6 py-4 text-xs font-semibold ">
-                      Course title
-                    </th>
-                  </tr>
-                </thead>
-                <tbody class="divide-y divide-gray-200">
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">1</td>
-                    <td class="px-6 py-4 whitespace-nowrap">MTH 112</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Algebra and Elementary Trigonometry
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">2</td>
-                    <td class="px-6 py-4 whitespace-nowrap">MEC 101</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Technical Drawing
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">3</td>
-                    <td class="px-6 py-4 whitespace-nowrap">MEC 113</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Basic Workshop Technology and Practice
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">4</td>
-                    <td class="px-6 py-4 whitespace-nowrap">EEC 115</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Electrical Engineering Science 1
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">5</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 111</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Introduction to Computers & Information Technology
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">6</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 112</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Electrical Workshop Practice and Technology (Electrical
-                      Graphics)
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">7</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 113</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Computer Application Packages
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">8</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 114</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Internet and Web Technologies
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">9</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 115</td>
-                    <td class="px-6 py-4 whitespace-nowrap">Data Structures</td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">10</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 121</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Digital Computer Fundamentals I
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">11</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 122</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Electrical Measurement and Instrumentation I
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">12</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 123</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Computer/Electronic Maintenance and Repairs
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">13</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CTE 124</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Technical Report Writing
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">14</td>
-                    <td class="px-6 py-4 whitespace-nowrap">EEC 124</td>
-                    <td class="px-6 py-4 whitespace-nowrap">Electronics I</td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">15</td>
-                    <td class="px-6 py-4 whitespace-nowrap">EEC 124</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Electrical Engineering Science II
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">16</td>
-                    <td class="px-6 py-4 whitespace-nowrap">MEC 102</td>
-                    <td class="px-6 py-4 whitespace-nowrap">
-                      Machine Tools Technology and Practice
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="px-6 py-4 whitespace-nowrap">16</td>
-                    <td class="px-6 py-4 whitespace-nowrap">MTH 211</td>
-                    <td class="px-6 py-4 whitespace-nowrap">CALCULUS</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 };
