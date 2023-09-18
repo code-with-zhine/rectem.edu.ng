@@ -5,8 +5,8 @@ import Link from "next/link";
 
 import { schools } from "../../../../../data/schools";
 
-const YEARONE = schools.science.departments[0].courses.yearOne;
-const YEARTWO = schools.science.departments[0].courses.yearTwo;
+const YEARONE = schools.environmental.departments[0].courses.yearOne;
+const YEARTWO = schools.environmental.departments[0].courses.yearTwo;
 
 export default function Home() {
   return (
