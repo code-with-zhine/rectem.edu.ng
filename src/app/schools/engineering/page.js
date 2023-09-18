@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <section className="px-5 md:px-10 py-10">
-        <div className="py-4 flex justify-between">
+        <div className="py-4 flex justify-between items-center">
           <Link
             href="/"
             className="flex text-xs items-center text-[#003DA5] font-semibold"
@@ -167,7 +167,7 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <div  id="others" className="sm:col-span-1 space-y-4">
+          <div id="others" className="sm:col-span-1 space-y-4">
             <div>
               <hr className="border-[#f1ab00]" />
               <h4
