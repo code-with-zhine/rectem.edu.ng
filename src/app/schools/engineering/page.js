@@ -24,7 +24,7 @@ export default function Home() {
             </svg>
             GO HOME
           </Link>
-          <Link
+          <a
             href="/#others"
             className="md:hidden flex text-xs items-center text-[#003DA5] font-semibold"
           >
@@ -45,7 +45,7 @@ export default function Home() {
               />
             </svg>
             DEPARTMENTS
-          </Link>
+          </a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           <div className="md:col-span-2 space-y-4">
