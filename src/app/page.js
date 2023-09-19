@@ -91,6 +91,7 @@ export default function Home() {
                 ? blogs.map((blog, index) => (
                     <Blog
                       key={index}
+                      href={blog.href}
                       date={blog.date}
                       title={blog.title}
                       imageUrl={blog.imageUrl}
