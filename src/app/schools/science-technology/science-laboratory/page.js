@@ -31,8 +31,8 @@ export default function Home() {
             </svg>
             GO HOME
           </Link>
-          <Link
-            href="#others"
+          <a
+            href="/schools/science-technology/science-laboratory#others"
             className="md:hidden flex text-xs items-center text-[#003DA5] font-semibold"
           >
             <svg
@@ -52,7 +52,7 @@ export default function Home() {
               />
             </svg>
             MORE LINKS
-          </Link>
+          </a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           <div className="md:col-span-2 space-y-4">
