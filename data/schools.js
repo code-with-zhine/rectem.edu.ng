@@ -914,7 +914,7 @@ module.exports = {
               },
               {
                 code: "GNS 117",
-                title: "Use of English",
+                title: "Use of English I",
               },
               {
                 code: "AGT 111",
@@ -1012,7 +1012,7 @@ module.exports = {
               },
               {
                 code: "COM 222",
-                title: "Seminar on Computer aand Society",
+                title: "Seminar on Computer and Society",
               },
               {
                 code: "COM 223",
@@ -1181,7 +1181,7 @@ module.exports = {
               },
               {
                 code: "STB 213",
-                title: "Practical for STM 211, STB 211 & STB 212)",
+                title: "Practical for STM 211, STB 211 & STB 212",
               },
               {
                 code: "STC 211",
