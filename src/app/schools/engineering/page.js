@@ -25,7 +25,7 @@ export default function Home() {
             GO HOME
           </Link>
           <a
-            href="/#others"
+            href="/schools/engineering#others"
             className="md:hidden flex text-xs items-center text-[#003DA5] font-semibold"
           >
             <svg

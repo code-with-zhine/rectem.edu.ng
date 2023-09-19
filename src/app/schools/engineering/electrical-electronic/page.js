@@ -32,7 +32,7 @@ export default function Home() {
             GO HOME
           </Link>
           <Link
-            href="#others"
+            href="/schools/engineering/electrical-electronic#others"
             className="md:hidden flex text-xs items-center text-[#003DA5] font-semibold"
           >
             <svg
