@@ -187,7 +187,7 @@ module.exports = {
               },
               {
                 code: "GNS 202",
-                title: "Cmmunication In English II",
+                title: "Communication In English II",
               },
               {
                 code: "MTH 122",
@@ -331,7 +331,7 @@ module.exports = {
                 title: "Entrepreneurship Development II",
               },
               {
-                code: "SUG 211",
+                code: "SUG 218",
                 title: "Engineering Survey I",
               },
               {
@@ -356,7 +356,7 @@ module.exports = {
               },
               {
                 code: "CEC 212",
-                title: "Soil Mechanics",
+                title: "Soil Mechanics I",
               },
               {
                 code: "CEC 214",
@@ -714,7 +714,7 @@ module.exports = {
               },
               {
                 code: "ACC 223",
-                title: "Auditing",
+                title: "Auditing II",
               },
             ],
           },
@@ -1369,7 +1369,7 @@ module.exports = {
               },
               {
                 code: "GNS 102",
-                title: "Communication Skill",
+                title: "Communication Skills I",
               },
               {
                 code: "EED 126",
@@ -1403,7 +1403,7 @@ module.exports = {
               },
               {
                 code: "ARC 217",
-                title: "Building Service",
+                title: "Building Services",
               },
               {
                 code: "ARC 218",
@@ -1648,7 +1648,7 @@ module.exports = {
               },
               {
                 code: "EST 228",
-                title: "Fianl Project",
+                title: "Final Project",
               },
             ],
           },

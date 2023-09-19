@@ -154,13 +154,13 @@ export default function Home() {
                           Laboratories and Workshops
                         </h6>
                         <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
-                          The college offers specialized laboratories and
+                          {`The college offers specialized laboratories and
                           workshops for practical hands-on training in various
                           fields such as engineering, computer science, and
                           business. These facilities enable students to apply
                           theoretical knowledge to real-world scenarios,
                           fostering critical thinking and problem-solving
-                          skills.
+                          skills.`}
                         </p>
                       </div>
                       <Image
@@ -199,13 +199,13 @@ export default function Home() {
                           Innovation and Incubation Centers
                         </h6>
                         <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
-                          To promote entrepreneurship and innovation, RECTEM
+                          {`To promote entrepreneurship and innovation, RECTEM
                           provides innovation and incubation centers. These
                           spaces encourage students to develop creative ideas
                           and transform them into tangible projects or startups.
                           Through mentorship and networking opportunities,
                           students can turn their innovative concepts into
-                          successful ventures.
+                          successful ventures.`}
                         </p>
                       </div>
                       <Image
@@ -222,12 +222,12 @@ export default function Home() {
                           Computer Labs and IT Infrastructure
                         </h6>
                         <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
-                          RECTEM's computer labs are equipped with the latest
+                          {`RECTEM's computer labs are equipped with the latest
                           technology, allowing students to practice coding,
                           software development, simulations, and more. The
                           college's robust IT infrastructure ensures seamless
                           connectivity, enabling students to access online
-                          resources and engage in virtual learning experiences.
+                          resources and engage in virtual learning experiences.`}
                         </p>
                       </div>
                       <Image
@@ -244,12 +244,12 @@ export default function Home() {
                           Sports and Fitness Facilities
                         </h6>
                         <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
-                          Recognizing the importance of physical well-being,
+                          {`Recognizing the importance of physical well-being,
                           RECTEM offers sports facilities that include sports
                           fields, courts, and a gymnasium. These facilities
                           promote a healthy lifestyle and provide students with
                           opportunities to participate in various sports and
-                          recreational activities.
+                          recreational activities.`}
                         </p>
                       </div>
                       <Image
@@ -266,12 +266,12 @@ export default function Home() {
                           Research Centers
                         </h6>
                         <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
-                          For students keen on research, RECTEM offers dedicated
+                          {`For students keen on research, RECTEM offers dedicated
                           research centers that encourage exploration and
                           innovation across various disciplines. Collaboration
                           spaces foster interdisciplinary interactions and
                           enable students to collaborate on projects that
-                          contribute to academic advancements.
+                          contribute to academic advancements.`}
                         </p>
                       </div>
                       <Image
@@ -288,12 +288,12 @@ export default function Home() {
                           Student Centers and Cafeteria
                         </h6>
                         <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
-                          The student center is a vibrant hub for students to
+                          {`The student center is a vibrant hub for students to
                           relax, socialize, and engage in extracurricular
                           activities. The cafeteria provides a variety of meals
                           to cater to diverse tastes, ensuring students have a
                           comfortable and convenient environment for their daily
-                          needs.
+                          needs.`}
                         </p>
                       </div>
                       <Image
@@ -310,11 +310,11 @@ export default function Home() {
                           Auditoriums and Event Spaces
                         </h6>
                         <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
-                          RECTEM's auditoriums and event spaces are designed to
+                          {`RECTEM's auditoriums and event spaces are designed to
                           host seminars, conferences, workshops, and cultural
                           events. These spaces provide a platform for students
                           to showcase their talents, share knowledge, and engage
-                          with industry experts.
+                          with industry experts.`}
                         </p>
                       </div>
                       <Image
