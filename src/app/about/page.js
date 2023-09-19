@@ -74,7 +74,7 @@ export default function Home() {
               <h4
                 className={`text-[#003DA5] text-sm tracking-wider ${gemsbuck.className}`}
               >
-                More
+                More About Us
               </h4>
               <hr className="w-20 border-[#f1ab00]" />
               <div className="flex flex-col">

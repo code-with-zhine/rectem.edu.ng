@@ -208,7 +208,7 @@ export default function Home() {
             </p>
             <Link
               href="/schools/part-time"
-              className="inline-flex  gap-1 items-center underline text-[#D6336B] text-xs tracking-widest uppercase font-semibold py-3"
+              className="inline-flex gap-1 items-center underline text-[#D6336B] text-xs tracking-widest uppercase font-semibold py-3"
             >
               LEARN MORE
               <svg

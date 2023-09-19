@@ -1,4 +1,5 @@
 import { gemsbuck } from "@/app/page";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -43,128 +44,8 @@ export default function Home() {
                   practical training, innovation, and personal development.
                 </p>
                 <section className="py-10">
-                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                    <article>
-                      <div className="py-4">
-                        <h6 className="font-semibold text-gray-600">
-                          Modern Lecture Halls
-                        </h6>
-                        <p className="text-justify">
-                          RECTEM boasts well-equipped classrooms and lecture
-                          halls that facilitate interactive and engaging
-                          learning. These spaces are designed to accommodate
-                          both traditional lectures and modern teaching
-                          methodologies, ensuring that students receive a
-                          well-rounded education.
-                        </p>
-                      </div>
-                      <div className="py-4">
-                        <h6 className="font-semibold text-gray-600">
-                          Laboratories and Workshops
-                        </h6>
-                        <p className="text-justify">
-                          The college offers specialized laboratories and
-                          workshops for practical hands-on training in various
-                          fields such as engineering, computer science, and
-                          business. These facilities enable students to apply
-                          theoretical knowledge to real-world scenarios,
-                          fostering critical thinking and problem-solving
-                          skills.
-                        </p>
-                      </div>
-                      <div className="py-4">
-                        <h6 className="font-semibold text-gray-600">
-                          Library and Resource Centers
-                        </h6>
-                        <p className="text-justify">
-                          The library serves as a knowledge hub, housing a vast
-                          collection of academic resources including textbooks,
-                          research papers, and digital materials. In addition to
-                          physical books, RECTEM provides online databases and
-                          e-resources, enabling students to conduct in-depth
-                          research and stay updated with the latest information.
-                        </p>
-                      </div>
-
-                      <div className="py-4">
-                        <h6 className="font-semibold text-gray-600">
-                          Innovation and Incubation Centers
-                        </h6>
-                        <p className="text-justify">
-                          To promote entrepreneurship and innovation, RECTEM
-                          provides innovation and incubation centers. These
-                          spaces encourage students to develop creative ideas
-                          and transform them into tangible projects or startups.
-                          Through mentorship and networking opportunities,
-                          students can turn their innovative concepts into
-                          successful ventures.
-                        </p>
-                      </div>
-                      <div className="py-4">
-                        <h6 className="font-semibold text-gray-600">
-                          Computer Labs and IT Infrastructure
-                        </h6>
-                        <p className="text-justify">
-                          {`RECTEM's computer labs are equipped with the latest
-                          technology, allowing students to practice coding,
-                          software development, simulations, and more. The
-                          college's robust IT infrastructure ensures seamless
-                          connectivity, enabling students to access online
-                          resources and engage in virtual learning experiences.`}
-                        </p>
-                      </div>
-                      <div className="py-4">
-                        <h6 className="font-semibold text-gray-600">
-                          Sports and Fitness Facilities
-                        </h6>
-                        <p className="text-justify">
-                          Recognizing the importance of physical well-being,
-                          RECTEM offers sports facilities that include sports
-                          fields, courts, and a gymnasium. These facilities
-                          promote a healthy lifestyle and provide students with
-                          opportunities to participate in various sports and
-                          recreational activities.
-                        </p>
-                      </div>
-                      <div className="py-4">
-                        <h6 className="font-semibold text-gray-600">
-                          Research Centers
-                        </h6>
-                        <p className="text-justify">
-                          For students keen on research, RECTEM offers dedicated
-                          research centers that encourage exploration and
-                          innovation across various disciplines. Collaboration
-                          spaces foster interdisciplinary interactions and
-                          enable students to collaborate on projects that
-                          contribute to academic advancements.
-                        </p>
-                      </div>
-                      <div className="py-4">
-                        <h6 className="font-semibold text-gray-600">
-                          Student Centers and Cafeteria
-                        </h6>
-                        <p className="text-justify">
-                          The student center is a vibrant hub for students to
-                          relax, socialize, and engage in extracurricular
-                          activities. The cafeteria provides a variety of meals
-                          to cater to diverse tastes, ensuring students have a
-                          comfortable and convenient environment for their daily
-                          needs.
-                        </p>
-                      </div>
-                      <div className="py-4">
-                        <h6 className="font-semibold text-gray-600">
-                          Auditoriums and Event Spaces
-                        </h6>
-                        <p className="text-justify">
-                          {`RECTEM's auditoriums and event spaces are designed to
-                          host seminars, conferences, workshops, and cultural
-                          events. These spaces provide a platform for students
-                          to showcase their talents, share knowledge, and engage
-                          with industry experts.`}
-                        </p>
-                      </div>
-                    </article>
+                  {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                    
                     <article className="grid gap-2 py-4 pl-4 auto-rows-min">
                       <div className="bg-[url('/1.png')] rounded-sm cursor-pointer w-[300px] h-[350px] border ">
                         <div
@@ -241,6 +122,208 @@ export default function Home() {
                           </a>
                         </div>
                       </div>
+                    </article>
+                  </div> */}
+                  {/*  */}
+                  <div className="grid grid-cols-1 py-5 text-gray-500">
+                    <article className="grid grid-cols-1 sm:grid-cols-3 py-4 gap-4 items-center">
+                      <div className="col-span-2">
+                        <h6 className="font-semibold text-gray-600">
+                          Modern Lecture Halls
+                        </h6>
+                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                          {`RECTEM boasts well-equipped classrooms and lecture
+                          halls that facilitate interactive and engaging
+                          learning. These spaces are designed to accommodate
+                          both traditional lectures and modern teaching
+                          methodologies, ensuring that students receive a
+                          well-rounded education.`}
+                        </p>
+                      </div>
+                      <Image
+                        className="col-span-1 hover:bg-[#003DA5] hover:bg-opacity-30 hover:border cursor-pointer"
+                        src=""
+                        alt=""
+                        width={250}
+                        height={250}
+                      />
+                    </article>
+                    <article className="grid grid-cols-1 sm:grid-cols-3 py-4 gap-4 items-center">
+                      <div className="col-span-2">
+                        <h6 className="font-semibold text-gray-600">
+                          Laboratories and Workshops
+                        </h6>
+                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                          The college offers specialized laboratories and
+                          workshops for practical hands-on training in various
+                          fields such as engineering, computer science, and
+                          business. These facilities enable students to apply
+                          theoretical knowledge to real-world scenarios,
+                          fostering critical thinking and problem-solving
+                          skills.
+                        </p>
+                      </div>
+                      <Image
+                        className="col-span-1 hover:bg-[#003DA5] hover:bg-opacity-30 hover:border cursor-pointer"
+                        alt=""
+                        src=""
+                        width={250}
+                        height={250}
+                      />
+                    </article>
+                    <article className="grid grid-cols-1 sm:grid-cols-3 py-4 gap-4 items-center">
+                      <div className="col-span-2">
+                        <h6 className="font-semibold text-gray-600">
+                          Library and Resource Centers
+                        </h6>
+                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                          {`The library serves as a knowledge hub, housing a vast
+                          collection of academic resources including textbooks,
+                          research papers, and digital materials. In addition to
+                          physical books, RECTEM provides online databases and
+                          e-resources, enabling students to conduct in-depth
+                          research and stay updated with the latest information.`}
+                        </p>
+                      </div>
+                      <Image
+                        className="col-span-1 hover:bg-[#003DA5] hover:bg-opacity-30 hover:border cursor-pointer"
+                        src=""
+                        alt=""
+                        width={250}
+                        height={250}
+                      />
+                    </article>
+                    <article className="grid grid-cols-1 sm:grid-cols-3 py-4 gap-4 items-center">
+                      <div className="col-span-2">
+                        <h6 className="font-semibold text-gray-600">
+                          Innovation and Incubation Centers
+                        </h6>
+                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                          To promote entrepreneurship and innovation, RECTEM
+                          provides innovation and incubation centers. These
+                          spaces encourage students to develop creative ideas
+                          and transform them into tangible projects or startups.
+                          Through mentorship and networking opportunities,
+                          students can turn their innovative concepts into
+                          successful ventures.
+                        </p>
+                      </div>
+                      <Image
+                        className="col-span-1 hover:bg-[#003DA5] hover:bg-opacity-30 hover:border cursor-pointer"
+                        src=""
+                        alt=""
+                        width={250}
+                        height={250}
+                      />
+                    </article>
+                    <article className="grid grid-cols-1 sm:grid-cols-3 py-4 gap-4 items-center">
+                      <div className="col-span-2">
+                        <h6 className="font-semibold text-gray-600">
+                          Computer Labs and IT Infrastructure
+                        </h6>
+                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                          RECTEM's computer labs are equipped with the latest
+                          technology, allowing students to practice coding,
+                          software development, simulations, and more. The
+                          college's robust IT infrastructure ensures seamless
+                          connectivity, enabling students to access online
+                          resources and engage in virtual learning experiences.
+                        </p>
+                      </div>
+                      <Image
+                        className="col-span-1 hover:bg-[#003DA5] hover:bg-opacity-30 hover:border cursor-pointer"
+                        src=""
+                        alt=""
+                        width={250}
+                        height={250}
+                      />
+                    </article>
+                    <article className="grid grid-cols-1 sm:grid-cols-3 py-4 gap-4 items-center">
+                      <div className="col-span-2">
+                        <h6 className="font-semibold text-gray-600">
+                          Sports and Fitness Facilities
+                        </h6>
+                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                          Recognizing the importance of physical well-being,
+                          RECTEM offers sports facilities that include sports
+                          fields, courts, and a gymnasium. These facilities
+                          promote a healthy lifestyle and provide students with
+                          opportunities to participate in various sports and
+                          recreational activities.
+                        </p>
+                      </div>
+                      <Image
+                        className="col-span-1 hover:bg-[#003DA5] hover:bg-opacity-30 hover:border cursor-pointer"
+                        src=""
+                        alt=""
+                        width={250}
+                        height={250}
+                      />
+                    </article>
+                    <article className="grid grid-cols-1 sm:grid-cols-3 py-4 gap-4 items-center">
+                      <div className="col-span-2">
+                        <h6 className="font-semibold text-gray-600">
+                          Research Centers
+                        </h6>
+                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                          For students keen on research, RECTEM offers dedicated
+                          research centers that encourage exploration and
+                          innovation across various disciplines. Collaboration
+                          spaces foster interdisciplinary interactions and
+                          enable students to collaborate on projects that
+                          contribute to academic advancements.
+                        </p>
+                      </div>
+                      <Image
+                        className="col-span-1 hover:bg-[#003DA5] hover:bg-opacity-30 hover:border cursor-pointer"
+                        src=""
+                        alt=""
+                        width={250}
+                        height={250}
+                      />
+                    </article>
+                    <article className="grid grid-cols-1 sm:grid-cols-3 py-4 gap-4 items-center">
+                      <div className="col-span-2">
+                        <h6 className="font-semibold text-gray-600">
+                          Student Centers and Cafeteria
+                        </h6>
+                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                          The student center is a vibrant hub for students to
+                          relax, socialize, and engage in extracurricular
+                          activities. The cafeteria provides a variety of meals
+                          to cater to diverse tastes, ensuring students have a
+                          comfortable and convenient environment for their daily
+                          needs.
+                        </p>
+                      </div>
+                      <Image
+                        className="col-span-1 hover:bg-[#003DA5] hover:bg-opacity-30 hover:border cursor-pointer"
+                        src=""
+                        alt=""
+                        width={250}
+                        height={250}
+                      />
+                    </article>
+                    <article className="grid grid-cols-1 sm:grid-cols-3 py-4 gap-4 items-center">
+                      <div className="col-span-2">
+                        <h6 className="font-semibold text-gray-600">
+                          Auditoriums and Event Spaces
+                        </h6>
+                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                          RECTEM's auditoriums and event spaces are designed to
+                          host seminars, conferences, workshops, and cultural
+                          events. These spaces provide a platform for students
+                          to showcase their talents, share knowledge, and engage
+                          with industry experts.
+                        </p>
+                      </div>
+                      <Image
+                        className="col-span-1 hover:bg-[#003DA5] hover:bg-opacity-30 hover:border cursor-pointer"
+                        src=""
+                        alt=""
+                        width={250}
+                        height={250}
+                      />
                     </article>
                   </div>
                 </section>
