@@ -1,15 +1,13 @@
 "use client";
-import Layout from "@/components/Layout";
 import { useState, useEffect } from "react";
 import { gemsbuck } from "@/app/page";
-import Image from "next/image";
 import Link from "next/link";
-import Slider from "@/components/Slider";
-import NewsCard from "@/components/NewsCard";
+
 import Event from "@/components/Event";
+import Blog from "@/components/Blog";
+
 import { eventsData } from "../../../data/event-data";
 import { blogsData } from "../../../data/blogs-data";
-import Blog from "@/components/Blog";
 
 
 export default function Home() {
@@ -33,7 +31,6 @@ export default function Home() {
   };
   
   return (
-    <Layout>
       <>
         {/* <Slider /> */}
         <section className="px-5 md:px-10 py-10">
@@ -107,6 +104,5 @@ export default function Home() {
           </div>
         </section>
       </>
-    </Layout>
   );
 }
