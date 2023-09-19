@@ -71,7 +71,7 @@ export default function Home() {
               <h4
                 className={`py-4 text-[#003DA5] text-sm tracking-wider ${gemsbuck.className}`}
               >
-                SCHOOL OF MANAGEMENT
+                OTHER DEPARTMENT(S)
               </h4>
               <hr className="w-20 border-[#f1ab00]" />
               <div className="flex flex-col">
