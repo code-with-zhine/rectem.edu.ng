@@ -5,9 +5,7 @@ module.exports = {
       date: "DECEMBER 1, 2022",
       title: "Admissions for 2022/2023 Now Open!",
       imageUrl: "",
-      body: `${(
-        <a>Click</a>
-      )}Are you ready to embark on a transformative educational
+      body: `Are you ready to embark on a transformative educational
             journey? Look no further than REDEEMER'S COLLEGE, where
             doors are opening for the 2022/2023 academic year. With a
             legacy of excellence in education and a commitment to
