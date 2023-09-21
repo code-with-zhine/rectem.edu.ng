@@ -10,23 +10,8 @@ import { eventsData } from "../../../data/event-data";
 import { blogsData } from "../../../data/blogs-data";
 
 export default function Home() {
-  const [events, setEvents] = useState(null);
-  const [blogs, setBlogs] = useState(null);
-
-  useEffect(() => {
-    fetchEvents();
-    fetchBlogs();
-  }, []);
-
-  const fetchEvents = async () => {
-    const data = await eventsData;
-    setEvents(data);
-  };
-
-  const fetchBlogs = async () => {
-    const data = await blogsData;
-    setBlogs(data);
-  };
+  const events = eventsData;
+  const blogs = blogsData;
 
   return (
     <>

@@ -8,20 +8,11 @@ import Event from "@/components/Event";
 import { eventsData } from "../../../data/event-data";
 
 export default function Home() {
-  const [events, setEvents] = useState(null);
-
-  useEffect(() => {
-    fetchEvents();
-  }, []);
-
-  const fetchEvents = async () => {
-    const data = await eventsData;
-    setEvents(data);
-  };
+  const events = eventsData;
 
   return (
     <>
-      <section className="px-5 md:px-10 py-10">
+      <section className="px-5 md:px-10">
         <div className="py-4">
           <Link
             href="/"
@@ -52,8 +43,7 @@ export default function Home() {
               >
                 FILTER RESULTS
               </h1>
-              <div class="w-full">
-              </div>
+              <div className="w-full"></div>
               <div className="grid gap-4 py-4 text-gray-600">
                 <a
                   href=""

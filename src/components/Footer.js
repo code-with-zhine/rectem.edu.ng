@@ -7,11 +7,11 @@ import googlemap from "../../public/images/googlemap.webp";
 export default function Footer() {
   return (
     <>
-      <section className="bg-[url('/footer.png')] bg-no-repeat bg-cover">
-        <div className="px-5 md:px-10 w-full h-full bg-blue-800 opacity-70 py-10">
+      <section className="">
+        <div className="px-5 md:px-10 w-full h-full bg-[#003DA5] py-10">
           <hr className="border-yellow-500" />
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 text-white pt-10">
-            <article className="text-xs pr-2 ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 text-white pt-10 divide-x">
+            <article className="text-xs px-2 ">
               <h2 className={`text-4xl -tracking-wider ${gemsbuck.className}`}>
                 RECTEM
               </h2>
@@ -47,7 +47,7 @@ export default function Footer() {
               </ul>
               <hr className="border-yellow-500" />
             </article>
-            <article className="text-xs font-semibold pr-2 ">
+            <article className="text-xs font-semibold px-2 ">
               <div className="mb-5">
                 <p className="mb-1 font-bold">ADMISSION DEPARTMENT</p>
                 <hr className="border-yellow-500" />
@@ -103,7 +103,7 @@ export default function Footer() {
                 />
               </a>
             </article>
-            <article className="text-xs font-semibold pr-2 ">
+            <article className="text-xs font-semibold px-2 ">
               <div>
                 <p className="mb-1 font-bold">HOT LINKS</p>
                 <hr className="border-yellow-500" />
@@ -185,7 +185,7 @@ export default function Footer() {
                 <hr className="border-yellow-500" />
               </ul>
             </article>
-            <article className="text-xs font-semibold">
+            <article className="text-xs font-semibold px-2">
               <div>
                 <p className="mb-1 font-bold">FOLLOW US</p>
                 <hr className="border-yellow-500" />
