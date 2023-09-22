@@ -1,5 +1,3 @@
-"use client";
-import { useState, useEffect } from "react";
 import { gemsbuck } from "@/app/page";
 import Link from "next/link";
 
@@ -7,10 +5,6 @@ import Event from "@/components/Event";
 import Blog from "@/components/Blog";
 
 import { eventsData } from "../../../data/event-data";
-import moment from "moment/moment";
-
-
-export const revalidate = 3600 // revalidate at most every hour
 
 const STRAPI_ENDPOINT = "http://localhost:1337/api";
 const OPTIONS = {
@@ -20,13 +14,13 @@ const OPTIONS = {
 async function getPosts() {
   const response = await fetch(`${STRAPI_ENDPOINT}/posts`, OPTIONS);
   const posts = await response?.json();
-  return posts?.data
+  return posts?.data;
 }
 
 export default async function Home() {
   const events = eventsData;
 
-const posts = await getPosts()
+  const posts = await getPosts();
 
   return (
     <>
@@ -70,7 +64,7 @@ const posts = await getPosts()
                         date={post.attributes.createdAt}
                         title={post.attributes.title}
                         // imageUrl={blog.imageUrl}
-                        body={post.attributes.content}
+                        body={post.attributes.description}
                       />
                     ))
                   : null}

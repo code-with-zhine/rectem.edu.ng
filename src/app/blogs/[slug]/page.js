@@ -3,31 +3,34 @@ import { blogsData } from "../../../../data/blogs-data";
 import Image from "next/image";
 import { gemsbuck } from "@/app/page";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import moment from "moment";
+
+
+export const revalidate = 0; // revalidate at most every hour
 
   const STRAPI_ENDPOINT = "http://localhost:1337/api/posts";
   const OPTIONS = {
     method: "GET",
   };
 
-async function getPost() {
-  const response = await fetch(`${STRAPI_ENDPOINT}/posts`, OPTIONS);
+async function getPost(slug) {
+  const response = await fetch(`${STRAPI_ENDPOINT}/${slug}`, OPTIONS);
   const post = await response?.json();
   return post?.data;
 }
 
 export default async function Home({ params }) {
-  const slug = params.slug * 1;
+  const slug = params.slug;
   const data = blogsData.find((blogData) => blogData.id === slug);
 
 
-  const post = await getPost()
-
+  const post = await getPost(slug);
   return (
     <main>
       <section className="grid grid-cols-1 lg:grid-cols-5 pb-16 pt-10 px-5">
         <div className="col-span-3 border p-1">
           <div className="flex divide-x ">
-            <Link className="" href="">
+            <Link href="/">
               <svg
                 className="text-[#003DA5]"
                 xmlns="http://www.w3.org/2000/svg"
@@ -43,20 +46,14 @@ export default async function Home({ params }) {
             </Link>
             <div className="flex items-center px-2 text-xs text-gray-500 font-bold">
               <div className="whitespace-nowrap">
-                <Link className="px-2 hover:text-[red]" href="">
+                <Link className="px-2 hover:text-[red]" href="/blogs">
                   NEWS
                 </Link>
                 <span>{`>>`}</span>
               </div>
-              <div className="whitespace-nowrap">
-                <Link className="px-2 hover:text-[red]" href="">
-                  SEPTEMBER 20TH, 2023
-                </Link>
-                <span>{`>>`}</span>
-              </div>
               <div>
-                <Link className="px-2 hover:text-[red] line-clamp-1" href="">
-                  BACK TO SCHOOL: UCR WELCOME WEEK 2023
+                <Link className="px-2 hover:text-[red] line-clamp-1" href={`/blogs/${post.id}`}>
+                  {post.attributes.title}
                 </Link>
               </div>
             </div>
@@ -157,22 +154,18 @@ export default async function Home({ params }) {
             height={300}
           />
           <div className="w-full absolute bottom-0 px-4 py-8 bg-black bg-opacity-60 text-white ">
-            <h1 className="text-3xl font-extrabold">
-              Back to School: UCR Welcome Week 2023
+            <h1 className="max-w-3xl text-2xl md:text-3xl font-extrabold">
+              {post.attributes.title}
             </h1>
-            <p className="text-lg font-semibold">
-              Details about giveaways, free food, and live music to hype you up
-              for the new school year
-            </p>
           </div>
         </div>
-        <section className="grid grid-cols-1 md:grid-cols-5 gap-5 py-10">
+        <section className="grid grid-cols-1 md:grid-cols-5 gap-5 py-10 px-5">
           <div className="col-span-3">
-            <article className="prose lg:prose-xl">
-              <MDXRemote source={"f"} />
+            <article className="prose max-w-none dark:prose-invert">
+              <MDXRemote source={post.attributes.content} />
             </article>
           </div>
-          <div className="col-span-2 px-5">
+          <div className="col-span-2">
             <hr className="border-[#f1ab00]" />
             <h4
               className={`py-4 text-[#003DA5] text-sm tracking-wider ${gemsbuck.className}`}

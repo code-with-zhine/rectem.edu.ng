@@ -8,6 +8,31 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {},
+  theme: {
+    extend: {
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            color: theme("colors.gray.500"),
+            h2: {
+              color: theme("colors.gray.600"),
+            },
+            h3: {
+              color: theme("colors.gray.600"),
+            },
+            h4: {
+              color: theme("colors.gray.600"),
+            },
+            h5: {
+              color: theme("colors.gray.600"),
+            },
+            a: {
+              color: theme("colors.red.600"),
+            },
+          },
+        },
+      }),
+    },
+  },
   plugins: [require("@tailwindcss/typography")],
 };
