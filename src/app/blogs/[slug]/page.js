@@ -3,7 +3,6 @@ import { blogsData } from "../../../../data/blogs-data";
 import Image from "next/image";
 import { gemsbuck } from "@/app/page";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import moment from "moment";
 
 
 export const revalidate = 0; // revalidate at most every hour
@@ -23,8 +22,9 @@ export default async function Home({ params }) {
   const slug = params.slug;
   const data = blogsData.find((blogData) => blogData.id === slug);
 
-
   const post = await getPost(slug);
+  console.log(post);
+
   return (
     <main>
       <section className="grid grid-cols-1 lg:grid-cols-5 pb-16 pt-10 px-5">

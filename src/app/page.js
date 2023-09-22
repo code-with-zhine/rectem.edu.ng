@@ -92,7 +92,7 @@ export default function Home() {
                     <Blog
                       key={index}
                       href={blog.href}
-                      date={blog.date}
+                      date="2023-09-21T12:15:00.000Z"
                       title={blog.title}
                       imageUrl={blog.imageUrl}
                       body={blog.body}
