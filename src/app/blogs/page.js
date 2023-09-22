@@ -7,11 +7,26 @@ import Event from "@/components/Event";
 import Blog from "@/components/Blog";
 
 import { eventsData } from "../../../data/event-data";
-import { blogsData } from "../../../data/blogs-data";
+import moment from "moment/moment";
 
-export default function Home() {
+
+export const revalidate = 3600 // revalidate at most every hour
+
+const STRAPI_ENDPOINT = "http://localhost:1337/api";
+const OPTIONS = {
+  method: "GET",
+};
+
+async function getPosts() {
+  const response = await fetch(`${STRAPI_ENDPOINT}/posts`, OPTIONS);
+  const posts = await response?.json();
+  return posts?.data
+}
+
+export default async function Home() {
   const events = eventsData;
-  const blogs = blogsData;
+
+const posts = await getPosts()
 
   return (
     <>
@@ -47,15 +62,15 @@ export default function Home() {
               </h2>
               <hr className="border-[#f1ab00]" />
               <div className="grid sm:grid-cols-2 gap-5 py-10">
-                {blogs
-                  ? blogs.map((blog, index) => (
+                {posts
+                  ? posts.map((post, index) => (
                       <Blog
                         key={index}
-                        href={blog.id}
-                        date={blog.date}
-                        title={blog.title}
-                        imageUrl={blog.imageUrl}
-                        body={blog.body}
+                        href={post.id}
+                        date={post.attributes.createdAt}
+                        title={post.attributes.title}
+                        // imageUrl={blog.imageUrl}
+                        body={post.attributes.content}
                       />
                     ))
                   : null}

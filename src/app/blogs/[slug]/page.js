@@ -2,14 +2,29 @@ import Link from "next/link";
 import { blogsData } from "../../../../data/blogs-data";
 import Image from "next/image";
 import { gemsbuck } from "@/app/page";
+import { MDXRemote } from "next-mdx-remote/rsc";
 
-export default function Home({ params }) {
+  const STRAPI_ENDPOINT = "http://localhost:1337/api/posts";
+  const OPTIONS = {
+    method: "GET",
+  };
+
+async function getPost() {
+  const response = await fetch(`${STRAPI_ENDPOINT}/posts`, OPTIONS);
+  const post = await response?.json();
+  return post?.data;
+}
+
+export default async function Home({ params }) {
   const slug = params.slug * 1;
   const data = blogsData.find((blogData) => blogData.id === slug);
 
+
+  const post = await getPost()
+
   return (
     <main>
-      <section className="grid grid-cols-1 lg:grid-cols-5  p-10">
+      <section className="grid grid-cols-1 lg:grid-cols-5 pb-16 pt-10 px-5">
         <div className="col-span-3 border p-1">
           <div className="flex divide-x ">
             <Link className="" href="">
@@ -153,7 +168,9 @@ export default function Home({ params }) {
         </div>
         <section className="grid grid-cols-1 md:grid-cols-5 gap-5 py-10">
           <div className="col-span-3">
-            <article className="prose lg:prose-xl"></article>
+            <article className="prose lg:prose-xl">
+              <MDXRemote source={"f"} />
+            </article>
           </div>
           <div className="col-span-2 px-5">
             <hr className="border-[#f1ab00]" />

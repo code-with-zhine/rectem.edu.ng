@@ -7,10 +7,10 @@ import googlemap from "../../public/images/googlemap.webp";
 export default function Footer() {
   return (
     <>
-      <section className="">
+      <section>
         <div className="px-5 md:px-10 w-full h-full bg-[#003DA5] py-10">
           <hr className="border-yellow-500" />
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 text-white pt-10 divide-x">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 text-white pt-10 sm:divide-x">
             <article className="text-xs px-2 ">
               <h2 className={`text-4xl -tracking-wider ${gemsbuck.className}`}>
                 RECTEM
