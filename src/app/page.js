@@ -25,7 +25,10 @@ const OPTIONS = {
 };
 
 async function getPosts() {
-  const response = await fetch(`${STRAPI_ENDPOINT}/posts?populate=*`, OPTIONS);
+  const response = await fetch(
+    `${STRAPI_ENDPOINT}/posts?populate=*&sort=createdAt:desc`,
+    OPTIONS
+  );
   const posts = await response.json();
   return posts?.data;
 }
