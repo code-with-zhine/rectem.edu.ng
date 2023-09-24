@@ -436,7 +436,118 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="bg-[url('/experience.png')] bg-no-repeat bg-cover px-10 py-24">
+          <div className="ml-auto bg-[#f1ab00] bg-opacity-70 w-full sm:w-[400px] md:w-1/2 px-6 py-10 text-white">
+            <h2
+              className={`pb-1 text-xl text-[#003DA5] tracking-wider ${gemsbuck.className}`}
+            >
+              The Student Experience
+            </h2>
+            <p className="text-black pb-3 tracking-wider">
+              We believe that education is not confined to the classroom. Our
+              commitment extends beyond academics to encompass a holistic
+              student experience that nurtures growth, fosters connections, and
+              creates lasting memories.
+            </p>
+            <a
+              target="_blank"
+              href="https://onlineapp.rectem.edu.ng"
+              className="items-center bg-[#003DA5] text-white text-xs tracking-widest uppercase font-bold py-3 px-5 hover:bg-[#003DA5]"
+            >
+              LEARN HOW TO APPLY
+            </a>
+          </div>
+        </section>
+
         <FollowUs />
+        <section className="bg-[#003DA5] px-10">
+          <article className="grid grid-cols-2 sm:grid-cols-4 gap-1">
+            <a
+              href="/gallery/01.jpg"
+              target="_blank"
+              className="cursor-pointer hover:border border-[#f1ab00]"
+            >
+              <Image src="/gallery/01.jpg" alt="" width={300} height={300} />
+            </a>
+            <a
+              href="/gallery/02.jpg"
+              target="_blank"
+              className="cursor-pointer hover:border border-[#d8d6d2]"
+            >
+              <Image src="/gallery/02.jpg" alt="" width={300} height={300} />
+            </a>
+            <a
+              href="/gallery/03.jpg"
+              target="_blank"
+              className="cursor-pointer hover:border border-[#f1ab00]"
+            >
+              <Image src="/gallery/03.jpg" alt="" width={300} height={300} />
+            </a>
+            <a
+              href="/gallery/04.jpg"
+              target="_blank"
+              className="cursor-pointer hover:border border-[#f1ab00]"
+            >
+              <Image src="/gallery/04.jpg" alt="" width={300} height={300} />
+            </a>
+            <a
+              href="/gallery/05.jpg"
+              target="_blank"
+              className="cursor-pointer hover:border border-[#f1ab00]"
+            >
+              <Image src="/gallery/05.jpg" alt="" width={300} height={300} />
+            </a>
+            <a
+              href="/gallery/06.jpg"
+              target="_blank"
+              className="cursor-pointer hover:border border-[#f1ab00]"
+            >
+              <Image src="/gallery/06.jpg" alt="" width={300} height={300} />
+            </a>
+            <a
+              href="/gallery/07.jpg"
+              target="_blank"
+              className="cursor-pointer hover:border border-[#f1ab00]"
+            >
+              <Image src="/gallery/07.jpg" alt="" width={300} height={300} />
+            </a>
+            <a
+              href="/gallery/08.jpg"
+              target="_blank"
+              className="cursor-pointer hover:border border-[#f1ab00]"
+            >
+              <Image src="/gallery/08.jpg" alt="" width={300} height={300} />
+            </a>
+            <a
+              href="/gallery/09.jpg"
+              target="_blank"
+              className="cursor-pointer hover:border border-[#f1ab00]"
+            >
+              <Image src="/gallery/09.jpg" alt="" width={300} height={300} />
+            </a>
+            <a
+              href="/gallery/10.jpg"
+              target="_blank"
+              className="cursor-pointer hover:border border-[#f1ab00]"
+            >
+              <Image src="/gallery/10.jpg" alt="" width={300} height={300} />
+            </a>
+            <a
+              href="/gallery/11.jpg"
+              target="_blank"
+              className="cursor-pointer hover:border border-[#f1ab00]"
+            >
+              <Image src="/gallery/11.jpg" alt="" width={300} height={300} />
+            </a>
+            <a
+              href="/gallery/12.jpg"
+              target="_blank"
+              className="cursor-pointer hover:border border-[#f1ab00]"
+            >
+              <Image src="/gallery/12.jpg" alt="" width={300} height={300} />
+            </a>
+          </article>
+        </section>
       </main>
     </>
   );
