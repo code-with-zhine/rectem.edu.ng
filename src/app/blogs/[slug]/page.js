@@ -35,7 +35,7 @@ export default async function Home({ params }) {
   const post = await getPost(slug);
   const posts = await getPosts();
 
-  const result = posts.slice(0, 3).filter((current) => {
+  const result = posts?.slice(0, 3).filter((current) => {
     return current.id !== post.id;
   });
 
@@ -204,10 +204,10 @@ export default async function Home({ params }) {
                             width={800}
                             height={400}
                           />
-                          <h1 className="text-[#003DA5] text-lg font-semibold py-4 uppercase line-clamp-2">
+                          <h1 className="text-[#003DA5] text-base font-semibold pt-4 uppercase line-clamp-2">
                             {post.attributes.title}
                           </h1>
-                          <h6 className="underline underline-offset-8 decoration-[#f1ab00] decoration-4 text-xs text-gray-500 font-medium mb-5">
+                          <h6 className="py-3 underline underline-offset-8 decoration-[#f1ab00] decoration-4 text-xs text-gray-500 font-medium mb-5">
                             {moment(post.attributes.createdAt).fromNow()}
                           </h6>
                         </article>
