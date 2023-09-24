@@ -156,7 +156,7 @@ export default async function Home({ params }) {
             height={450}
           />
           <div className="w-full absolute bottom-0 px-4 py-8 bg-black bg-opacity-60 text-white ">
-            <h1 className="max-w-3xl text-2xl md:text-3xl font-extrabold">
+            <h1 className="max-w-3xl text-xl md:text-3xl font-extrabold">
               {post.attributes.title}
             </h1>
           </div>
