@@ -13,13 +13,13 @@ const OPTIONS = {
 
 async function getPosts() {
   const response = await fetch(`${STRAPI_ENDPOINT}/posts?populate=*`, OPTIONS);
-  const posts = await response?.json();
-  return posts?.data;
+  const posts = await response.json();
+  return posts.data;
 }
+
 
 export default async function Home() {
   const events = eventsData;
-
   const posts = await getPosts();
 
   return (

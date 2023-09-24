@@ -20,11 +20,25 @@ async function getPost(slug) {
   return post?.data;
 }
 
+const STRAPI_ENDPOINTS = "https://backend-rectem.onrender.com/api";
+
+async function getPosts() {
+  const response = await fetch(`${STRAPI_ENDPOINTS}/posts?populate=*`, OPTIONS);
+  const posts = await response.json();
+  return posts.data;
+}
+
 export default async function Home({ params }) {
   const slug = params.slug;
   const data = blogsData.find((blogData) => blogData.id === slug);
 
   const post = await getPost(slug);
+  const posts = await getPosts();
+
+  const result = posts.slice(0, 6).filter((current) => {
+    return current.id !== post.id;
+  });
+
 
   return (
     <main>
@@ -177,25 +191,31 @@ export default async function Home({ params }) {
               RELATED ARTICLES
             </h4>
             <hr className="w-20 border-[#f1ab00]" />
-            <section className="grid gap-2 pt-2 divide-y">
-              <Link className="" href="">
-                <article className="text-gray-500 p-2">
-                  <Image
-                    className="rounded-md"
-                    src="/Scotty.webp"
-                    alt=""
-                    width={800}
-                    height={400}
-                  />
-                  <h1 className="text-[#003DA5] text-lg font-semibold py-4">
-                    Admissions for 2022/2023 now open
-                  </h1>
-                  <h6 className="underline underline-offset-8 decoration-[#f1ab00] decoration-4 text-xs text-gray-500 font-medium mb-5">
-                    DECEMBER 1, 2022
-                  </h6>
-                </article>
-              </Link>
-            </section>
+            {result
+              ? result.map((post) => {
+                  return (
+                    <section className="grid gap-2 pt-2 divide-y">
+                      <Link className="" href={`/blogs/${post.id}`}>
+                        <article className="text-gray-500 p-2">
+                          <Image
+                            className="rounded-md"
+                            src={post.attributes.image.data.attributes.url}
+                            alt=""
+                            width={800}
+                            height={400}
+                          />
+                          <h1 className="text-[#003DA5] text-lg font-semibold py-4">
+                            {post.attributes.title}
+                          </h1>
+                          <h6 className="underline underline-offset-8 decoration-[#f1ab00] decoration-4 text-xs text-gray-500 font-medium mb-5">
+                            {moment(post.attributes.createdAt).fromNow()}
+                          </h6>
+                        </article>
+                      </Link>
+                    </section>
+                  );
+                })
+              : null}
           </div>
         </section>
       </article>

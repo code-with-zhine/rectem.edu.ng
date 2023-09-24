@@ -14,14 +14,25 @@ import Event from "@/components/Event";
 
 import { current } from "../../data/calendar-data";
 import { eventsData } from "../../data/event-data";
-import { blogsData } from "../../data/blogs-data";
 
 export const gemsbuck = localFont({ src: "../../public/gemsbuck.ttf" });
 
-export default function Home() {
+const STRAPI_ENDPOINT = "https://backend-rectem.onrender.com/api";
+const OPTIONS = {
+  method: "GET",
+};
+
+async function getPosts() {
+  const response = await fetch(`${STRAPI_ENDPOINT}/posts?populate=*`, OPTIONS);
+  const posts = await response.json();
+  return posts?.data;
+}
+
+export default async function Home() {
   const calendar = current.slice(0, 5);
   const events = eventsData;
-  const blogs = blogsData.slice(0, 2);
+
+  const posts = await getPosts();
 
   return (
     <>
@@ -87,18 +98,30 @@ export default function Home() {
             <hr />
             {/* News card */}
             <div className="grid sm:grid-cols-2 gap-5 py-10">
-              {blogs
-                ? blogs.map((blog, index) => (
+              {posts ? (
+                posts
+                  .slice(0, 2)
+                  .map((post, index) => (
                     <Blog
                       key={index}
-                      href={blog.href}
-                      date="2023-09-21T12:15:00.000Z"
-                      title={blog.title}
-                      imageUrl={blog.imageUrl}
-                      body={blog.body}
+                      href={post.id}
+                      date={post.attributes.createdAt}
+                      title={post.attributes.title}
+                      imageUrl={post.attributes.image.data.attributes.url}
+                      body={post.attributes.description}
                     />
                   ))
-                : null}
+              ) : (
+                <div className="h-[470px]">
+                  <p className="italic">Error loading posts</p>
+                  <a
+                    href="/"
+                    className="cursor-pointer text-red-600 bg-red-200 rounded-sm px-5 py-1"
+                  >
+                    Reload
+                  </a>
+                </div>
+              )}
             </div>
             <Link
               href="/blogs"
