@@ -17,6 +17,8 @@ import { eventsData } from "../../data/event-data";
 
 export const gemsbuck = localFont({ src: "../../public/gemsbuck.ttf" });
 
+export const revalidate = 0; // revalidate at most every 24 hour - 86400
+
 const STRAPI_ENDPOINT = "https://backend-rectem.onrender.com/api";
 const OPTIONS = {
   method: "GET",
