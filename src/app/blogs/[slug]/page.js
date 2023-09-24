@@ -165,7 +165,7 @@ export default async function Home({ params }) {
         </div>
         <section className="grid grid-cols-1 md:grid-cols-5 gap-5 py-10 px-5">
           <div className="col-span-3">
-            <article className="space-y-2 prose max-w-none dark:prose-invert text-gray-500 prose-a:text-red-600 prose-h2:text-gray-600 prose-h3:text-gray-600 prose-h4:text-gray-600 prose-h5:text-gray-600 prose-h6:text-gray-600 prose-strong:text-gray-600 prose-strong:text-lg">
+            <article className="space-y-2 prose max-w-none dark:prose-invert text-gray-500 prose-a:text-red-600 prose-h2:text-gray-600 prose-h3:text-gray-600 prose-h4:text-gray-600 prose-h5:text-gray-600 prose-h6:text-gray-600 prose-strong:text-gray-600 prose-strong:text-sm prose-strong:uppercase">
               <MDXRemote source={post.attributes.content} />
             </article>
           </div>
