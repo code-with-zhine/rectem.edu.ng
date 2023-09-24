@@ -22,7 +22,7 @@ export default function Blog({ href, date, title, body, imageUrl }) {
         <h6 className="underline underline-offset-8 decoration-[#f1ab00] decoration-4 text-xs text-gray-500 font-medium mb-5">
           {moment(date).fromNow()}
         </h6>
-        <h6 className="text-[#003DA5] font-medium mb-3 line-clamp-2">
+        <h6 className="text-[#003DA5] font-medium mb-3 line-clamp-2 uppercase">
           {title}
         </h6>
         <p className="text-gray-500 line-clamp-5 mb-10">{body}</p>

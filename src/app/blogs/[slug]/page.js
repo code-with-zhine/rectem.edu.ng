@@ -172,7 +172,7 @@ export default async function Home({ params }) {
             height={450}
           />
           <div className="w-full absolute bottom-0 px-4 py-8 bg-black bg-opacity-60 text-white ">
-            <h1 className="max-w-3xl text-xl md:text-3xl font-extrabold">
+            <h1 className="max-w-3xl text-xl md:text-3xl font-extrabold uppercase line-clamp-2">
               {post.attributes.title}
             </h1>
           </div>
@@ -198,13 +198,13 @@ export default async function Home({ params }) {
                       <Link href={`/blogs/${post.id}`}>
                         <article className="text-gray-500 p-2">
                           <img
-                            className="rounded-md"
+                            className="rounded-md md:max-h-[200px]"
                             src={post.attributes.image.data.attributes.url}
                             alt=""
                             width={800}
                             height={400}
                           />
-                          <h1 className="text-[#003DA5] text-lg font-semibold py-4">
+                          <h1 className="text-[#003DA5] text-lg font-semibold py-4 uppercase line-clamp-2">
                             {post.attributes.title}
                           </h1>
                           <h6 className="underline underline-offset-8 decoration-[#f1ab00] decoration-4 text-xs text-gray-500 font-medium mb-5">
