@@ -10,7 +10,7 @@ export default function Blog({ href, date, title, body, imageUrl }) {
   return (
     <div className="relative sm:min-w-[200px] sm:max-w-[350px] border-[1px] rounded-t-lg  shadow-md hover:shadow-[#f1ab00] transition duration-500 ease-in-out cursor-pointer">
       <div>
-        <Image
+        <img
           src={imageUrl}
           alt=""
           className="w-full h-[200px] rounded-t-lg"

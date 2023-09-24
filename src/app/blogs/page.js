@@ -6,13 +6,13 @@ import Blog from "@/components/Blog";
 
 import { eventsData } from "../../../data/event-data";
 
-const STRAPI_ENDPOINT = "http://localhost:1337/api";
+const STRAPI_ENDPOINT = "https://backend-rectem.onrender.com/api";
 const OPTIONS = {
   method: "GET",
 };
 
 async function getPosts() {
-  const response = await fetch(`${STRAPI_ENDPOINT}/posts`, OPTIONS);
+  const response = await fetch(`${STRAPI_ENDPOINT}/posts?populate=*`, OPTIONS);
   const posts = await response?.json();
   return posts?.data;
 }
@@ -63,7 +63,7 @@ export default async function Home() {
                         href={post.id}
                         date={post.attributes.createdAt}
                         title={post.attributes.title}
-                        // imageUrl={blog.imageUrl}
+                        imageUrl={post.attributes.image.data.attributes.url}
                         body={post.attributes.description}
                       />
                     ))

@@ -7,13 +7,13 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 
 export const revalidate = 0; // revalidate at most every hour
 
-  const STRAPI_ENDPOINT = "http://localhost:1337/api/posts";
+  const STRAPI_ENDPOINT = "https://backend-rectem.onrender.com/api/posts";
   const OPTIONS = {
     method: "GET",
   };
 
 async function getPost(slug) {
-  const response = await fetch(`${STRAPI_ENDPOINT}/${slug}`, OPTIONS);
+  const response = await fetch(`${STRAPI_ENDPOINT}/${slug}?populate=*`, OPTIONS);
   const post = await response?.json();
   return post?.data;
 }
@@ -23,11 +23,10 @@ export default async function Home({ params }) {
   const data = blogsData.find((blogData) => blogData.id === slug);
 
   const post = await getPost(slug);
-  console.log(post);
 
   return (
     <main>
-      <section className="grid grid-cols-1 lg:grid-cols-5 pb-16 pt-10 px-5">
+      <section className="grid grid-cols-1 lg:grid-cols-5 py-10 px-5">
         <div className="col-span-3 border p-1">
           <div className="flex divide-x ">
             <Link href="/">
@@ -52,7 +51,10 @@ export default async function Home({ params }) {
                 <span>{`>>`}</span>
               </div>
               <div>
-                <Link className="px-2 hover:text-[red] line-clamp-1" href={`/blogs/${post.id}`}>
+                <Link
+                  className="px-2 hover:text-[red] line-clamp-1"
+                  href={`/blogs/${post.id}`}
+                >
                   {post.attributes.title}
                 </Link>
               </div>
@@ -146,12 +148,12 @@ export default async function Home({ params }) {
       </section>
       <article>
         <div className="relative">
-          <Image
-            className="w-full"
-            src="/scotty.webp"
+          <img
+            className="w-full max-h-[450px]"
+            src={post.attributes.image.data.attributes.url}
             alt=""
             width={800}
-            height={300}
+            height={450}
           />
           <div className="w-full absolute bottom-0 px-4 py-8 bg-black bg-opacity-60 text-white ">
             <h1 className="max-w-3xl text-2xl md:text-3xl font-extrabold">
