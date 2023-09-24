@@ -3,6 +3,7 @@ import { blogsData } from "../../../../data/blogs-data";
 import Image from "next/image";
 import { gemsbuck } from "@/app/page";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import moment from "moment";
 
 export const revalidate = 0; // revalidate at most every 24 hour - 86400
 
@@ -30,12 +31,11 @@ async function getPosts() {
 
 export default async function Home({ params }) {
   const slug = params.slug;
-  const data = blogsData.find((blogData) => blogData.id === slug);
 
   const post = await getPost(slug);
   const posts = await getPosts();
 
-  const result = posts.slice(0, 6).filter((current) => {
+  const result = posts.slice(0, 3).filter((current) => {
     return current.id !== post.id;
   });
 
@@ -195,9 +195,9 @@ export default async function Home({ params }) {
               ? result.map((post, index) => {
                   return (
                     <section key={index} className="grid gap-2 pt-2 divide-y">
-                      <Link className="" href={`/blogs/${post.id}`}>
+                      <Link href={`/blogs/${post.id}`}>
                         <article className="text-gray-500 p-2">
-                          <Image
+                          <img
                             className="rounded-md"
                             src={post.attributes.image.data.attributes.url}
                             alt=""
