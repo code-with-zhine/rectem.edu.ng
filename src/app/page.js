@@ -168,7 +168,6 @@ export default function Home() {
             </Link>
           </article>
         </section>
-
         <section
           id="campus-map"
           className="px-5 md:px-10 py-24 bg-[url('/tour.png')] bg-no-repeat bg-cover"
@@ -189,7 +188,6 @@ export default function Home() {
             </Link>
           </div>
         </section>
-
         <section className="section flex justify-between gap-10 flex-col md:flex-row py-16">
           <div className="md:w-1/2 self-center ">
             <Image src={partTime} alt="" />
@@ -227,7 +225,6 @@ export default function Home() {
             </Link>
           </div>
         </section>
-
         <section id="calendar" className="bg-blue-50 p-10">
           <h1 className={`text-2xl mb-2 text-[#003DA5] ${gemsbuck.className}`}>
             ACADEMIC CALENDAR
@@ -270,7 +267,6 @@ export default function Home() {
             </Link>
           </div>
         </section>
-
         <section className="px-5 md:px-10 py-20 text-center">
           <h4 className={`text-[#003DA5] text-xl ${gemsbuck.className}`}>
             Learn How Affordable RECTEM Fees Can Be
@@ -301,7 +297,6 @@ export default function Home() {
             </Link>
           </div>
         </section>
-
         <section className="px-5 md:px-10 bg-[url('/degree.png')] bg-no-repeat bg-cover py-20">
           <div className="p-7 md:p-10 ml-auto bg-[#003DA5] bg-opacity-70 max-w-[600px] text-white">
             <h2 className={`pb-1 ${gemsbuck.className}`}>
@@ -320,7 +315,6 @@ export default function Home() {
             </Link>
           </div>
         </section>
-
         <section id="why-student-choose-us" className="p-16 text-center">
           <h2 className={`${gemsbuck.className} text-[#003DA5] text-2xl mb-10`}>
             Attending RECTEM
@@ -436,8 +430,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="bg-[url('/experience.png')] bg-no-repeat bg-cover px-10 py-24">
-          <div className="ml-auto bg-[#f1ab00] bg-opacity-70 w-full sm:w-[400px] md:w-1/2 px-6 py-10 text-white">
+        <section className="px-5 md:px-10 py-24 bg-[url('/experience.png')] bg-no-repeat bg-cover">
+          <div className="p-7 md:p-10 bg-[#f1ab00] bg-opacity-70 w-full sm:w-[400px] md:w-1/2 text-white">
             <h2
               className={`pb-1 text-xl text-[#003DA5] tracking-wider ${gemsbuck.className}`}
             >
@@ -458,7 +452,6 @@ export default function Home() {
             </a>
           </div>
         </section>
-
         <FollowUs />
         <section className="bg-[#003DA5] px-10">
           <article className="grid grid-cols-2 sm:grid-cols-4 gap-1">

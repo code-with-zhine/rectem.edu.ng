@@ -27,7 +27,7 @@ module.exports = {
               color: theme("colors.gray.600"),
             },
             a: {
-              color: "red",
+              color: theme("colors.red.600"),
             },
           },
         },
