@@ -192,9 +192,9 @@ export default async function Home({ params }) {
             </h4>
             <hr className="w-20 border-[#f1ab00]" />
             {result
-              ? result.map((post) => {
+              ? result.map((post, index) => {
                   return (
-                    <section className="grid gap-2 pt-2 divide-y">
+                    <section key={index} className="grid gap-2 pt-2 divide-y">
                       <Link className="" href={`/blogs/${post.id}`}>
                         <article className="text-gray-500 p-2">
                           <Image
