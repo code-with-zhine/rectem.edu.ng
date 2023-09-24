@@ -5,7 +5,7 @@ import { gemsbuck } from "@/app/page";
 import { MDXRemote } from "next-mdx-remote/rsc";
 
 
-export const revalidate = 86400; // revalidate at most every 24 hour
+export const revalidate = 0; // revalidate at most every 24 hour - 86400
 
   const STRAPI_ENDPOINT = "https://backend-rectem.onrender.com/api/posts";
   const OPTIONS = {
