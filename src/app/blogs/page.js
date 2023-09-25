@@ -60,7 +60,7 @@ export default async function Home() {
                 Latest News
               </h2>
               <hr className="border-[#f1ab00]" />
-              <div className="grid sm:grid-cols-2 gap-5 py-10">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 py-10">
                 {posts
                   ? posts.map((post, index) => (
                       <Blog
