@@ -208,7 +208,7 @@ export default function Header() {
       {/* TABLET & DESKTOP MENU */}
       <div className="flex bg-[#003DA5] text-white border-y-[1px] border-t-[2px] border-[#f1ab00]">
         <h6
-          className={`md:hidden sm:block flex-1 py-3 pl-2 tracking-widest text-xs ${gemsbuck.className}`}
+          className={`md:hidden sm:block flex-1 py-3 pl-2 tracking-widest ${gemsbuck.className}`}
         >
           {`REDEEMER'S COLLEGE OF TECHNOLOGY AND MANAGEMENT`}
         </h6>
