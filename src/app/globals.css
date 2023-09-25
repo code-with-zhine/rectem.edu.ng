@@ -59,6 +59,10 @@
 }
 
 @layer components {
+  .custom__prose a {
+      @apply text-[#D6336B]
+    }
+
   .dropdown:hover .dropdown-menu {
     @apply block;
   }
