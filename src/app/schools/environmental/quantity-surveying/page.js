@@ -317,12 +317,12 @@ const Tabs = () => {
       </div>
       {activeTab === "tab1" && (
         <div className="py-4 text-gray-500">
-          <p className="text-justify">
+          <p className="">
             {`The Quantity Surveying Department in Nigeria plays a critical role in the construction and real estate industry. Quantity surveyors are professionals responsible for managing the financial aspects of construction projects, including cost estimation, procurement, contract administration, and cost control. `}
           </p>
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
-            <p className="text-justify">
+            <p className="">
               {`The activities of the department were designed to properly equip students with the right knowledge of impacts of economic, technological and social considerations on project initiation and development, and effective cost management of infrastructural and capital projects to prepare students for whatever challenges in Quantity Surveying and subsequently qualifying them for registration with the Nigerian Institute of Quantity Surveyors (NIQS).  And also to train and produce world-class young intellectuals to be logically sound and research-oriented professionals with high skill and credibility in delivering total cost and procurement management, for the achievement of client’s objectives in all types of capital projects and developments, from conception to commissioning and maintenance, in all sectors of the economy, for the attainment of sustainable National development and goals.`}
             </p>
           </div>
@@ -331,7 +331,7 @@ const Tabs = () => {
             <h6 className="text-gray-600 font-semibold py-2">
               Job opportunities in QUANTITY SURVEYING
             </h6>
-            <p className="text-justify">
+            <p className="">
               {`Quantity surveyors estimate and manage the costs of materials and
               labor on large building projects. (it’s also known as 'cost
               consultants', 'commercial managers', 'cost managers' and 'cost
@@ -359,7 +359,7 @@ const Tabs = () => {
             <h6 className="text-gray-600 font-semibold py-2">
               Course Requirements
             </h6>
-            <p className="text-justify">
+            <p className="">
               To embark on the journey toward a National Diploma in Computer
               Engineering, prospective students typically need to fulfill
               certain prerequisites. These include:
@@ -415,7 +415,7 @@ const Tabs = () => {
             </div>
             {year === 1 && (
               <div className="overflow-x-auto text-gray-500">
-                <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+                <table className=" text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="px-6 py-4 text-xs font-semibold">S/N</th>
@@ -450,7 +450,7 @@ const Tabs = () => {
 
             {year === 2 && (
               <div className="overflow-x-auto text-gray-500">
-                <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+                <table className=" text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="px-6 py-4 text-xs font-semibold">S/N</th>

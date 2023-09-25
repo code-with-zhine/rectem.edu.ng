@@ -55,7 +55,7 @@ export default function Home() {
             </h1>
             <hr className="w-32 border-[#f1ab00]" />
             <div className="text-gray-500">
-              <p className="text-justify">
+              <p className="">
                 The School of Engineering at Redeemers College of Technology and
                 Management (RECTEM) is a dynamic and innovative academic
                 department dedicated to providing high-quality education and
@@ -70,7 +70,7 @@ export default function Home() {
                   <h6 className="font-semibold pb-2 text-gray-600">
                     Quality Education and Programs
                   </h6>
-                  <p className="text-justify">
+                  <p className="">
                     {`RECTEM's School of Engineering offers a comprehensive range
                     of degree programs tailored to meet the demands of today's
                     engineering landscape. These programs encompass a variety of
@@ -86,7 +86,7 @@ export default function Home() {
                   <h6 className="font-semibold pb-2 text-gray-600">
                     Expert Staffs
                   </h6>
-                  <p className="text-justify">
+                  <p className="">
                     The School of Engineering boasts a dedicated and diverse
                     team of staffs who are experts in their respective fields.
                     These experienced educators bring a wealth of industry
@@ -100,7 +100,7 @@ export default function Home() {
                   <h6 className="font-semibold pb-2 text-gray-600">
                     Facilities
                   </h6>
-                  <p className="text-justify">
+                  <p className="">
                     {`RECTEM's commitment to excellence is reflected in its
                     facilities, laboratories, and workshops. The School of
                     Engineering provides students with access to modern
@@ -114,7 +114,7 @@ export default function Home() {
                   <h6 className="font-semibold pb-2 text-gray-600">
                     Innovation and Research
                   </h6>
-                  <p className="text-justify">
+                  <p className="">
                     The School of Engineering encourages students and staff
                     members to engage in innovative research projects that
                     address current engineering issues and contribute to
@@ -128,7 +128,7 @@ export default function Home() {
                   <h6 className="font-semibold pb-2 text-gray-600">
                     Industry Partnerships
                   </h6>
-                  <p className="text-justify">
+                  <p className="">
                     {`RECTEM's School of Engineering maintains strong ties with
                     various industries, including engineering firms,
                     corporations, and governmental organizations. These
@@ -142,7 +142,7 @@ export default function Home() {
                   <h6 className="font-semibold pb-2 text-gray-600">
                     Global Perspective
                   </h6>
-                  <p className="text-justify">
+                  <p className="">
                     {`In an increasingly interconnected world, the School of
                     Engineering at RECTEM recognizes the importance of a global
                     perspective. International collaborations, exchange
@@ -155,7 +155,7 @@ export default function Home() {
                   <h6 className="font-semibold pb-2 text-gray-600">
                     Ethical and Responsible Engineering
                   </h6>
-                  <p className="text-justify">
+                  <p className="">
                     {`Integral to RECTEM's philosophy is the emphasis on ethical
                     and responsible engineering practices. The School of
                     Engineering instills in its students a deep sense of social
@@ -400,5 +400,3 @@ export default function Home() {
     </>
   );
 }
-
-

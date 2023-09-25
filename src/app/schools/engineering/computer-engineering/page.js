@@ -3,7 +3,7 @@ import { useState } from "react";
 import { gemsbuck } from "@/app/page";
 import Link from "next/link";
 
-import {schools} from "../../../../../data/schools";
+import { schools } from "../../../../../data/schools";
 
 const YEARONE = schools.engineering.departments[0].courses.yearOne;
 const YEARTWO = schools.engineering.departments[0].courses.yearTwo;
@@ -282,9 +282,9 @@ export default function Home() {
   );
 }
 
-const Tabs = ({year, setYear}) => {
+const Tabs = ({ year, setYear }) => {
   const [activeTab, setActiveTab] = useState("tab1");
-    const [courses, setCourses] = useState(YEARONE);
+  const [courses, setCourses] = useState(YEARONE);
 
   const handleTabChange = (tab) => {
     setActiveTab(tab);
@@ -318,7 +318,7 @@ const Tabs = ({year, setYear}) => {
       </div>
       {activeTab === "tab1" && (
         <div className="py-4 text-gray-500">
-          <p className="text-justify">
+          <p className="">
             {`In the rapidly evolving landscape of technology, computer
             engineering stands as a cornerstone, driving innovation and
             progress. In Nigeria, the pursuit of a National Diploma in Computer
@@ -330,7 +330,7 @@ const Tabs = ({year, setYear}) => {
           </p>
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
-            <p className="text-justify">
+            <p className="">
               {`Computer engineering is a discipline that integrates quite a few
               fields of electrical engineering and computer science required to
               advance computer hardware and software. Computer engineers
@@ -350,7 +350,7 @@ const Tabs = ({year, setYear}) => {
             <h6 className="text-gray-600 font-semibold py-2">
               Job opportunities in COMPUTER ENGINEERING
             </h6>
-            <p className="text-justify">
+            <p className="">
               {`Computer Engineering is a dynamic professional field that offers
               different career directions in hardware engineering (e.g.
               microprocessors) and software program development. The demand for
@@ -381,7 +381,7 @@ const Tabs = ({year, setYear}) => {
             <h6 className="text-gray-600 font-semibold py-2">
               Course Requirements
             </h6>
-            <p className="text-justify">
+            <p className="">
               To embark on the journey toward a National Diploma in Computer
               Engineering, prospective students typically need to fulfill
               certain prerequisites. These include:
@@ -445,7 +445,7 @@ const Tabs = ({year, setYear}) => {
             </div>
             {year === 1 && (
               <div className="overflow-x-auto text-gray-500">
-                <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+                <table className=" text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="px-6 py-4 text-xs font-semibold">S/N</th>
@@ -462,7 +462,7 @@ const Tabs = ({year, setYear}) => {
                       return (
                         <tr key={index}>
                           <td className="px-6 py-4 whitespace-nowrap">
-                            {index+1}
+                            {index + 1}
                           </td>
                           <td className="px-6 py-4 whitespace-nowrap">
                             {course.code}
@@ -480,7 +480,7 @@ const Tabs = ({year, setYear}) => {
 
             {year === 2 && (
               <div className="overflow-x-auto text-gray-500">
-                <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+                <table className=" text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="px-6 py-4 text-xs font-semibold">S/N</th>
@@ -497,7 +497,7 @@ const Tabs = ({year, setYear}) => {
                       return (
                         <tr key={index}>
                           <td className="px-6 py-4 whitespace-nowrap">
-                            {index+1}
+                            {index + 1}
                           </td>
                           <td className="px-6 py-4 whitespace-nowrap">
                             {course.code}

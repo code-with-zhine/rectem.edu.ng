@@ -36,7 +36,7 @@ export default function Home() {
               </h2>
               <hr className="border-[#f1ab00]" />
               <div className="text-gray-500">
-                <p className="text-justify">
+                <p className="">
                   {`Welcome to Redeemers College of Technology and Management! Our
                   vibrant campus offers a dynamic learning environment where
                   students, faculty, and visitors can thrive. To help you
@@ -52,7 +52,7 @@ export default function Home() {
                     <h6 className="font-semibold text-gray-600">
                       Administration Building
                     </h6>
-                    <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                    <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] ">
                       {`Start your journey at the Administration Building, where
                       you'll find our administrative offices, including
                       admissions, finance, and academic services. Our friendly
@@ -91,7 +91,7 @@ export default function Home() {
                     <h6 className="font-semibold text-gray-600">
                       Academic Buildings
                     </h6>
-                    <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                    <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] ">
                       Our academic facilities include modern classrooms, lecture
                       halls, and laboratories spread across the campus. Explore
                       our specialized buildings for technology, engineering,
@@ -127,7 +127,7 @@ export default function Home() {
                 <article className="grid grid-cols-1 sm:grid-cols-3 py-4 gap-4 items-center">
                   <div className="col-span-2">
                     <h6 className="font-semibold text-gray-600">Library</h6>
-                    <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                    <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] ">
                       {`The heart of academic research, our library houses an
                       extensive collection of books, journals, and digital
                       resources. It's also a quiet space for studying and group
@@ -165,7 +165,7 @@ export default function Home() {
                     <h6 className="font-semibold text-gray-600">
                       Residence Halls
                     </h6>
-                    <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                    <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] ">
                       On-campus housing options are available for students who
                       want the convenience of living close to their classes and
                       campus activities.

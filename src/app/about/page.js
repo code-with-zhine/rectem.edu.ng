@@ -45,7 +45,7 @@ export default function Home() {
               HISTORICAL BACKGROUND OF RECTEM
             </h1>
             <hr className="w-32 border-[#f1ab00]" />
-            <p className="py-5 text-gray-500 text-justify">
+            <p className="py-5 text-gray-500">
               {`The Redeemer's College of Technology and Management (RECTEM) was
               borne out of the vision of the General overseer of the Redeemed
               Christian Church of God, Pastor Enoch Adejare Adeboye early in

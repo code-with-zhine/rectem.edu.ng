@@ -298,12 +298,12 @@ const Tabs = () => {
       </div>
       {activeTab === "tab1" && (
         <div className="py-4 text-gray-500">
-          <p className="text-justify">
+          <p className="">
             {`Science Laboratory Technology (SLT) is a branch of applied science that focuses on the practical aspects of laboratory work and scientific research. Professionals in this field, known as Science Laboratory Technologists or Technicians, play a crucial role in supporting scientific research, experimentation, and analysis in various fields of science and technology. `}
           </p>
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
-            <p className="text-justify">
+            <p className="">
               {`The programme's goal is to produce technicians capable of carrying out various laboratory analysis and practical works under the supervision of a technologist. The course is intended to produce technicians who will: Assist in chemical analysis and quality control in: Industry (oil, food, brewing, detergent, textile etc.) Hospitals, schools, colleges and research institutions. Assist in physical and electronic laboratories with physical analyses and the maintenance of instrumentation. Assist in biological and biochemical analysis and experiments in hospitals, schools, colleges and research institutes. It plays an important role in the foundation stages of research and development (R&D) and in scientific analysis and investigation`}
             </p>
           </div>
@@ -312,7 +312,7 @@ const Tabs = () => {
             <h6 className="text-gray-600 font-semibold py-2">
               Job opportunities in SCIENCE LABORATORY TECHNOLOGY
             </h6>
-            <p className="text-justify">
+            <p className="">
               {`The course is expected to prepare students for employment in related work such as sales, marketing, administration and management in industry and also, for self-employment. Working as part of a scientific team with tasks that include: Sampling, testing, measuring, recording, analyzing results. While also assisting in the advancement and development of modern medicine and science. Some jobs you can do as a science laboratory technology graduate include:`}
             </p>
             <ol className="py-4 pl-10 list-decimal">
@@ -338,7 +338,7 @@ const Tabs = () => {
             <h6 className="text-gray-600 font-semibold py-2">
               Course Requirements
             </h6>
-            <p className="text-justify">
+            <p className="">
               To embark on the journey toward a National Diploma in Science
               Laboratory, prospective students typically need to fulfill certain
               prerequisites. These include:
@@ -402,7 +402,7 @@ const Tabs = () => {
             </div>
             {year === 1 && (
               <div className="overflow-x-auto text-gray-500">
-                <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+                <table className=" text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="px-6 py-4 text-xs font-semibold">S/N</th>
@@ -437,7 +437,7 @@ const Tabs = () => {
 
             {year === 2 && (
               <div className="overflow-x-auto text-gray-500">
-                <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+                <table className=" text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="px-6 py-4 text-xs font-semibold">S/N</th>

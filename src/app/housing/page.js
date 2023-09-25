@@ -33,7 +33,7 @@ export default function Home() {
             </h1>
             <hr className="w-32 border-[rgb(241,171,0)]" />
             <div className="text-gray-500">
-              <p className="text-justify">
+              <p className="">
                 {` Student housing plays a vital role in the overall college
                 experience, impacting academic performance, personal growth, and
                 overall well-being. At Redeemers College of Technology and
@@ -48,7 +48,7 @@ export default function Home() {
                   <h6 className="font-semibold tracking-wider pb-3 text-gray-600">
                     A Comfortable and Inclusive Haven
                   </h6>
-                  <p className="text-justify">
+                  <p className="">
                     Redeemers College of Technology and Management understands
                     that a comfortable living space is essential for students to
                     thrive academically and socially. The student housing
@@ -67,7 +67,7 @@ export default function Home() {
                   <h6 className="font-semibold tracking-wider pb-3 text-gray-600">
                     Proximity to Campus
                   </h6>
-                  <p className="text-justify">
+                  <p className="">
                     One of the standout features of the student housing at
                     Redeemers College is its proximity to the campus. Living
                     just a short walk away from academic buildings, libraries,
@@ -82,7 +82,7 @@ export default function Home() {
                   <h6 className="font-semibold tracking-wider pb-3 text-gray-600">
                     Facilities
                   </h6>
-                  <p className="text-justify">
+                  <p className="">
                     {`RECTEM's commitment to excellence is reflected in its
                     facilities, laboratories, and workshops. The School of
                     Engineering provides students with access to modern
@@ -96,7 +96,7 @@ export default function Home() {
                   <h6 className="font-semibold tracking-wider pb-3 text-gray-600">
                     Creating a Community
                   </h6>
-                  <p className="text-justify">
+                  <p className="">
                     {`Student housing is not just about a place to sleep; it's
                     about creating a community that supports personal growth and
                     lifelong friendships. Redeemers College fosters this sense
@@ -111,7 +111,7 @@ export default function Home() {
                   <h6 className="font-semibold tracking-wider pb-3 text-gray-600">
                     Supportive Staff
                   </h6>
-                  <p className="text-justify">
+                  <p className="">
                     {`The college's commitment to student success extends to its
                     housing staff. Dedicated resident advisors are available to
                     assist students with any concerns, provide guidance, and
@@ -125,7 +125,7 @@ export default function Home() {
                   <h6 className="font-semibold tracking-wider pb-3 text-gray-600">
                     Safety and Security
                   </h6>
-                  <p className="text-justify">
+                  <p className="">
                     {`Safety is a top priority in Redeemers College's student
                     housing. The facilities are equipped with modern security
                     measures, including surveillance cameras, secure entry

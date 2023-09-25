@@ -35,7 +35,7 @@ export default function Home() {
                 Rectem Esteemed Visitors
               </h2>
               <hr className="border-[#f1ab00]" />
-              <div className="text-gray-500 text-justify">
+              <div className="text-gray-500">
                 <p>
                   {`Redeemer's College of Technology and Management (RECTEM) is a
                   distinguished institution that stands at the intersection of
@@ -48,7 +48,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="grid grid-cols-1 py-5 text-gray-500">
-                <article className="grid grid-cols-1 sm:grid-cols-3 py-4 gap-4">
+                <article className="grid grid-cols-1 sm:grid-cols-2 py-4 gap-4">
                   <Image
                     className="col-span-1 hover:bg-[#003DA5] hover:bg-opacity-30 hover:border cursor-pointer"
                     src=""
@@ -56,95 +56,14 @@ export default function Home() {
                     width={250}
                     height={300}
                   />
-                  <div className="col-span-2">
-                    <h6 className="font-semibold text-gray-600">
-                      The Chairman - J.F. Odesola, PhD
-                    </h6>
-                    <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
-                      {`Pastor J.F. Odesola is the Assistant General
-                      Overseer(Admin/Personnel) in the Redeemed Christian Church
-                      of God, an HIV/AIDS and Economic Justice Activist. An
-                      accomplished Author of more than 50 books and many
-                      bresearches on Education, Theology, Law, Sociology,
-                      HIV/AIDS, Cultural-issues, Missiology, History and Health
-                      related issues. A Civil Engineer turned Clergy; he holds
-                      BA(Honours) degree in Theology from Greenwich School of
-                      Theology, London, LLB (Hons), MTh in
-                      Missiology/Anthropology from Queen's University of
-                      Belfast, A PhD in Christian Education from Ashland
-                      University and another PhD in Intercultural Studies from
-                      Trinity International University, a Professor of Divinity
-                      with Trinity International Institute of Advance Studies.`}
-                    </p>
-                    <a
-                      className="text-[#D6336B] text-xs uppercase w-full tracking-wider font-semibold"
-                      href="https://www.linkedin.com/in/pastorjfodesola/?originalSubdomain=ng"
-                    >
-                      Connect on Linkedn
-                      <svg
-                        className="inline"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="32"
-                        height="32"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"
-                        />
-                      </svg>
-                    </a>
-                  </div>
-                </article>
-                <article className="grid grid-cols-1 sm:grid-cols-3 py-4 gap-4">
                   <Image
                     className="col-span-1 hover:bg-[#003DA5] hover:bg-opacity-30 hover:border cursor-pointer"
                     src=""
                     alt=""
                     width={250}
                     height={300}
-                  />
-                  <div className="col-span-2">
-                    <h6 className="font-semibold text-gray-600">
-                      The Chairman - J.F. Odesola, PhD
-                    </h6>
-                    <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
-                      {`Pastor J.F. Odesola is the Assistant General
-                      Overseer(Admin/Personnel) in the Redeemed Christian Church
-                      of God, an HIV/AIDS and Economic Justice Activist. An
-                      accomplished Author of more than 50 books and many
-                      bresearches on Education, Theology, Law, Sociology,
-                      HIV/AIDS, Cultural-issues, Missiology, History and Health
-                      related issues. A Civil Engineer turned Clergy; he holds
-                      BA(Honours) degree in Theology from Greenwich School of
-                      Theology, London, LLB (Hons), MTh in
-                      Missiology/Anthropology from Queen's University of
-                      Belfast, A PhD in Christian Education from Ashland
-                      University and another PhD in Intercultural Studies from
-                      Trinity International University, a Professor of Divinity
-                      with Trinity International Institute of Advance Studies.`}
-                    </p>
-                    <a
-                      className="text-[#D6336B] text-xs uppercase w-full tracking-wider font-semibold"
-                      href="https://www.linkedin.com/in/pastorjfodesola/?originalSubdomain=ng"
-                    >
-                      Connect on Linkedn
-                      <svg
-                        className="inline"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="32"
-                        height="32"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"
-                        />
-                      </svg>
-                    </a>
-                  </div>
+                  />               
                 </article>
-
                 <hr />
               </div>
             </div>

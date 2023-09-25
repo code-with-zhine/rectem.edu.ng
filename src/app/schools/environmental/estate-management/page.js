@@ -321,7 +321,7 @@ const Tabs = () => {
         </div>
         {year === 1 && (
           <div className="overflow-x-auto text-gray-500">
-            <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+            <table className=" text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
               <thead className="bg-gray-100">
                 <tr>
                   <th className="px-6 py-4 text-xs font-semibold">S/N</th>
@@ -356,7 +356,7 @@ const Tabs = () => {
 
         {year === 2 && (
           <div className="overflow-x-auto text-gray-500">
-            <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+            <table className=" text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
               <thead className="bg-gray-100">
                 <tr>
                   <th className="px-6 py-4 text-xs font-semibold">S/N</th>

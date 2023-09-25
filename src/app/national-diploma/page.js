@@ -35,10 +35,10 @@ export default function Home() {
               </h2>
               <hr className="border-[#f1ab00]" />
               <div className="text-gray-500">
-                <p className="text-justify">
+                <p className="">
                   {`The National Diploma (ND) is an academic qualification in Nigeria, commonly awarded by polytechnics and other tertiary institutions. It is typically a two-year program that provides students with a strong foundation in various technical and vocational fields. One such institution offering National Diploma programs in Nigeria is the Redeemer's College of Technology and Management (RECTEM).`}
                 </p>
-                <p className="text-justify py-2">
+                <p className=" py-2">
                   {`RECTEM is a reputable tertiary institution in Nigeria that focuses on providing quality education in technology and management disciplines. It is accredited by relevant educational bodies and offers National Diploma programs in various fields, aligning with the country's educational standards and requirements.`}
                 </p>
                 <ul className="py-4">
@@ -46,7 +46,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       ND in RECTEM
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       {`RECTEM stands out as an institution that places a strong
                       emphasis on the quality and relevance of its ND programs.
                       Here's how RECTEM's ND programs relate to the broader
@@ -57,7 +57,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       Accredited National Diploma Programs:
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       {`RECTEM offers accredited National Diploma programs in
                       several technical and management disciplines. These
                       programs are designed to equip students with practical
@@ -68,7 +68,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       Quality Education
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       {`RECTEM is committed to providing high-quality education,
                       and its ND programs are no exception. The institution
                       ensures that students receive a well-rounded education
@@ -80,7 +80,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       Experienced Staffs
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       {`RECTEM boasts a team of experienced faculty members who
                       are experts in their respective fields. These educators
                       play a crucial role in imparting knowledge and practical
@@ -92,7 +92,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       Modern Facilities
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       {`To enhance the learning experience, RECTEM provides modern
                       facilities, laboratories, and equipment that are essential
                       for hands-on training and skill development in various ND
@@ -104,7 +104,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       Practical Training
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       {` One of the key features of National Diploma programs is the emphasis on practical training. RECTEM ensures that students receive ample hands-on experience and exposure to real-world scenarios in their chosen fields.`}
                     </p>
                   </li>
@@ -113,7 +113,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       Industry Connections
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       {`RECTEM often collaborates with industries and businesses to provide students with internship and job placement opportunities. This helps ND students gain practical experience and establish valuable industry connections.`}
                     </p>
                   </li>
@@ -122,7 +122,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       Preparation for Higher Education
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       {`For students who wish to further their education, RECTEM's ND programs serve as a stepping stone. The National Diploma is a recognized qualification that allows students to pursue Higher National Diploma (HND) programs or even bachelor's degrees at universities.`}
                     </p>
                   </li>
@@ -131,7 +131,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       Supportive Learning Environment
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       {`RECTEM promotes a supportive and conducive learning environment where students can excel academically and personally. This includes mentorship programs and academic counseling services.`}
                     </p>
                   </li>
@@ -446,4 +446,3 @@ export default function Home() {
     </>
   );
 }
-

@@ -182,7 +182,7 @@ const Tabs = () => {
               </h2>
               <hr className="border-[#f1ab00]" />
 
-              <p className="text-gray-500 text-justify">
+              <p className="text-gray-500 ">
                 The admission requirements for National Diploma Programme to
                 Redeemers College of Technology and Management are as follows:
               </p>
@@ -190,7 +190,7 @@ const Tabs = () => {
               <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 Eligibility Criteria
               </h4>
-              <p className="text-gray-500 text-justify">
+              <p className="text-gray-500 ">
                 WAEC/NECO Senior School Certificate (SSC), General Certificate
                 of Education Ordinary Level (GCE O’Level), or their equivalents
                 with credits in five (5) subjects obtained at one sitting or six
@@ -200,7 +200,7 @@ const Tabs = () => {
               <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 Admission
               </h4>
-              <p className="text-gray-500 text-justify">
+              <p className="text-gray-500 ">
                 Your journey commences with the release of our admission forms.
                 These forms are conveniently accessible online via our{" "}
                 <a
@@ -218,7 +218,7 @@ const Tabs = () => {
               <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 JAMB UTME
               </h4>
-              <p className="text-gray-500 text-justify">
+              <p className="text-gray-500 ">
                 Unlike some institutions, RECTEM includes the requirement for
                 candidates to sit for the Unified Tertiary Matriculation
                 Examination (UTME) conducted by the Joint Admissions and
@@ -227,7 +227,7 @@ const Tabs = () => {
               <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 Screening
               </h4>
-              <p className="text-gray-500 text-justify">
+              <p className="text-gray-500 ">
                 {`Once application forms are submitted, candidates may undergo a
                 screening process. This may entail submitting crucial documents
                 such as academic transcripts, birth certificates, and other
@@ -237,7 +237,7 @@ const Tabs = () => {
               <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 Acceptance and Registration
               </h4>
-              <p className="text-gray-500 text-justify">
+              <p className="text-gray-500 ">
                 To secure admission, candidates must accept the offer within a
                 stipulated timeframe by paying an acceptance fee. Subsequently,
                 the registration process involves submitting additional
@@ -266,7 +266,7 @@ const Tabs = () => {
               </h2>
               <hr className="border-[#f1ab00]" />
 
-              <p className="text-gray-500 text-justify">
+              <p className="text-gray-500 ">
                 The admission requirements for National Diploma Programme to
                 Redeemers College of Technology and Management are as follows:
               </p>
@@ -274,7 +274,7 @@ const Tabs = () => {
               <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 Eligibility Criteria
               </h4>
-              <p className="text-gray-500 text-justify">
+              <p className="text-gray-500 ">
                 WAEC/NECO Senior School Certificate (SSC), General Certificate
                 of Education Ordinary Level (GCE O’Level), or their equivalents
                 with credits in five (5) subjects obtained at one sitting or six
@@ -284,7 +284,7 @@ const Tabs = () => {
               <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 Admission
               </h4>
-              <p className="text-gray-500 text-justify">
+              <p className="text-gray-500 ">
                 Your journey commences with the release of our admission forms.
                 These forms are conveniently accessible online via our{" "}
                 <a
@@ -302,7 +302,7 @@ const Tabs = () => {
               <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 JAMB UTME
               </h4>
-              <p className="text-gray-500 text-justify">
+              <p className="text-gray-500 ">
                 Unlike some institutions, RECTEM includes the requirement for
                 candidates to sit for the Unified Tertiary Matriculation
                 Examination (UTME) conducted by the Joint Admissions and
@@ -311,7 +311,7 @@ const Tabs = () => {
               <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 Screening
               </h4>
-              <p className="text-gray-500 text-justify">
+              <p className="text-gray-500 ">
                 {`Once application forms are submitted, candidates may undergo a
                 screening process. This may entail submitting crucial documents
                 such as academic transcripts, birth certificates, and other
@@ -321,7 +321,7 @@ const Tabs = () => {
               <h4 className={`text-gray-600 tracking-wider font-semibold `}>
                 Acceptance and Registration
               </h4>
-              <p className="text-gray-500 text-justify">
+              <p className="text-gray-500 ">
                 To secure admission, candidates must accept the offer within a
                 stipulated timeframe by paying an acceptance fee. Subsequently,
                 the registration process involves submitting additional

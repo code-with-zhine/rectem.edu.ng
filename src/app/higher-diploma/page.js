@@ -35,10 +35,10 @@ export default function Home() {
               </h2>
               <hr className="border-[#f1ab00]" />
               <div className="text-gray-500">
-                <p className="text-justify">
+                <p className="">
                   {`In Nigeria, the Higher National Diploma (HND) is a significant educational qualification offered by various institutions, including the Redeemer's College of Technology and Management (RECTEM). RECTEM, an institution known for its commitment to academic excellence, provides HND programs that equip students with practical skills and knowledge to excel in their chosen fields.`}
                 </p>
-                <p className="text-justify py-2">
+                <p className=" py-2">
                   {`The Higher National Diploma (HND) is a higher education qualification in Nigeria designed to prepare students for practical, technical, and professional roles in various industries. HND programs typically have a strong focus on hands-on training and real-world applications, making them ideal for individuals seeking to enter the workforce with practical skills or enhance their career prospects.`}
                 </p>
                 <ul className="py-4">
@@ -46,7 +46,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       HND in RECTEM
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       {`RECTEM stands out as an institution that places a strong
                       emphasis on the quality and relevance of its HND programs.
                       Here's how RECTEM's HND programs relate to the broader
@@ -57,7 +57,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       Industry-Relevant Curriculum
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       {`RECTEM's HND programs are carefully crafted to meet the
                       demands of the modern workforce. The curriculum is
                       designed in collaboration with industry experts to ensure
@@ -70,7 +70,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       State-of-the-Art Facilities
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       {`RECTEM invests in state-of-the-art facilities and
                       resources to support HND students' practical training.
                       This includes well-equipped laboratories, workshops, and
@@ -82,7 +82,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       Experienced Staffs
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       {`RECTEM's staff members are experienced professionals in
                       their respective fields. They provide students with not
                       only theoretical knowledge but also valuable insights
@@ -94,7 +94,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       Partnerships with Industry
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       {`RECTEM actively collaborates with industry partners to provide students with opportunities for internships, industrial attachments, and practical projects. This exposure to real work environments is invaluable for HND students.`}
                     </p>
                   </li>
@@ -103,7 +103,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       Career-Oriented Approach
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       {`RECTEM's HND programs are designed to prepare students for successful careers. Students receive guidance and support in developing essential employability skills, including communication, teamwork, and problem-solving.`}
                     </p>
                   </li>
@@ -112,7 +112,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       Entrepreneurship and Innovation
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       {`RECTEM encourages entrepreneurship and innovation among its HND students. Entrepreneurial skills are integrated into the curriculum to empower students to become job creators rather than just job seekers.`}
                     </p>
                   </li>
@@ -121,7 +121,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       Continuous Improvement
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       {`RECTEM is dedicated to continuous improvement and stays updated with industry trends and technological advancements. This ensures that HND programs remain relevant and in sync with the evolving needs of the job market.`}
                     </p>
                   </li>
@@ -130,7 +130,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       {`The Relevance of RECTEM's HND Programs`}
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       {`RECTEM's HND programs are not only relevant but also instrumental in shaping the future of students and the Nigerian workforce. By offering a comprehensive, industry-aligned education, RECTEM empowers HND graduates to:`}
                     </p>
                     <ul className="pt-4 pl-5 list-disc">

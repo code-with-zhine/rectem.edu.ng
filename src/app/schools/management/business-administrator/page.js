@@ -298,12 +298,12 @@ const Tabs = () => {
       </div>
       {activeTab === "tab1" && (
         <div className="py-4 text-gray-500">
-          <p className="text-justify">
+          <p className="">
             {`Business administration refers to the management and operation of business organizations and encompasses a wide range of activities and responsibilities aimed at achieving business goals and objectives efficiently and effectively.`}
           </p>
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
-            <p className="text-justify">
+            <p className="">
               {`The programme was set up fundamentally to ensure that our students acquire profound theoretical and practical knowledge. This facilitates self-reliance, competence, excellence and high integrity. To this end, emphasis is on continuous articulation and provision of sound relevant broad knowledge about organizations and management in a dynamic environment and to educate and train would be managers by ensuring that they are equipped with requisite skills, knowledge and abilities that would enable them compete favorably and contribute efficiently in any organization they may find themselves.
 Thus, Business Administration and Management department strives to produce efficient managers that will contribute quality management to organizational development and growth. By ensuring that their skills are galvanized in utilizing various resources available within and outside the organizations. The acquired skills will enable students of management to identify and define problems, take appropriate decisions using various management tools, design management strategies and conduct structural analysis on any aspect of business. Finally, the department aims to prepare students for self-employment and careers in business and general management. The above objectives which are not fixed are revisited whenever there is need to meet with dynamism of the environment. Based on these objectives the academic contents of this programme is designed.
 `}
@@ -314,7 +314,7 @@ Thus, Business Administration and Management department strives to produce effic
             <h6 className="text-gray-600 font-semibold py-2">
               Job opportunities in BUSINESS ADMINISTRATION AND MANAGEMENT
             </h6>
-            <p className="text-justify">
+            <p className="">
               {`Business management majors study topics such as general business
               principles, financial analysis, data analytics, organizational
               effectiveness, and strategic planning. The field offers jobs in
@@ -347,7 +347,7 @@ Thus, Business Administration and Management department strives to produce effic
             <h6 className="text-gray-600 font-semibold py-2">
               Course Requirements
             </h6>
-            <p className="text-justify">
+            <p className="">
               To embark on the journey toward a National Diploma in Business
               administration and management, prospective students typically need
               to fulfill certain prerequisites. These include:
@@ -411,7 +411,7 @@ Thus, Business Administration and Management department strives to produce effic
             </div>
             {year === 1 && (
               <div className="overflow-x-auto text-gray-500">
-                <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+                <table className=" text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="px-6 py-4 text-xs font-semibold">S/N</th>
@@ -446,7 +446,7 @@ Thus, Business Administration and Management department strives to produce effic
 
             {year === 2 && (
               <div className="overflow-x-auto text-gray-500">
-                <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+                <table className=" text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="px-6 py-4 text-xs font-semibold">S/N</th>

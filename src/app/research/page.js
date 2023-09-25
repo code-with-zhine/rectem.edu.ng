@@ -36,7 +36,7 @@ export default function Home() {
               </h2>
               <hr className="border-[#f1ab00]" />
               <div className="text-gray-500">
-                <p className="text-justify">
+                <p className="">
                   {`We are committed to fostering a culture of innovation,
                   discovery, and academic excellence. Our dedication to research
                   and publications is a testament to our mission to empower
@@ -51,7 +51,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       Research Centers and Labs
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       Our college boasts state-of-the-art research centers and
                       laboratories equipped with cutting-edge technology. These
                       facilities provide students and faculty with the tools
@@ -64,7 +64,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       Student Involvement
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       We believe in hands-on learning, and research plays a
                       significant role in this regard. Our students are
                       encouraged to participate in research projects, gaining
@@ -76,7 +76,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       Conferences and Symposia
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       We actively participate in national and international
                       conferences, presenting our research findings and engaging
                       in academic discourse with scholars from around the world.
@@ -86,7 +86,7 @@ export default function Home() {
                     <h6 className="font-semibold pb-2 text-gray-600">
                       Online Repositories
                     </h6>
-                    <p className="text-justify">
+                    <p className="">
                       We maintain digital repositories of our research
                       publications, making them easily accessible to the global
                       academic community. This commitment to open access ensures

@@ -298,12 +298,12 @@ const Tabs = () => {
       </div>
       {activeTab === "tab1" && (
         <div className="py-4 text-gray-500">
-          <p className="text-justify">
+          <p className="">
             {`The accounting department within an organization is a critical component responsible for managing financial transactions, ensuring compliance with financial regulations, and providing valuable financial insights to support decision-making.`}
           </p>
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
-            <p className="text-justify">
+            <p className="">
               {`The goal of this great institute in our Accountancy department is
               to produce technical manpower who can effectively perform a range
               of functions in the field of accountancy, insurance, banking and
@@ -324,7 +324,7 @@ const Tabs = () => {
             <h6 className="text-gray-600 font-semibold py-2">
               Job opportunities in ACCOUNTING
             </h6>
-            <p className="text-justify">
+            <p className="">
               {`Numerous career opportunities are available in accounting. The
               importance of this very course and its function continues to be
               enhanced in a complex, global business community. Accounting
@@ -360,7 +360,7 @@ const Tabs = () => {
             <h6 className="text-gray-600 font-semibold py-2">
               Course Requirements
             </h6>
-            <p className="text-justify">
+            <p className="">
               To embark on the journey toward a National Diploma in Accounting,
               prospective students typically need to fulfill certain
               prerequisites. These include:
@@ -424,7 +424,7 @@ const Tabs = () => {
             </div>
             {year === 1 && (
               <div className="overflow-x-auto text-gray-500">
-                <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+                <table className=" text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="px-6 py-4 text-xs font-semibold">S/N</th>
@@ -459,7 +459,7 @@ const Tabs = () => {
 
             {year === 2 && (
               <div className="overflow-x-auto text-gray-500">
-                <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+                <table className=" text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="px-6 py-4 text-xs font-semibold">S/N</th>

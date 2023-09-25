@@ -317,12 +317,12 @@ const Tabs = () => {
       </div>
       {activeTab === "tab1" && (
         <div className="py-4 text-gray-500">
-          <p className="text-justify">
+          <p className="">
             {`Architectural technology, often referred to as "architectural tech" or "arch-tech," is a field of study and practice that focuses on the application of technology to the design, construction, and management of buildings and architectural projects. It encompasses a wide range of knowledge and skills related to the technical aspects of architecture and the built environment.`}
           </p>
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
-            <p className="text-justify">
+            <p className="">
               {`The programme's goal is to prepare technicians capable of carrying out various innovative tasks while nurturing and sustaining the culture of best practices in teaching/learning methods, research demonstration, skills and technology innovations in order to produce job creators for the globe. With the goals and objectives to produce basic presentation and perspective drawings; make a good freehand sketch; build simple models; develop spatial relationship, circulation and area diagram and interpret technical drawings and specifications and incorporate such details in the architectural working drawings; supervise construction works and make progress reports on simple structures; make presentation drawings of architectural works and draw detailed perspective with necessary renderings and requisite color scheme; collect information and date on simple architectural projects; write specifications for simple building projects.`}
             </p>
           </div>
@@ -331,7 +331,7 @@ const Tabs = () => {
             <h6 className="text-gray-600 font-semibold py-2">
               Job opportunities in ARCHITECTURAL TECHNOLOGY
             </h6>
-            <p className="text-justify">
+            <p className="">
               {`Architecture careers are more diverse than you might think, including: Building architecture – designing new buildings, or adapting existing ones. Landscape architecture – planning, designing and managing open spaces, including both natural and urban areas.  Their duties include meeting with clients to discuss their vision, drawing up building plans and modifying their designs throughout the building process to maximize structural integrity. Some jobs you can do as an architectural technology graduate include:`}
             </p>
             <ol className="py-4 pl-10 list-decimal">
@@ -356,7 +356,7 @@ const Tabs = () => {
             <h6 className="text-gray-600 font-semibold py-2">
               Course Requirements
             </h6>
-            <p className="text-justify">
+            <p className="">
               To embark on the journey toward a National Diploma in Computer
               Engineering, prospective students typically need to fulfill
               certain prerequisites. These include:
@@ -412,7 +412,7 @@ const Tabs = () => {
             </div>
             {year === 1 && (
               <div className="overflow-x-auto text-gray-500">
-                <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+                <table className=" text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="px-6 py-4 text-xs font-semibold">S/N</th>
@@ -447,7 +447,7 @@ const Tabs = () => {
 
             {year === 2 && (
               <div className="overflow-x-auto text-gray-500">
-                <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+                <table className=" text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="px-6 py-4 text-xs font-semibold">S/N</th>

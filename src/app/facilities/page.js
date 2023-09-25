@@ -35,7 +35,7 @@ export default function Home() {
               </h2>
               <hr className="border-[#f1ab00]" />
               <div className="text-gray-500">
-                <p className="text-justify">
+                <p className="">
                   Redeemers College of Technology and Management (RECTEM) takes
                   pride in providing state-of-the-art facilities and centers to
                   enhance the learning, research, and overall college experience
@@ -131,7 +131,7 @@ export default function Home() {
                         <h6 className="font-semibold text-gray-600">
                           Modern Lecture Halls
                         </h6>
-                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] ">
                           {`RECTEM boasts well-equipped classrooms and lecture
                           halls that facilitate interactive and engaging
                           learning. These spaces are designed to accommodate
@@ -153,7 +153,7 @@ export default function Home() {
                         <h6 className="font-semibold text-gray-600">
                           Laboratories and Workshops
                         </h6>
-                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] ">
                           {`The college offers specialized laboratories and
                           workshops for practical hands-on training in various
                           fields such as engineering, computer science, and
@@ -176,7 +176,7 @@ export default function Home() {
                         <h6 className="font-semibold text-gray-600">
                           Library and Resource Centers
                         </h6>
-                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] ">
                           {`The library serves as a knowledge hub, housing a vast
                           collection of academic resources including textbooks,
                           research papers, and digital materials. In addition to
@@ -198,7 +198,7 @@ export default function Home() {
                         <h6 className="font-semibold text-gray-600">
                           Innovation and Incubation Centers
                         </h6>
-                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] ">
                           {`To promote entrepreneurship and innovation, RECTEM
                           provides innovation and incubation centers. These
                           spaces encourage students to develop creative ideas
@@ -221,7 +221,7 @@ export default function Home() {
                         <h6 className="font-semibold text-gray-600">
                           Computer Labs and IT Infrastructure
                         </h6>
-                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] ">
                           {`RECTEM's computer labs are equipped with the latest
                           technology, allowing students to practice coding,
                           software development, simulations, and more. The
@@ -243,7 +243,7 @@ export default function Home() {
                         <h6 className="font-semibold text-gray-600">
                           Sports and Fitness Facilities
                         </h6>
-                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] ">
                           {`Recognizing the importance of physical well-being,
                           RECTEM offers sports facilities that include sports
                           fields, courts, and a gymnasium. These facilities
@@ -265,7 +265,7 @@ export default function Home() {
                         <h6 className="font-semibold text-gray-600">
                           Research Centers
                         </h6>
-                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] ">
                           {`For students keen on research, RECTEM offers dedicated
                           research centers that encourage exploration and
                           innovation across various disciplines. Collaboration
@@ -287,7 +287,7 @@ export default function Home() {
                         <h6 className="font-semibold text-gray-600">
                           Student Centers and Cafeteria
                         </h6>
-                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] ">
                           {`The student center is a vibrant hub for students to
                           relax, socialize, and engage in extracurricular
                           activities. The cafeteria provides a variety of meals
@@ -309,7 +309,7 @@ export default function Home() {
                         <h6 className="font-semibold text-gray-600">
                           Auditoriums and Event Spaces
                         </h6>
-                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] text-justify">
+                        <p className="sm:line-clamp-[7] md:line-clamp-[8] lg:line-clamp-[10] ">
                           {`RECTEM's auditoriums and event spaces are designed to
                           host seminars, conferences, workshops, and cultural
                           events. These spaces provide a platform for students
@@ -381,5 +381,3 @@ export default function Home() {
     </>
   );
 }
-
-

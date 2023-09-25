@@ -50,7 +50,7 @@ export default async function Home() {
             >
               RAISING GLOBAL CHAMPION
             </h2>
-            <p className="text-gray-500 pb-3 text-justify">
+            <p className="text-gray-500 pb-3 ">
               {`Redeemer's College of Science and Technology believe in the
               boundless potential of scientific discovery and technological
               innovation. Our institution stands as a testament to the
@@ -224,7 +224,7 @@ export default async function Home() {
             <h2 className={`text-xl text-[#003DA5] pb-2 ${gemsbuck.className}`}>
               School of Part-Time: Empowering Your Educational Journey
             </h2>
-            <p className="text-gray-500 pb-5 text-justify">
+            <p className="text-gray-500 pb-5 ">
               {`At the Redeemer's College of Technology and Management, we
               understand that the pursuit of higher education often aligns with
               existing commitments and responsibilities. That's why we proudly

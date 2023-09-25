@@ -317,12 +317,12 @@ const Tabs = () => {
       </div>
       {activeTab === "tab1" && (
         <div className="py-4 text-gray-500">
-          <p className="text-justify">
+          <p className="">
             {`The Civil Engineering Department in Nigeria plays a vital role in the country's infrastructure development, construction, and overall economic growth. Civil engineering encompasses the design, construction, and maintenance of various types of infrastructure, including roads, bridges, buildings, water supply systems, and more. `}
           </p>
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
-            <p className="text-justify">
+            <p className="">
               {`Civil engineering is the application of mathematics, physics, chemistry, and other engineering principles and practices to the design, construction, and maintenance of civil infrastructure and facilities. The field encompasses various activities, from planning and design to monitoring and management. This very Department has the mandate of producing reliable and competent Civil Engineers as well as highly skilled artisans into today's society, civil engineering has changed and is still changing people's lives for the better and we in this amazing institute want you to be a part of that change. we strongly believe that your flair for science, combined with your enthusiasm for innovation and overcoming difficult challenges will allow you to excel beyond possibilities.`}
             </p>
           </div>
@@ -331,7 +331,7 @@ const Tabs = () => {
             <h6 className="text-gray-600 font-semibold py-2">
               Job opportunities in CIVIL ENGINEERING
             </h6>
-            <p className="text-justify">
+            <p className="">
               {`Civil engineering is so involved in making lives better that the opportunities are somewhat limitless, and it offers an excellent career trail (e.g. construction, transportation, maritime and hydraulic engineering, power, and public health.) Civil engineers indulge in Managing, designing, developing, creating and maintaining construction projects. Conducting on-site investigations and analyzing data. Assessing potential risks, materials and costs. These projects may include facilities, bridges, roads, tunnels, and water and sewage systems. Some jobs you can do as a civil engineering graduate include:`}
             </p>
             <ol className="py-4 pl-10 list-decimal">
@@ -352,7 +352,7 @@ const Tabs = () => {
             <h6 className="text-gray-600 font-semibold py-2">
               Course Requirements
             </h6>
-            <p className="text-justify">
+            <p className="">
               To embark on the journey toward a National Diploma in Computer
               Engineering, prospective students typically need to fulfill
               certain prerequisites. These include:
@@ -408,7 +408,7 @@ const Tabs = () => {
             </div>
             {year === 1 && (
               <div className="overflow-x-auto text-gray-500">
-                <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+                <table className=" text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="px-6 py-4 text-xs font-semibold">S/N</th>
@@ -425,7 +425,7 @@ const Tabs = () => {
                       return (
                         <tr key={index}>
                           <td className="px-6 py-4 whitespace-nowrap">
-                            {index+1}
+                            {index + 1}
                           </td>
                           <td className="px-6 py-4 whitespace-nowrap">
                             {course.code}
@@ -443,7 +443,7 @@ const Tabs = () => {
 
             {year === 2 && (
               <div className="overflow-x-auto text-gray-500">
-                <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+                <table className=" text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="px-6 py-4 text-xs font-semibold">S/N</th>
@@ -460,7 +460,7 @@ const Tabs = () => {
                       return (
                         <tr key={index}>
                           <td className="px-6 py-4 whitespace-nowrap">
-                            {index+1}
+                            {index + 1}
                           </td>
                           <td className="px-6 py-4 whitespace-nowrap">
                             {course.code}

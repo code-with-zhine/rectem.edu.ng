@@ -54,7 +54,7 @@ export default function Home() {
               SCHOOL OF MANAGEMENT
             </h1>
             <hr className="w-32 border-[#f1ab00]" />
-            <div className="text-gray-500 text-justify">
+            <div className="text-gray-500 ">
               <p>
                 {`
                 The School of Management at RECTEM is a dynamic and innovative hub for academic excellence and professional development. As an integral part of RECTEM, our School of Management is committed to fostering future leaders, entrepreneurs, and change-makers in the field of business and management. Below are what our school offer...

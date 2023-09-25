@@ -317,12 +317,12 @@ const Tabs = () => {
       </div>
       {activeTab === "tab1" && (
         <div className="py-4 text-gray-500">
-          <p className="text-justify">
+          <p className="">
             {`Electrical and electronic engineering is a branch of engineering that deals with the study and application of electricity, electronics, and electromagnetism. It is a broad and dynamic field that plays a crucial role in today's modern technology-driven world.`}
           </p>
           <div className="py-4">
             <h6 className="text-gray-600 font-semibold py-2">HOD’s address</h6>
-            <p className="text-justify">
+            <p className="">
               {`The overarching philosophy of the department is to develop national capacity in Electrical and Electronics Engineering, with the goal of transforming the country from a third world and developing nation into an advanced and developed nation. This transformation is envisioned through the development of highly skilled human capital in the field of Electrical and Electronics Engineering. Over the years, our great institute has produced numerous graduates. They’ve found employment in various sectors in Nigeria and abroad. Many of them have achieved significant milestones in their respective fields, particularly in Power Systems, Machines, Control, Telecommunication, Oil and Gas, Banking and Finance, Computer, and Manufacturing Industries. Some graduates have also pursued careers in academia. Overall, the Department of Electrical and Electronics Engineering aims to provide a robust education and training to its students, equipping them with the necessary skills and knowledge to contribute to the advancement of the field and the development of the nation.`}
             </p>
           </div>
@@ -331,7 +331,7 @@ const Tabs = () => {
             <h6 className="text-gray-600 font-semibold py-2">
               Job opportunities in ELECTRICAL/ELECTRONIC ENGINEERING
             </h6>
-            <p className="text-justify">
+            <p className="">
               {`Electrical engineers design, develop, test, and supervise the manufacture of electrical equipment, such as electric motors, radar and navigation systems, communications systems, or power generation equipment. Electrical engineers also design the electrical systems of automobiles and aircraft. Some jobs you can do as
               an electrical/electronic engineering graduate include:`}
             </p>
@@ -354,7 +354,7 @@ const Tabs = () => {
             <h6 className="text-gray-600 font-semibold py-2">
               Course Requirements
             </h6>
-            <p className="text-justify">
+            <p className="">
               {`To embark on the journey toward a National Diploma in Electrical/Electronic engineering, prospective students typically need to fulfill
               certain prerequisites. These include:`}
             </p>
@@ -425,7 +425,7 @@ const Tabs = () => {
             </div>
             {year === 1 && (
               <div className="overflow-x-auto text-gray-500">
-                <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+                <table className=" text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="px-6 py-4 text-xs font-semibold">S/N</th>
@@ -460,7 +460,7 @@ const Tabs = () => {
 
             {year === 2 && (
               <div className="overflow-x-auto text-gray-500">
-                <table className="text-justify text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
+                <table className=" text-xs font-semibold min-w-full bg-white border border-gray-200 shadow-md rounded-lg uppercase ">
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="px-6 py-4 text-xs font-semibold">S/N</th>

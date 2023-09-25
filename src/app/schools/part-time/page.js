@@ -54,7 +54,7 @@ export default function Home() {
               SCHOOL OF PART-TIME
             </h1>
             <hr className="w-32 border-[#f1ab00]" />
-            <div className="text-gray-500 text-justify">
+            <div className="text-gray-500 ">
               <p>
                 {`In today's fast-paced world, education is no longer confined to
                 traditional classroom settings and rigid schedules. Recognizing
