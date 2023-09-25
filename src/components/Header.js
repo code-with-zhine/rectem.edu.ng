@@ -187,7 +187,7 @@ export default function Header() {
         <Link href="/" className="cursor-pointer">
           <Image src="/rectem.png" alt="Rectem logo" width={30} height={30} className="w-auto h-auto" />
         </Link>
-        <div className="text-[0.85rem] md:hidden font-semibold">
+        <div className="text-[0.85rem] sm:hidden font-semibold">
           <h6 className="text-[#003DA5]">
             2023/2024 ND & HND ADMISSION IS NOW OPEN
           </h6>
@@ -199,7 +199,7 @@ export default function Header() {
           </a>
         </div>
         <h4
-          className={`hidden md:block text-[#003DA5] md:text-lg tracking-wide ${gemsbuck.className}`}
+          className={`hidden sm:block text-[#003DA5] md:text-lg tracking-wide ${gemsbuck.className}`}
         >
           {`REDEEMER'S COLLEGE OF TECHNOLOGY AND MANAGEMENT`}
         </h4>
@@ -208,9 +208,9 @@ export default function Header() {
       {/* TABLET & DESKTOP MENU */}
       <div className="flex bg-[#003DA5] text-white border-y-[1px] border-t-[2px] border-[#f1ab00]">
         <h6
-          className={`md:hidden sm:block flex-1 py-3 pl-2 tracking-widest ${gemsbuck.className}`}
+          className={`sm:hidden flex-1 py-3 pl-2 text-2xl tracking-widest ${gemsbuck.className}`}
         >
-          {`REDEEMER'S COLLEGE OF TECHNOLOGY AND MANAGEMENT`}
+          {`RECTEM`}
         </h6>
         <button
           className="md:hidden sm:block bg-[#f1ab00] px-2"
