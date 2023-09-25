@@ -208,9 +208,9 @@ export default function Header() {
       {/* TABLET & DESKTOP MENU */}
       <div className="flex bg-[#003DA5] text-white border-y-[1px] border-t-[2px] border-[#f1ab00]">
         <h6
-          className={`sm:hidden flex-1 py-3 pl-2 text-2xl tracking-widest ${gemsbuck.className}`}
+          className={`sm:hidden flex-1 py-3 pl-2 text-xl tracking-widest ${gemsbuck.className}`}
         >
-          {`RECTEM`}
+          {`WELCOME TO RECTEM`}
         </h6>
         <button
           className="md:hidden sm:block bg-[#f1ab00] px-2"
