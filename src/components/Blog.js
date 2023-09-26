@@ -1,23 +1,21 @@
 import moment from "moment";
+import Image from "next/image";
 import Link from "next/link";
-
-
-
 
 export default function Blog({ href, date, title, body, imageUrl }) {
   return (
     <div className="relative sm:min-w-[200px] sm:max-w-[350px] border-[1px] rounded-t-lg  shadow-md hover:shadow-[#f1ab00] transition duration-500 ease-in-out cursor-pointer">
       <div>
-        <img
+        <Image
           src={imageUrl}
-          alt=""
+          alt={title}
           className="w-full h-[200px] rounded-t-lg"
           width={200}
           height={200}
         />
       </div>
       <div className="p-4">
-        <div class="flex justify-between text-xs text-gray-500 font-medium">
+        <div class="flex justify-between text-xs text-gray-500 font-medium uppercase">
           <span>
             <svg
               className="inline"

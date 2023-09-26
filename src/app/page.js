@@ -14,30 +14,15 @@ import Event from "@/components/Event";
 
 import { current } from "../../data/calendar-data";
 import { eventsData } from "../../data/event-data";
+import { getAllPosts } from "../../lib/getAllPosts";
 
 export const gemsbuck = localFont({ src: "../../public/gemsbuck.ttf" });
-
-export const revalidate = 0; // revalidate at most every 24 hour - 86400
-
-const STRAPI_ENDPOINT = "https://backend-rectem.onrender.com/api";
-const OPTIONS = {
-  method: "GET",
-};
-
-async function getPosts() {
-  const response = await fetch(
-    `${STRAPI_ENDPOINT}/posts?populate=*&sort=createdAt:desc`,
-    OPTIONS
-  );
-  const posts = await response.json();
-  return posts?.data;
-}
 
 export default async function Home() {
   const calendar = current.slice(0, 5);
   const events = eventsData;
 
-  const posts = await getPosts();
+  const posts = await getAllPosts();
 
   return (
     <>
@@ -110,9 +95,9 @@ export default async function Home() {
                     <Blog
                       key={index}
                       href={post.id}
-                      date={post.attributes.createdAt}
+                      date={post.attributes.published_date}
                       title={post.attributes.title}
-                      imageUrl={post.attributes.image.data.attributes.url}
+                      imageUrl={post.attributes.cover.data.attributes.url}
                       body={post.attributes.description}
                     />
                   ))

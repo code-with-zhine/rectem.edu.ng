@@ -5,27 +5,11 @@ import Event from "@/components/Event";
 import Blog from "@/components/Blog";
 
 import { eventsData } from "../../../data/event-data";
-
-export const revalidate = 0; // revalidate at most every 24 hour - 86400
-
-const STRAPI_ENDPOINT = "https://backend-rectem.onrender.com/api";
-const OPTIONS = {
-  method: "GET",
-};
-
-async function getPosts() {
-  const response = await fetch(
-    `${STRAPI_ENDPOINT}/posts?populate=*&sort=createdAt:desc`,
-    OPTIONS
-  );
-  const posts = await response.json();
-  return posts.data;
-}
-
+import { getAllPosts } from "../../../lib/getAllPosts";
 
 export default async function Home() {
   const events = eventsData;
-  const posts = await getPosts();
+  const posts = await getAllPosts();
 
   return (
     <>
@@ -66,9 +50,9 @@ export default async function Home() {
                       <Blog
                         key={index}
                         href={post.id}
-                        date={post.attributes.createdAt}
+                        date={post.attributes.published_date}
                         title={post.attributes.title}
-                        imageUrl={post.attributes.image.data.attributes.url}
+                        imageUrl={post.attributes.cover.data.attributes.url}
                         body={post.attributes.description}
                       />
                     ))

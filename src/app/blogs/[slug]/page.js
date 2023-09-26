@@ -4,41 +4,20 @@ import Image from "next/image";
 import { gemsbuck } from "@/app/page";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import moment from "moment";
-
-export const revalidate = 0; // revalidate at most every 24 hour - 86400
-
-const STRAPI_ENDPOINT = "https://backend-rectem.onrender.com/api/posts";
-const OPTIONS = {
-  method: "GET",
-};
-
-async function getPost(slug) {
-  const response = await fetch(
-    `${STRAPI_ENDPOINT}/${slug}?populate=*`,
-    OPTIONS
-  );
-  const post = await response?.json();
-  return post?.data;
-}
-
-const STRAPI_ENDPOINTS = "https://backend-rectem.onrender.com/api";
-
-async function getPosts() {
-  const response = await fetch(`${STRAPI_ENDPOINTS}/posts?populate=*`, OPTIONS);
-  const posts = await response.json();
-  return posts.data;
-}
+import { getAllPosts } from "../../../../lib/getAllPosts";
+import { getPost } from "../../../../lib/getPost";
 
 export default async function Home({ params }) {
   const slug = params.slug;
 
-  const post = await getPost(slug);
-  const posts = await getPosts();
+  const postData = getPost(slug);
+  const postsData = getAllPosts();
+
+  const [post, posts] = await Promise.all([postData, postsData]);
 
   const result = posts?.slice(0, 3).filter((current) => {
     return current.id !== post.id;
   });
-
 
   return (
     <main>
@@ -164,9 +143,9 @@ export default async function Home({ params }) {
       </section>
       <article>
         <div className="relative">
-          <img
+          <Image
             className="w-full max-h-[450px]"
-            src={post.attributes.image.data.attributes.url}
+            src={post.attributes.cover.data.attributes.url}
             alt=""
             width={800}
             height={450}
@@ -197,9 +176,9 @@ export default async function Home({ params }) {
                     <section key={index} className="grid gap-2 pt-2 divide-y">
                       <Link href={`/blogs/${post.id}`}>
                         <article className="text-gray-500 p-2">
-                          <img
+                          <Image
                             className="rounded-md md:max-h-[200px]"
-                            src={post.attributes.image.data.attributes.url}
+                            src={post.attributes.cover.data.attributes.url}
                             alt=""
                             width={800}
                             height={400}
@@ -207,7 +186,7 @@ export default async function Home({ params }) {
                           <h1 className="text-[#003DA5] text-base font-semibold pt-4 uppercase line-clamp-2">
                             {post.attributes.title}
                           </h1>
-                          <div class="flex justify-between text-xs text-gray-500 font-medium py-3">
+                          <div class="flex justify-between text-xs text-gray-500 font-medium py-3 uppercase">
                             <span>
                               <svg
                                 className="inline"
@@ -222,12 +201,12 @@ export default async function Home({ params }) {
                                 />
                               </svg>
                               {`Published: ${moment(
-                                post.attributes.createdAt
+                                post.attributes.published_date
                               ).format("DD/MMM/YYYY")}`}
                             </span>
 
                             <h6 className="underline underline-offset-8 decoration-[#f1ab00] decoration-4 mb-5">
-                              {moment(post.attributes.createdAt).fromNow()}
+                              {moment(post.attributes.published_date).fromNow()}
                             </h6>
                           </div>
                         </article>
@@ -241,4 +220,12 @@ export default async function Home({ params }) {
       </article>
     </main>
   );
+}
+
+export async function generateStaticParams() {
+  const posts = await getAllPosts();
+
+  return posts.map((post) => ({
+    slug: post.id.toString(),
+  }));
 }
