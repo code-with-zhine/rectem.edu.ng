@@ -24,8 +24,6 @@ export default async function Home() {
 
   const posts = await getAllPosts();
 
-  console.log(posts[0]);
-
   return (
     <>
       <Hero />
@@ -205,11 +203,14 @@ export default async function Home() {
         </section>
         <section className="section flex justify-between gap-10 flex-col md:flex-row py-16">
           <div className="md:w-1/2 self-center ">
-            <Image src={partTime} alt="" />
+            <Image src={partTime} alt="part time banner" />
           </div>
           <div className="md:w-1/2">
+            <h2 className={`text-xl text-[#003DA5] ${gemsbuck.className}`}>
+              School of Part-Time
+            </h2>
             <h2 className={`text-xl text-[#003DA5] pb-2 ${gemsbuck.className}`}>
-              School of Part-Time: Empowering Your Educational Journey
+              Empowering Your Educational Journey
             </h2>
             <p className="text-gray-500 pb-5 ">
               {`At the Redeemer's College of Technology and Management, we
@@ -475,84 +476,144 @@ export default async function Home() {
               target="_blank"
               className="cursor-pointer hover:border border-[#f1ab00]"
             >
-              <Image src="/gallery/01.jpg" alt="" width={300} height={300} />
+              <Image
+                src="/gallery/01.jpg"
+                alt="rectem gallery"
+                width={300}
+                height={300}
+              />
             </a>
             <a
               href="/gallery/02.jpg"
               target="_blank"
               className="cursor-pointer hover:border border-[#d8d6d2]"
             >
-              <Image src="/gallery/02.jpg" alt="" width={300} height={300} />
+              <Image
+                src="/gallery/02.jpg"
+                alt="rectem gallery"
+                width={300}
+                height={300}
+              />
             </a>
             <a
               href="/gallery/03.jpg"
               target="_blank"
               className="cursor-pointer hover:border border-[#f1ab00]"
             >
-              <Image src="/gallery/03.jpg" alt="" width={300} height={300} />
+              <Image
+                src="/gallery/03.jpg"
+                alt="rectem gallery"
+                width={300}
+                height={300}
+              />
             </a>
             <a
               href="/gallery/04.jpg"
               target="_blank"
               className="cursor-pointer hover:border border-[#f1ab00]"
             >
-              <Image src="/gallery/04.jpg" alt="" width={300} height={300} />
+              <Image
+                src="/gallery/04.jpg"
+                alt="rectem gallery"
+                width={300}
+                height={300}
+              />
             </a>
             <a
               href="/gallery/05.jpg"
               target="_blank"
               className="cursor-pointer hover:border border-[#f1ab00]"
             >
-              <Image src="/gallery/05.jpg" alt="" width={300} height={300} />
+              <Image
+                src="/gallery/05.jpg"
+                alt="rectem gallery"
+                width={300}
+                height={300}
+              />
             </a>
             <a
               href="/gallery/06.jpg"
               target="_blank"
               className="cursor-pointer hover:border border-[#f1ab00]"
             >
-              <Image src="/gallery/06.jpg" alt="" width={300} height={300} />
+              <Image
+                src="/gallery/06.jpg"
+                alt="rectem gallery"
+                width={300}
+                height={300}
+              />
             </a>
             <a
               href="/gallery/07.jpg"
               target="_blank"
               className="cursor-pointer hover:border border-[#f1ab00]"
             >
-              <Image src="/gallery/07.jpg" alt="" width={300} height={300} />
+              <Image
+                src="/gallery/07.jpg"
+                alt="rectem gallery"
+                width={300}
+                height={300}
+              />
             </a>
             <a
               href="/gallery/08.jpg"
               target="_blank"
               className="cursor-pointer hover:border border-[#f1ab00]"
             >
-              <Image src="/gallery/08.jpg" alt="" width={300} height={300} />
+              <Image
+                src="/gallery/08.jpg"
+                alt="rectem gallery"
+                width={300}
+                height={300}
+              />
             </a>
             <a
               href="/gallery/09.jpg"
               target="_blank"
               className="cursor-pointer hover:border border-[#f1ab00]"
             >
-              <Image src="/gallery/09.jpg" alt="" width={300} height={300} />
+              <Image
+                src="/gallery/09.jpg"
+                alt="rectem gallery"
+                width={300}
+                height={300}
+              />
             </a>
             <a
               href="/gallery/10.jpg"
               target="_blank"
               className="cursor-pointer hover:border border-[#f1ab00]"
             >
-              <Image src="/gallery/10.jpg" alt="" width={300} height={300} />
+              <Image
+                src="/gallery/10.jpg"
+                alt="rectem gallery"
+                width={300}
+                height={300}
+              />
             </a>
             <a
               href="/gallery/11.jpg"
               target="_blank"
               className="cursor-pointer hover:border border-[#f1ab00]"
             >
-              <Image src="/gallery/11.jpg" alt="" width={300} height={300} />
+              <Image
+                src="/gallery/11.jpg"
+                alt="rectem gallery"
+                width={300}
+                height={300}
+              />
             </a>
             <a
               href="/gallery/12.jpg"
               target="_blank"
               className="cursor-pointer hover:border border-[#f1ab00]"
             >
-              <Image src="/gallery/12.jpg" alt="" width={300} height={300} />
+              <Image
+                src="/gallery/12.jpg"
+                alt="rectem gallery"
+                width={300}
+                height={300}
+              />
             </a>
           </article>
         </section>

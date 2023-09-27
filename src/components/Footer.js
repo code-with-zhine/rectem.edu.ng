@@ -23,14 +23,23 @@ export default function Footer() {
                 <div className="mt-5">
                   <p className="cursor-pointer">
                     Tel:
-                    <a className="ml-1">07025427441</a>
+                    <a href="tel:+2347025427441" className="ml-1">
+                      07025427441
+                    </a>
                   </p>
                   <p className="cursor-pointer">
                     Tel:
-                    <a className="ml-1">09160895510</a>
+                    <a href="tel:+2349160895510" className="ml-1">
+                      09160895510
+                    </a>
                   </p>
                   <p className="cursor-pointer flex">
-                    <a className="underline ml-1">admin@rectem.edu.ng</a>
+                    <a
+                      href="malito:admin@rectem.edu.ng"
+                      className="underline ml-1"
+                    >
+                      admin@rectem.edu.ng
+                    </a>
                   </p>
                 </div>
               </address>
@@ -61,14 +70,21 @@ export default function Footer() {
                 <div className="mt-5">
                   <p className="cursor-pointer">
                     Tel:
-                    <a className="ml-1">07025427441</a>
+                    <a href="tel:+2347025427441" className="ml-1">
+                      07025427441
+                    </a>
                   </p>
                   <p className="cursor-pointer">
                     Tel:
-                    <a className="ml-1">09160895510</a>
+                    <a href="tel:+2349160895510" className="ml-1">
+                      09160895510
+                    </a>
                   </p>
                   <p className="cursor-pointer">
-                    <a className="underline line-clamp-1">
+                    <a
+                      href="malito:admissions@rectem.edu.ng"
+                      className="underline line-clamp-1"
+                    >
                       admissions@rectem.edu.ng
                     </a>
                   </p>

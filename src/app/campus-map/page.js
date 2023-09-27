@@ -61,7 +61,7 @@ export default function Home() {
                     </p>
                     <a
                       className="text-[#D6336B] text-xs uppercase w-full tracking-wider font-semibold"
-                      href="https://www.linkedin.com/in/pastorjfodesola/?originalSubdomain=ng"
+                      href="https://goo.gl/maps/n3Mfi7Xkxqy1Tx6W6"
                     >
                       See on map
                       <svg
@@ -99,7 +99,7 @@ export default function Home() {
                     </p>
                     <a
                       className="text-[#D6336B] text-xs uppercase w-full tracking-wider font-semibold"
-                      href="https://www.linkedin.com/in/pastorjfodesola/?originalSubdomain=ng"
+                      href="https://goo.gl/maps/n3Mfi7Xkxqy1Tx6W6"
                     >
                       See on map
                       <svg
@@ -135,7 +135,7 @@ export default function Home() {
                     </p>
                     <a
                       className="text-[#D6336B] text-xs uppercase w-full tracking-wider font-semibold"
-                      href="https://www.linkedin.com/in/pastorjfodesola/?originalSubdomain=ng"
+                      href="https://goo.gl/maps/n3Mfi7Xkxqy1Tx6W6"
                     >
                       See on map
                       <svg
@@ -172,7 +172,7 @@ export default function Home() {
                     </p>
                     <a
                       className="text-[#D6336B] text-xs uppercase w-full tracking-wider font-semibold"
-                      href="https://www.linkedin.com/in/pastorjfodesola/?originalSubdomain=ng"
+                      href="https://goo.gl/maps/n3Mfi7Xkxqy1Tx6W6"
                     >
                       See on map
                       <svg
@@ -212,7 +212,7 @@ export default function Home() {
               {/* links */}
 
               <a
-                href="https://onlineapp.rectem.edu.ng"
+                href="/about"
                 className="text-xs tracking-wider font-semibold hover:text-[#D6336B] cursor-pointer uppercase py-2"
               >
                 <svg
@@ -231,7 +231,7 @@ export default function Home() {
               </a>
               <hr />
               <a
-                href="https://onlineapp.rectem.edu.ng"
+                href="/facilities"
                 className="text-xs tracking-wider font-semibold hover:text-[#D6336B] cursor-pointer uppercase py-2"
               >
                 <svg
@@ -250,7 +250,7 @@ export default function Home() {
               </a>
               <hr />
               <a
-                href="https://onlineapp.rectem.edu.ng"
+                href="/governing-board"
                 className="text-xs tracking-wider font-semibold hover:text-[#D6336B] cursor-pointer uppercase py-2"
               >
                 <svg
@@ -269,7 +269,7 @@ export default function Home() {
               </a>
               <hr />
               <a
-                href="https://onlineapp.rectem.edu.ng"
+                href="/housing"
                 className="text-xs tracking-wider font-semibold hover:text-[#D6336B] cursor-pointer uppercase py-2"
               >
                 <svg

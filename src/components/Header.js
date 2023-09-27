@@ -68,7 +68,7 @@ const SETTING = {
       },
 
       {
-        name: "PROGRAMME COST",
+        name: "APPROVED FEES",
         url: "/admission-cost",
       },
     ],
@@ -185,7 +185,13 @@ export default function Header() {
       {/* SITE LOGO & TITLE */}
       <div className="flex justify-between gap-5 items-center p-5">
         <Link href="/" className="cursor-pointer">
-          <Image src="/rectem.png" alt="Rectem logo" width={30} height={30} className="w-auto h-auto" />
+          <Image
+            src="/rectem.png"
+            alt="Rectem logo"
+            width={30}
+            height={30}
+            className="w-auto h-auto"
+          />
         </Link>
         <div className="text-[0.85rem] sm:hidden font-semibold">
           <h6 className="text-[#003DA5]">
