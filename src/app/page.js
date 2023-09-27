@@ -24,6 +24,8 @@ export default async function Home() {
 
   const posts = await getAllPosts();
 
+  console.log(posts[0]);
+
   return (
     <>
       <Hero />
